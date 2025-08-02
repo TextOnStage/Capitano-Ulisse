@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Capitano Ulisse</title>
+<meta content="" name="description"/>
+<meta content="" name="keywords"/>
+<!-- Favicons -->
+<link href="assets/img/theater.png" rel="icon"/>
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&amp;family=Roboto:ital,wght@0,100..900;1,100..900&amp;display=swap" rel="stylesheet"/>
+<!-- Vendor CSS Files -->
+<link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+<link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet"/>
+<link href="assets/vendor/aos/aos.css" rel="stylesheet"/>
+<link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet"/>
+<link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet"/>
+<!-- Main CSS File -->
+<link href="assets/css/main.css" rel="stylesheet"/>
+<script defer="" src="assets/js/edition.js"></script>
+<style>
+     .page-block {
+      display: none;
+      flex-direction: row;
+      align-items: flex-start;
+      gap: 2rem;
+      margin-bottom: 3rem;
+    }
+    .page-block.active {
+      display: flex;
+    }
+    .salute {
+  text-align: right;
+}
+    .image-column {
+      width: 40%;
+    }
+
+    .text-column,
+.image-column {
+  padding: 1rem 2rem; /* Spazio interno: 1rem in alto/basso, 2rem a destra/sinistra */
+}
+  
+    .image-column img {
+      max-width: 100%;
+      height: auto;
+      border: 1px solid #ccc;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    }
+    .image-caption {
+      margin-top: 10px;
+      font-size: 1rem;
+      color: #333;
+      font-weight: bold;
+    }
+    .text-column {
+      width: 60%;
+    }
+    .navigation {
+      margin: 1rem 0;
+      text-align: center;
+      padding-bottom: 5px;
+      padding-top: 5px;
+    }
+    .navigation button {
+      padding: 0.5rem 1rem;
+      font-size: 1rem;
+    }
+    .pb {
+      display: block;
+      margin-bottom: 0.5rem;
+      font-style: italic;
+      color: #555;
+    }
+    .wit0 { color: #3366cc; background-color: inherit !important; }
+    .wit5 { color: #228B22; background-color: inherit !important; }
+    .wit6 { color: #b22222; background-color: inherit !important; }
+    .lem { transition: color 0.3s ease; }
+    .resto { display: block; margin-left: 100px; }
+    .sinistra { float: left; margin-right: 10px; }
+    em { font-style: italic; font-weight: normal !important; }
+  
+.text-column .head,
+.text-column .atto {
+  text-align: center;
+  display: block;
+  margin: 1rem auto;
+}
+.fallback {
+  color: white !important;
+  background-color: transparent;
+  font-style: italic;
+}
+#variants {
+  padding-top: 120px;
+  padding-left: 50px;
+  padding-right: 50px;
+  
+}
+</style>
+<!-- =======================================================
+  * Template Name: Techie
+  * Template URL: https://bootstrapmade.com/techie-free-skin-bootstrap-3/
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+<body class="index-page">
+  <header id="header" class="header d-flex align-items-center fixed-top">
+      <div class="container-fluid container-xl position-relative d-flex align-items-center">
+  
+        <a href="index.html" class="logo d-flex align-items-center me-auto">
+          <!-- Uncomment the line below if you also wish to use an image logo -->
+          <!-- <img src="assets/img/logo.png" alt=""> -->
+          <h1 class="sitename">Text on Stage</h1>
+        </a>
+  
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li class="dropdown"><a href="#edition"><span>The Edition</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul>
+                <li><a href="Text.html">Text</a></li>
+                <li><a href="Performance.html">Performance</a></li>
+              </ul>
+            </li>
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+          </nav>
+  
+      </div>
+    </header>
+<main class="main">
+<section class="contact section" id="variants">
+<!-- Controllo globale -->
+<!-- Selezione Globale -->
+<label for="global-wit">Seleziona il testimone:</label>
+<select id="global-wit">
+<option selected="selected" value="lem">Versione finale (lemma)</option>
+<option value="wit0">strato0</option>
+<option value="wit1">strato1</option>
+<option value="wit2">strato2</option>
+<option value="wit3">strato3</option>
+<option value="wit4">strato4</option>
+<option value="wit5">strato5</option>
+<option value="wit6">strato6</option>
+<option value="wit7">strato7</option>
+</select>
+
+
+<div id="edition-view">
+<!-- Pagina Title -->
+<div class="page-block active" data-page="Title">
+
+<div class="image-column">
+<img alt="Pagina Title" class="manuscript-image" id="manuscript-image" src="images/Title.jpg"/>
+</div>
+<div class="text-column">
+
+<p class="salute">
+          A <a class="persName" href="#MS">Maria</a>, colei che
+          <a class="name" href="#Ulisse">Ulisse</a> cercava —
+          <span class="persName signature"><a href="#AS">Savinio</a></span><br/>
+<span class="placeName"><a href="https://www.wikidata.org/wiki/Q220" target="_blank">Roma</a></span>,
+          <time datetime="1925-06">giugno 1925</time>
+</p>
+<br/>
+<div style="height: 4rem;"></div><h2 class="head">"Capitan <a class="persName" href="#Ulisse">Ulisse</a>" </h2>
+<div class="attributed-act" data-act="1">
+  <div style="height: 2rem;"></div><h2 class="atto">Atto Primo</h2>
+
+</div>
+</div>
+</div><div class="page-block" data-page="1">
+<div class="image-column">
+<img alt="Pagina 1" class="manuscript-image" src="images/page1.jpg"/>
+</div>
+<div class="text-column">
+<div class="choice text-block">
+<span class="lem" data-wit="wit6">
+<p class="resto"><em>Atto Primo</em></p>
+<p class="resto"><em>Sipario chiuso.</em></p>
+<p><span class="sinistra"><b>Euriloco</b></span></p>
+<p class="resto"><em>Vecchio lupo di mare barba a gorgiera, maglione scuro e calzoni di velluto, viene sul proscenio e va a sedersi sul primo gradino della scala che unisce il palcoscenico alla platea. È accigliato nero. Cava la pipa di tasca, l'accende: la pipa non tira.</em></p>
+</span>
+<span class="variant" data-mode="replace" data-wit="wit0">
+<p><span class="sinistra"><b>Euriloco</b></span></p>
+</span>
+<span class="variant" data-wit="wit5">
+<p class="resto"><em>Atto Primo</em></p>
+<p class="resto"><em>Sipario chiuso.</em></p>
+<p class="sinistra"><b>Euriloco</b></p>
+<p class="resto"><em>Vecchio lupo di mare barba a gorgiera, maglione scuro e calzoni di velluto, viene sul proscenio si va a sedere sul primo gradino della scala che unisce il palcoscenico alla platea. È accigliato nero. Cava la pipa di tasca, l'accende: la pipa non tira.</em></p>
+</span>
+</div>
+<p class="resto">Porca miseria! <i>Poppa rabbiosamente</i> Dio paffico!</p>
+<div class="choice text-block">
+<span class="lem" data-wit="wit5"><p class="resto"><em>Brucia parecchi fiammiferi uno dietro l’altro:</em></p></span>
+<span class="variant" data-wit="wit0"><p class="resto"><em>brucia un altro fiammifero:</em></p></span>
+</div>
+<p class="resto"><em>la pipa s'ostina a non tirare.</em> Madonna pie' di pollo! Anche "Alessandra" ci si mette! Boh!..</p>
+<p class="resto">O fumare o morire! <em>Scruta dentro il fornello.</em> Dio bompresso e libeccioso!.. Cenere! cenere!.. Chi dice cenere dice zero. <em>Si fruga nelle tasche.</em> Nulla! nemmeno</p>
+<div class="choice text-block">
+<span class="lem" data-wit="wit5"><p class="resto">il chicco di grazia che</p></span>
+<span class="variant" data-wit="wit0"><p class="resto">l'ultimo chicco di riso</p></span>
+</div>
+<p class="resto">si dà ai</p>
+<div class="choice text-block">
+<span class="lem" data-wit="wit5"><p class="resto">condannati. Dio sprofondi l'Isola di Circe.</p></span>
+<span class="variant" data-wit="wit0"><p class="resto">moribondi</p></span>
+</div>
+<p> <span class="sinistra">Spettatore</span></p>
+     <div class="choice text-block">
+          <span class="lem" data-wit="wit6" class="resto"><em>Seduto in una poltrona di prima fila. Signore sulla cinquantina e calvo; cerimonioso, burocratico, banale.</em></span>
+          <span class="variant" data-wit="wit0" class="resto"></span>
+          <span class="variant" data-wit="wit5" class="resto"><em>Seduto in una poltrona di prima fila. Signore sulla cinquatina, cerimonioso, buocratico, banale.</em></span>
+     </div>
+     <p class="resto">Salute a lei, maestro.</p>
+</div>
+</div>
+</div>
+<div class="navigation">
+  <button id="prevPage">◀ Pagina precedente</button>
+  <button id="nextPage">Pagina successiva ▶</button>
+  </div>
+</div></section></main>
+<footer id="footer" class="footer accent-background">
+
+  <div class="container footer-top">
+    <div class="row gy-4">
+      <div class="col-lg-5 col-md-12 footer-about">
+        <a href="index.html" class="logo d-flex align-items-center">
+          <span class="sitename">Text on Stage</span>
+        </a>
+        <p>This website was created by Denise Biasio as part of her thesis project for the MA in Digital Humanities and Digital Knowledge at the University of Bologna.</p>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="container copyright text-center mt-4">
+    <p>© <span>Copyright</span> <strong class="px-1 sitename">Techie</strong> <span>All Rights Reserved</span></p>
+    <div class="credits">
+      <!-- All the links in the footer should remain intact. -->
+      <!-- You can delete the links only if you've purchased the pro version. -->
+      <!-- Licensing information: https://bootstrapmade.com/license/ -->
+      <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+      Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+    </div>
+  </div>
+
+</footer>
+
+<!-- Scroll Top -->
+<a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+<!-- Preloader -->
+<div id="preloader"></div>
+
+<!-- Vendor JS Files -->
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendor/php-email-form/validate.js"></script>
+<script src="assets/vendor/aos/aos.js"></script>
+<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+<script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+<!-- Main JS File -->
+<script src="assets/js/main.js"></script>
+</body></html>
