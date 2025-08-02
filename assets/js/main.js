@@ -61,12 +61,23 @@
   /**
    * Preloader
    */
-  const preloader = document.querySelector('#preloader');
+ /* const preloader = document.querySelector('#preloader');
   if (preloader) {
     window.addEventListener('load', () => {
       preloader.remove();
     });
-  }
+  }*/
+
+  const preloader = document.querySelector('#preloader');
+if (preloader) {
+  window.addEventListener('load', () => {
+    preloader.classList.add('preloader-hide'); // Aggiunge una classe CSS con transizione
+    setTimeout(() => {
+      preloader.remove(); // Rimuove del tutto dopo l'animazione
+    }, 1000); // 1 secondo
+  });
+}
+
 
   /**
    * Scroll top button
