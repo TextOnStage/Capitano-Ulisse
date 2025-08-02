@@ -544,9 +544,8 @@ h6 {
   inset: 0;
   z-index: 999999;
   overflow: hidden;
-  /*background: var(--background-color);*/
+  background: var(--background-color);
   transition: all 0.6s ease-out;
-  background: red !important;
 }
 }
 
