@@ -216,3 +216,12 @@
   document.addEventListener('scroll', navmenuScrollspy);
 
 })();
+
+if (preloader) {
+  window.addEventListener('load', () => {
+    // Simula un caricamento lento per debug
+    setTimeout(() => {
+      preloader.remove();
+    }, 2000); // 2 secondi
+  });
+}
