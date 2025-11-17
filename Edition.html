@@ -4,9 +4,9 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Portfolio Details - Techie Bootstrap Template</title>
-  <meta name="description" content="">
-  <meta name="keywords" content="">
+  <title>Capitano Ulisse – Digital Edition</title>
+  <meta name="description" content="Digital critical edition of Alberto Savinio's Capitano Ulisse, with manuscript layers and printed edition.">
+  <meta name="keywords" content="digital edition, Capitano Ulisse, Alberto Savinio, manuscript, theatre, TEI, parallel segmentation">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
@@ -26,23 +26,14 @@
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: Techie
-  * Template URL: https://bootstrapmade.com/techie-free-skin-bootstrap-3/
-  * Updated: Aug 07 2024 with Bootstrap v5.3.3
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
+
 <body class="service-details-page">
 
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center">
 
       <a href="index.html" class="logo d-flex align-items-center me-auto">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
         <h1 class="sitename">Text on Stage</h1>
       </a>
 
@@ -51,13 +42,14 @@
           <li><a href="index.html" class="active">Home</a></li>
           <li class="dropdown"><a href="#edition"><span>The Edition</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
-              <li><a href="Text.html">Text</a></li>
+              <li><a href="Text-manuscript.html">Text – Manuscript</a></li>
+              <li><a href="Text-print.html">Text – Printed Edition</a></li>
               <li><a href="Performance.html">Performance</a></li>
             </ul>
           </li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-        </nav>
+      </nav>
 
     </div>
   </header>
@@ -67,42 +59,66 @@
     <!-- Page Title -->
     <div class="page-title accent-background">
       <div class="container position-relative">
-        <h1> Welcome to the Digital Edition of <em>Capitano Ulisse</em></h1>
+        <h1>Welcome to the Digital Edition of <em>Capitano Ulisse</em></h1>
       </div>
-    </div><!-- End Page Title -->
+    </div>
+    <!-- End Page Title -->
 
     <div class="row justify-content-between gy-4 mt-4">
-        <div class="col-lg-10 offset-lg-1" data-aos="fade-up">
-            <div class="portfolio-description">
+      <div class="col-lg-10 offset-lg-1" data-aos="fade-up">
+        <div class="portfolio-description">
 
-    <p>
-        This website presents a digital critical edition of the manuscript
-        <em>Capitano Ulisse</em>, a theatrical work that underwent multiple layers of revision. In the original manuscript, the title appears as <em>Capitan Ulisse</em>, which was later changed to <em>Capitano Ulisse</em> starting from the first printed edition.
-      </p>
-      <p>
-        The edition allows users to explore the play as it was progressively corrected and
-        annotated by the author. Different stages of revision—also called <em>witnesses</em>—can be selected
-        from a dropdown menu. When a witness is selected, the corresponding textual variant will be
-        shown. If a specific revision layer does not contain any changes, the content from the previous
-        stage will be displayed in white as a fallback, in order to preserve the historical continuity of the text.
-      </p>
-      <p>
-        The transcription is encoded according to the TEI (Text Encoding Initiative) standard
-        and adopts a <strong>parallel segmentation</strong> approach to represent the manuscript’s
-        complex revision history. The text of <em>Capitan Ulisse</em> was written and corrected through
-        <strong>seven distinct layers</strong> of authorial intervention, often overlapping and interacting with one another.
-        Each page break corresponds to a high-resolution image of the original manuscript,
-        which appears alongside the transcription.
-      </p>
-      <p>
-        Rather than segmenting the text into separate versions, the edition displays all variants
-        in place, aligned to a shared structural backbone. This allows the user to toggle between the
-        different revision stages and observe how the text evolved over time at a micro-philological level.
-      </p>
-      <a class="button" href="Text.html">Enter the Edition</a>
+          <p>
+            This website presents a digital critical edition of the manuscript
+            <em>Capitano Ulisse</em>, a theatrical work that underwent multiple layers of revision. In the original manuscript, the title appears as <em>Capitan Ulisse</em>, which was later changed to <em>Capitano Ulisse</em> starting from the first printed edition.
+          </p>
+          <p>
+            The edition allows users to explore the play as it was progressively corrected and
+            annotated by the author. Different stages of revision—also called <em>witnesses</em>—can be selected
+            from a dropdown menu. When a witness is selected, the corresponding textual variant will be
+            shown. If a specific revision layer does not contain any changes, the content from the previous
+            stage will be displayed in white as a fallback, in order to preserve the historical continuity of the text.
+          </p>
+          <p>
+            The transcription is encoded according to the TEI (Text Encoding Initiative) standard
+            and adopts a <strong>parallel segmentation</strong> approach to represent the manuscript’s
+            complex revision history. The text of <em>Capitan Ulisse</em> was written and corrected through
+            <strong>seven distinct layers</strong> of authorial intervention, often overlapping and interacting with one another.
+            Each page break corresponds to a high-resolution image of the original manuscript,
+            which appears alongside the transcription.
+          </p>
+          <p>
+            Rather than segmenting the text into separate versions, the edition displays all variants
+            in place, aligned to a shared structural backbone. This allows the user to toggle between the
+            different revision stages and observe how the text evolved over time at a micro-philological level.
+          </p>
+
+          <!-- SCELTA DEL PERCORSO DI LETTURA -->
+          <div class="version-choice">
+            <p class="version-choice-intro">
+              Choose how you want to enter the text:
+            </p>
+
+            <div class="version-choice-buttons">
+              <a class="btn-white-outline" href="Text-manuscript.html">
+                Manuscript &amp; Variants
+              </a>
+              <a class="btn-white-outline" href="Text-print.html">
+                Printed Edition (Tinterri)
+              </a>
+            </div>
+
+            <p class="version-choice-note">
+              The manuscript view focuses on the seven layers of revision and their variants, synchronised with the
+              facsimile images. The printed edition view offers a cleaner reading experience based on Tinterri’s edition,
+              with selected links back to the manuscript.
+            </p>
+          </div>
+          <!-- FINE SCELTA PERCORSO -->
+
+        </div>
       </div>
-      </div>
-      </div>
+    </div>
 
   </main>
 
@@ -116,17 +132,12 @@
           </a>
           <p>This website was created by Denise Biasio as part of her thesis project for the MA in Digital Humanities and Digital Knowledge at the University of Bologna.</p>
         </div>
-
       </div>
     </div>
 
     <div class="container copyright text-center mt-4">
       <p>© <span>Copyright</span> <strong class="px-1 sitename">Techie</strong> <span>All Rights Reserved</span></p>
       <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you've purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
         Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
       </div>
     </div>
