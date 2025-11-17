@@ -1527,3 +1527,29 @@ section,
   max-width: 600px;        /* adatta in base al design */
   margin: 0 auto 1em;      /* spazio sotto e centratura orizzontale */
 }
+
+.version-choice {
+  margin-top: 2.5rem;
+  text-align: center;
+}
+
+.version-choice-intro {
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.version-choice-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.version-choice-note {
+  font-size: 0.9rem;
+  max-width: 650px;
+  margin: 0.5rem auto 0;
+  opacity: 0.9;
+}
+
