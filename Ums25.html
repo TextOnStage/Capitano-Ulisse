@@ -1,0 +1,1019 @@
+<!DOCTYPE html>
+<html lang="en" vocab="https://schema.org/" prefix="schema: https://schema.org/ dct: http://purl.org/dc/terms/ frbroo: http://iflastandards.info/ns/fr/frbr/frbroo/ crm: http://www.cidoc-crm.org/cidoc-crm/ rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Capitano Ulisse – Digital Edition</title>
+  <meta name="description" content="Digital critical edition of Alberto Savinio's Capitano Ulisse, with manuscript layers and printed edition.">
+  <meta name="keywords" content="digital edition, Capitano Ulisse, Alberto Savinio, manuscript, theatre, TEI, parallel segmentation">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/CSS/main.css" rel="stylesheet">
+</head>
+
+<body class="service-details-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto">
+        <h1 class="sitename">Text on Stage</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li class="dropdown"><a href="#edition"><span>The Edition</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="Text-manuscript.html">Text – Manuscript</a></li>
+              <li><a href="Text-print.html">Text – Printed Edition</a></li>
+              <li><a href="Performance.html">Performance</a></li>
+            </ul>
+          </li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+    </div>
+  </header>
+  
+      <div class="manuscript-viewer" about="id/expr/ms1925" typeof="frbroo:F2_Expression">
+         <div class="rdfa-graph" hidden="hidden">
+            <div hidden="hidden" about="id/work/CU" typeof="frbroo:F1_Work"><span property="schema:name" lang="it">Capitano Ulisse</span><span rel="frbroo:R3_is_realised_in" resource="id/expr/ms1925"></span><span rel="frbroo:R3_is_realised_in" resource="id/expr/print1934"></span></div>
+            <div hidden="hidden" about="id/expr/ms1925" typeof="frbroo:F2_Expression"><span property="dct:type" lang="en">Manuscript text (1925)</span><span rel="frbroo:R4_is_embodied_in" resource="id/manifest/ms1925"></span><span rel="schema:url" resource="Ums25.html"></span><span rel="schema:relatedLink" resource="U34.html"></span></div>
+            <div hidden="hidden" about="id/manifest/ms1925" typeof="frbroo:F4_Manifestation_Singleton"><span property="schema:name" lang="en">Capitano Ulisse &#8211; Manuscript carrier (1925)</span><span rel="crm:P50_has_current_keeper" resource="id/repo/ms-repo"></span><span rel="crm:P48_has_preferred_identifier" resource="id/id/ms1925-shelfmark"></span></div>
+            <div hidden="hidden" about="id/repo/ms-repo" typeof="crm:E40_Legal_Body"><span property="schema:name">Archivio Contemporaneo Gabinetto Vieusseux</span><span rel="schema:sameAs" resource="https://www.wikidata.org/wiki/Q930825"></span></div>
+            <div hidden="hidden" about="id/id/ms1925-shelfmark" typeof="crm:E42_Identifier"><span property="crm:P190_has_symbolic_content">AS. II. 11.5</span></div>
+         </div>
+         <header class="viewer-header">
+            <h1 class="viewer-title" property="schema:name"> Manuscript Critical Transcription</h1>
+           <span hidden="hidden" about="id/work/CU"><span rel="frbroo:R3_is_realised_in" resource="id/expr/ms1925"></span></span></header>
+         <nav class="viewer-toolbar" id="mini-nav">
+            <div class="toolbar-group toolbar-pages"><label for="page-select">Page:</label><select id="page-select" class="page-select">
+                  <option value="1" data-facs="#Title">Page 1</option>
+                  <option value="2" data-facs="#P1">Page 2</option>
+                  <option value="3" data-facs="#P1bis">Page 3</option>
+                  <option value="4" data-facs="#P2">Page 4</option>
+                  <option value="5" data-facs="#P3">Page 5</option>
+                  <option value="6" data-facs="#P3a">Page 6</option>
+                  <option value="7" data-facs="#P4">Page 7</option>
+                  <option value="8" data-facs="#P5">Page 8</option>
+                  <option value="9" data-facs="#P6">Page 9</option>
+                  <option value="10" data-facs="#P7">Page 10</option></select></div>
+            <div class="toolbar-group toolbar-layers"><label for="layer-select">Witness:</label><select id="layer-select" class="layer-select">
+                  <option value="strato0">layer0</option>
+                  <option value="strato1">layer1</option>
+                  <option value="strato2">layer2</option>
+                  <option value="strato3">layer3</option>
+                  <option value="strato4">layer4</option>
+                  <option value="strato5">layer5</option>
+                  <option value="strato6">layer6</option>
+                  <option value="strato7">layer7</option></select></div>
+            <div class="toolbar-group toolbar-metadata"><button type="button" id="metadata-toggle" class="metadata-toggle">Show / hide metadata</button></div>
+         </nav>
+         <main class="viewer-layout">
+            <section id="page-viewer" class="page-viewer">
+               <article class="page is-active" data-page="1" data-facs="#Title">
+                  <header class="page-header">
+                     <h2 class="page-title">Page 1</h2>
+                  </header>
+                  <div class="page-inner">
+                     <div class="page-text-column"> A <span class="entity persName">Maria</span> colei che <span class="entity persName">Ulisse</span>
+                                          cercava <br class="lb"><span class="entity persName">Savinio</span><br class="lb"><span class="entity placeName">Roma</span>,giugno,1925
+                        <h3 class="head">"Capitan <span class="entity persName">Ulisse</span>&#8222;</h3>
+                        <h2>Atto Primo</h2>
+
+                        <ul class="page-entities-source" hidden="hidden">
+                           <li data-type="persName" data-role="mention" data-wd="https://www.wikidata.org/entity/Q52156963" data-key="https://www.wikidata.org/entity/Q52156963">Maria Morino Savinio</li>
+                           <li data-type="persName" data-role="mention" data-wd="https://www.wikidata.org/entity/Q47231" data-key="https://www.wikidata.org/entity/Q47231">Ulisse</li>
+                           <li data-type="persName" data-role="mention" data-wd="https://www.wikidata.org/entity/Q691973" data-key="https://www.wikidata.org/entity/Q691973">Alberto Savinio</li>
+                           <li data-type="placeName" data-role="mention" data-wd="https://www.wikidata.org/entity/Q220" data-key="https://www.wikidata.org/entity/Q220">Roma</li>
+                           <li data-type="persName" data-role="mention" data-wd="https://www.wikidata.org/entity/Q47231" data-key="https://www.wikidata.org/entity/Q47231">Ulisse</li>
+                        </ul>
+                     </div>
+                     <div class="page-image-column"><img class="page-image" src="assets/img/Ums25/page1.jpg" alt="Facsimile page 1"></div>
+                  </div>
+               </article>
+               <article class="page" data-page="2" data-facs="#P1">
+                  <header class="page-header">
+                     <h2 class="page-title">Page 2</h2>
+                  </header>
+                  <div class="page-inner">
+                     <div class="page-text-column"><span class="choice text-block"><span class="variant lem" data-wit="strato5"><span class="stage"> Sipario chiuso.</span></span><span class="variant rdg" data-wit="strato0"></span></span><div class="sp"><span class="speaker"><span class="entity persName">Euriloco</span></span><span class="choice text-block"><span class="variant lem" data-wit="strato6"><span class="stage">(Vecchio lupo di mare barba a gorgiera - maglione scuro,  calzoni di velluto - viene sul proscenio e va a sedersi sul  primo
+                                    gradino della
+                                                              scala che unisce il palcoscenico alla platea. &Eacute; accigliato nero. Cava la pipa di tasca, l'accende:
+                                     la pipa non tira.)</span></span><span class="variant rdg" data-wit="strato0"></span><span class="variant rdg" data-wit="strato5"><span class="stage">(Vecchio lupo di mare barba a gorgiera, maglione scuro e calzoni di velluto, viene sul proscenio si va a sedere sul primo
+                                    gradino della scala
+                                                           che unisce il palcoscenico alla  platea. &Eacute; accigliato nero. Cava la pipa di tasca, l'accende: la pipa
+                                    non tira.) </span></span></span><p>Porca miseria! <span class="stage">(Poppa rabbiosamente.)</span> Dio pappafico!
+                           </p><span class="choice text-block"><span class="variant lem" data-wit="strato5"><span class="stage">(Brucia parecchi fiammiferi uno dietro  l&#8217;altro:</span></span><span class="variant rdg" data-wit="strato0"><span class="stage">(brucia un altro fiammifero:</span></span></span><span class="stage">la pipa s'ostina a non tirare.)</span><p> Madonna pie' di pollo! Anche "Alessandra&#8222; ci si mette! Boh!..  
+                                                   O fumare o morire!  <span class="stage">(Scruta dentro il fornello.)</span>  Dio bompresso  e libeccioso!.. Cenere!
+                                                   cenere!.. Chi dice cenere dice  zero.  <span class="stage">(Si fruga nelle tasche.)</span> Nulla! nemmeno 
+                                                   
+                                                   <span class="choice text-block"><span class="variant lem" data-wit="strato5">il chicco di grazia</span><span class="variant rdg" data-wit="strato0">l'ultimo chicco </span></span> 
+                                                      
+                                                    che si d&agrave; ai 
+                                                    
+                                                    <span class="choice text-block"><span class="variant lem" data-wit="strato5">condannati.</span><span class="variant rdg" data-wit="strato0"><span class="unclear" title="Unclear (erased)">moribondi!</span></span><span class="variant rdg" data-wit="strato1">condannati!</span></span><span class="choice text-block"><span class="variant lem" data-wit="strato5">Dio sprofondi  l'isola di <span class="entity persName">Circe</span>.</span><span class="variant rdg" data-wit="strato0"></span></span></p>
+                        </div>
+                        <div class="sp"><span class="speaker"><span class="entity persName">Spettatore</span></span><span class="stage"><span class="choice text-block"><span class="variant lem" data-wit="strato6">(Seduto in una poltrona di prima fila. Signore sulla cinquantina e calvo;
+                                                               cerimonioso,
+                                                               burocratico, banale.)</span><span class="variant rdg" data-wit="strato0"></span><span class="variant rdg" data-wit="strato5">(Seduto in una poltrona di prima fila. Signore sulla cinquantina, 
+                                                            cerimonioso, burocratico, banale.)</span></span></span><p>Salute a  lei, maestro.</p>
+                        </div>
+                        <div class="sp"><span class="speaker"><span class="entity persName">Euriloco</span></span><p>Chi parla? 
+                                                  
+                                                  <span class="stage"><span class="choice text-block"><span class="variant lem" data-wit="strato6">(Guarda in platea, riparandosi gli occhi con  la mano: riconosce lo Spettatore)</span><span class="variant rdg" data-wit="strato0"></span><span class="variant rdg" data-wit="strato5">(Guarda in platea, riparandosi gli occhi con la mano: vede lo Spettatore)</span></span></span>
+                                                
+                                                Dica un 
+                                                
+                                                <span class="choice text-block"><span class="variant lem" data-wit="strato5">po lei:</span><span class="variant rdg" data-wit="strato0">po:</span></span> 
+                                                
+                                                le &egrave;  capitato mai di vedersi spuntare 
+                                                
+                                                <span class="choice text-block"><span class="variant lem" data-wit="strato5">tabacco sul cranio? </span><span class="variant rdg" data-wit="strato0"><span class="unclear" title="Unclear (erased)">del</span> tabacco sotto la pancia?</span><span class="variant rdg" data-wit="strato1"><span class="unclear" title="Unclear (erased)">il</span> tabacco sotto la pancia?</span><span class="variant rdg" data-wit="strato2">tabacco sotto la pancia?</span></span></p>
+                        </div>
+                        <div class="sp"><span class="speaker"><span class="entity persName">Spettatore</span></span><p><span class="choice text-block"><span class="variant lem" data-wit="strato5"><span class="stage">(Offeso)</span> Non le permetto!.. </span><span class="variant rdg" data-wit="strato0">A me!</span></span></p>
+                        </div>
+                        <div class="sp"><span class="speaker"><span class="entity persName">Euriloco</span></span><p><span class="choice text-block"><span class="variant lem" data-wit="strato5">No?.. Peccato! Era pi&ugrave; facile vederlo sputare sul suo cranio che</span><span class="variant rdg" data-wit="strato0"><span class="unclear" title="Unclear (erased)">Pi&ugrave; facile sarebbe</span> che vederlo spuntare</span><span class="variant rdg" data-wit="strato1"> No?.. Peccato! C&#8217;era pi&ugrave; speranza che le spuntasse l&agrave; dove le ho detto, che</span><span class="variant rdg" data-wit="strato2">No?.. Peccato! C&#8217;era pi&ugrave; speranza vederlo spuntare l&agrave; dove le ho detto, che</span></span>
+                                                
+                                                in questo sacramentatissimo paese. 
+                           </p>
+                        </div>
+                        <div class="sp"><span class="speaker"><span class="entity persName">Spettatore</span></span><p><span class="stage"><span class="choice text-block"><span class="variant lem" data-wit="strato6">(Ammansito)</span><span class="variant rdg" data-wit="strato0"></span><span class="variant rdg" data-wit="strato5">(Subito ammansito)</span></span></span>
+                                                   
+                                                   Ha cercato bene?  
+                                               
+                           </p>
+                        </div>
+                        <ul class="page-entities-source" hidden="hidden">
+                           <li data-type="persName" data-role="speaker" data-wd="https://www.wikidata.org/entity/Q993387" data-key="https://www.wikidata.org/entity/Q993387">Euriloco</li>
+                           <li data-type="persName" data-role="mention" data-wd="https://www.wikidata.org/entity/Q187602" data-key="https://www.wikidata.org/entity/Q187602">Circe</li>
+                           <li data-type="persName" data-role="speaker" data-wd="" data-key="#Spettatore">Spettatore</li>
+                           <li data-type="persName" data-role="speaker" data-wd="https://www.wikidata.org/entity/Q993387" data-key="https://www.wikidata.org/entity/Q993387">Euriloco</li>
+                           <li data-type="persName" data-role="speaker" data-wd="" data-key="#Spettatore">Spettatore</li>
+                           <li data-type="persName" data-role="speaker" data-wd="https://www.wikidata.org/entity/Q993387" data-key="https://www.wikidata.org/entity/Q993387">Euriloco</li>
+                           <li data-type="persName" data-role="speaker" data-wd="" data-key="#Spettatore">Spettatore</li>
+                        </ul>
+                     </div>
+                     <div class="page-image-column"><img class="page-image" src="assets/img/Ums25/page2.jpg" alt="Facsimile page 2"></div>
+                  </div>
+               </article>
+               <article class="page" data-page="3" data-facs="#P1bis">
+                  <header class="page-header">
+                     <h2 class="page-title">Page 3</h2>
+                  </header>
+                  <div class="page-inner">
+                     <div class="page-text-column">
+                        <div class="sp"><span class="speaker"><span class="entity persName">Euriloco</span></span><p>  Che vuol cercare! Fame, sete, rabbia di fumare: crepare  bisogna!</p>
+                        </div>
+                        <div class="sp"><span class="speaker"><span class="entity persName">Spettatore</span></span><p>Anche la fame e la sete?</p>
+                        </div>
+                        <div class="sp"><span class="speaker"><span class="entity persName">Euriloco</span></span><p> Provi a sfamarsi lei con gelatine, <span class="foreign" lang="fr" title="French">souffl&egrave;s</span>, 
+                                                
+                                                <span class="choice text-block"><span class="variant lem" data-wit="strato1">sgonfiotti, spumoni e altre  porcherie</span><span class="variant rdg" data-wit="strato0">e altri <span class="unclear" title="Unclear (erased)">pasticci</span></span></span>
+                                                
+                                                di questo genere  
+                                                
+                                                <span class="choice text-block"><span class="variant lem" data-wit="strato2">. Roba trasparente</span><span class="variant rdg" data-wit="strato0">, trasparenti</span><span class="variant rdg" data-wit="strato1">. Tutta roba trasparente</span></span>
+                                                
+                                                   come
+                                                   <span class="choice text-block"><span class="variant lem" data-wit="strato1">celluloide, </span><span class="variant rdg" data-wit="strato0">la celluloide</span></span>
+                                                   
+                                                   tremolante come le cosce dei cavalli; 
+                                             <span class="choice text-block"><span class="variant lem" data-wit="strato1">ti nausea </span><span class="variant rdg" data-wit="strato0">che ti nauseava</span></span>
+                                                
+                                                prima di saziarti!.. Hai sete? Di vino qui non 
+                                                
+                                                <span class="choice text-block"><span class="variant lem" data-wit="strato1">si parla:</span><span class="variant rdg" data-wit="strato0">se ne parla neppure</span></span>
+                                            
+                                                questa bella gente festeggia 
+                                                <span class="choice text-block"><span class="variant lem" data-wit="strato1">con liquori, rosolii e sciroppi - </span><span class="variant rdg" data-wit="strato0"> coi liquori <span class="unclear" title="Unclear (illegible)">e</span></span></span>
+                                                 possa andare  in bocca al pescecane!.. 
+                                                  
+                                                <span class="choice text-block"><span class="variant lem" data-wit="strato2">Nemmeno l'acqua ti danno. Ma che acqua! acqua di seltz</span><span class="variant rdg" data-wit="strato0">E nemmeno acqua ti danno: ma acqua di seltz</span><span class="variant rdg" data-wit="strato1">Ma nemmeno acqua ti danno: ma acqua di seltz</span></span>
+                                                
+                                                  che 
+                                                
+                                                <span class="choice text-block"><span class="variant lem" data-wit="strato3">, anzich&eacute; levarla, mette</span><span class="variant rdg" data-wit="strato0">invece di dissetarti ti mette</span><span class="variant rdg" data-wit="strato1">invece di dissetarti mette</span><span class="variant rdg" data-wit="strato2">anzich&eacute; levartela mette</span></span>
+                                                
+                                                pi&ugrave; sete  di prima!..
+                           </p>
+                        </div>
+                        <div class="sp"><span class="speaker"><span class="entity persName">Spettatore</span></span><p> Si calmi, 
+                                                
+                                                <span class="choice text-block"><span class="variant lem" data-wit="strato2">maestro! Non</span><span class="variant rdg" data-wit="strato0">maestro! Si calmi! Non</span></span>
+                                                
+                                                ha risposto neppure al  mio 
+                                                <span class="choice text-block"><span class="variant lem" data-wit="strato2">saluto.</span><span class="variant rdg" data-wit="strato0">buonasera.</span></span></p>
+                        </div>
+                        <div class="sp"><span class="speaker"><span class="entity persName">Euriloco</span></span><p> Buonasera... 
+                                                <span class="choice text-block"><span class="variant lem" data-wit="strato2"><span class="stage">(Continua a borbottare sottovoce.)</span> Che</span><span class="variant rdg" data-wit="strato0"> Buonasera! Domando io:che</span><span class="variant rdg" data-wit="strato1">Buonasera! Che</span></span>
+                                                
+                                                significa 
+                                                <span class="choice text-block"><span class="variant lem" data-wit="strato2">&#8220;Buonasera&#8222; ?..</span><span class="variant rdg" data-wit="strato0">&#8220;buo na sera&#8222; ?..</span></span>
+                                                      
+                                                Sera buona! Anche le parole
+                                                <span class="choice text-block"><span class="variant lem" data-wit="strato2">mi prendono in giro!</span><span class="variant rdg" data-wit="strato0"><span class="unclear" title="Unclear (erased)">mi si</span> prendono in giro, vecchio sciagurato!</span><span class="variant rdg" data-wit="strato1">ti prendono in giro, vecchio sciagurato!</span></span></p>
+                        </div>
+                        <div class="sp"><span class="speaker"><span class="entity persName">Spettatore</span></span><p><span class="choice text-block"><span class="variant lem" data-wit="strato2">Non ci badi: &eacute;</span><span class="variant rdg" data-wit="strato0">Non ci badi maestro: <span class="unclear" title="Unclear (illegible)">e</span></span><span class="variant rdg" data-wit="strato1"><span class="unclear" title="Unclear (illegible)">E</span></span></span>
+                                                
+                                                un modo 
+                                                
+                                                <span class="choice text-block"><span class="variant lem" data-wit="strato2">di dire,</span><span class="variant rdg" data-wit="strato0">dire</span><span class="variant rdg" data-wit="strato1">di dire, non ci badi</span></span>
+                                                
+                                               una frase convenzionale.
+                           </p>
+                        </div>
+                        <div class="sp"><span class="speaker"><span class="entity persName">Euril.</span></span><p>Dove se le procura lei queste consolazioni? </p>
+                        </div>
+                        <ul class="page-entities-source" hidden="hidden">
+                           <li data-type="persName" data-role="speaker" data-wd="https://www.wikidata.org/entity/Q993387" data-key="https://www.wikidata.org/entity/Q993387">Euriloco</li>
+                           <li data-type="persName" data-role="speaker" data-wd="" data-key="#Spettatore">Spettatore</li>
+                           <li data-type="persName" data-role="speaker" data-wd="https://www.wikidata.org/entity/Q993387" data-key="https://www.wikidata.org/entity/Q993387">Euriloco</li>
+                           <li data-type="persName" data-role="speaker" data-wd="" data-key="#Spettatore">Spettatore</li>
+                           <li data-type="persName" data-role="speaker" data-wd="https://www.wikidata.org/entity/Q993387" data-key="https://www.wikidata.org/entity/Q993387">Euriloco</li>
+                           <li data-type="persName" data-role="speaker" data-wd="" data-key="#Spettatore">Spettatore</li>
+                           <li data-type="persName" data-role="speaker" data-wd="https://www.wikidata.org/entity/Q993387" data-key="https://www.wikidata.org/entity/Q993387">Euriloco</li>
+                        </ul>
+                     </div>
+                     <div class="page-image-column"><img class="page-image" src="assets/img/Ums25/page3.jpg" alt="Facsimile page 3"></div>
+                  </div>
+               </article>
+               <article class="page" data-page="4" data-facs="#P2">
+                  <header class="page-header">
+                     <h2 class="page-title">Page 4</h2>
+                  </header>
+                  <div class="page-inner">
+                     <div class="page-text-column">
+                        <div class="sp"><span class="speaker"><span class="entity persName">Spett.</span></span><p> Del resto, etimologia a parte, la serata &egrave; bella. 
+                                                
+                                                <span class="choice text-block"><span class="variant lem" data-wit="strato1">Poco mentre venivo</span><span class="variant rdg" data-wit="strato0">Poco fa, quando venivo qui</span></span>
+                                              
+                                                sotto il cielo stellato&#8230; 
+                           </p>
+                        </div>
+                        <div class="sp"><span class="speaker"><span class="entity persName">Euril.</span></span><p>Si lasciano cacciare nella pipa </p>
+                        </div>
+                        <div class="sp"><span class="speaker"><span class="entity persName">Spett.</span></span><p>Chi?</p>
+                        </div>
+                        <div class="sp"><span class="speaker"><span class="entity persName">Euril.</span></span><p>Si mangiano? </p>
+                        </div>
+                        <div class="sp"><span class="speaker"><span class="entity persName">Spett.</span></span><p>Chi? </p>
+                        </div>
+                        <div class="sp"><span class="speaker"><span class="entity persName"> Euril.</span></span><p>Le stelle.</p>
+                        </div>
+                        <div class="sp"><span class="speaker"><span class="entity persName">Spett.</span></span><p>Che fame ciclopica!</p>
+                        </div>
+                        <div class="sp"><span class="speaker"><span class="entity persName">Euril.</span></span><p><span class="choice text-block"><span class="variant lem" data-wit="strato3"> Giacch&eacute; non si fumano, giacch&eacute; non si mangiano, vada alla malora</span><span class="variant rdg" data-wit="strato0">Vada a farsi benedire</span><span class="variant rdg" data-wit="strato1"><span class="gap" title="Gap (erased)"><span class="gap-marker">[&#8230;]</span></span> a farsi benedire</span><span class="variant rdg" data-wit="strato2">E allora vada alla malora</span></span>
+                                                 lei e le sue stelle!
+                           </p>
+                        </div>
+                        <div class="sp"><span class="speaker"><span class="entity persName">Spett.</span></span><p><span class="stage">(risentito)</span><span class="choice text-block"><span class="variant lem" data-wit="strato4">Bel modo <span class="unclear" title="Unclear">,</span></span><span class="variant rdg" data-wit="strato0">Grazie! grazie! Bel modo <span class="unclear" title="Unclear">questo di</span></span><span class="variant rdg" data-wit="strato1">Grazie! grazie! Bel modo!</span></span>
+                                                   
+                                                   sfogare i suoi  umori bisbetici con un uomo che non le ha fatto nulla di male! 
+                           </p>
+                        </div>
+                        <div class="sp"><span class="speaker"><span class="entity persName">Euril.</span></span><p>Bisbetico a me!</p>
+                        </div>
+                        <div class="sp"><span class="speaker"><span class="entity persName">Spett.</span></span><p><span class="choice text-block"><span class="variant lem" data-wit="strato2">Le sembra forse</span><span class="variant rdg" data-wit="strato0">Le <span class="unclear" title="Unclear (erased)">pare forse</span></span><span class="variant rdg" data-wit="strato1">Le pare</span></span>
+                                                   di essere una persona con cui si pu&ograve; ragionare? 
+                           </p>
+                        </div>
+                        <div class="sp"><span class="speaker"><span class="entity persName">Euril.</span></span><p><span class="choice text-block"><span class="variant lem" data-wit="strato2">Che ci guadagna a ragionare? </span><span class="variant rdg" data-wit="strato0">E che ci guadagnerebbe a ragionare con me?</span><span class="variant rdg" data-wit="strato1">Che ci guadagna a ragionare con me?</span></span></p>
+                        </div>
+                        <div class="sp"><span class="speaker"><span class="entity persName">Spett.</span></span><p><span class="choice text-block"><span class="variant lem" data-wit="strato1">Dicevo cos&igrave;,tanto per fare quattro chiacchere. </span><span class="variant rdg" data-wit="strato0"><span class="gap" title="Gap (erased)"><span class="gap-marker">[&#8230;]</span></span>, dicevo cos&igrave;, tanto per passare il tempo.</span></span></p>
+                        </div>
+                        <div class="sp"><span class="speaker"><span class="entity persName">Euril.</span></span><p><span class="choice text-block"><span class="variant lem" data-wit="strato2">Sfido io! Lei</span><span class="variant rdg" data-wit="strato0">Parla facilmente lei! Sfido lei</span><span class="variant rdg" data-wit="strato1">Sfido lei</span></span>
+                                                
+                                                viene qui la sera, si sdraia 
+                                                       <span class="choice text-block"><span class="variant lem" data-wit="strato1"><span class="gap" title="Gap (erased)"><span class="gap-marker">[&#8230;]</span></span></span><span class="variant rdg" data-wit="strato0">comodamente</span></span>
+                                                       
+                                                           in poltrona, &egrave; padrone di restare, 
+                                                <span class="choice text-block"><span class="variant lem" data-wit="strato1"><span class="gap" title="Gap (erased)"><span class="gap-marker">[&#8230;]</span></span></span><span class="variant rdg" data-wit="strato0">di</span></span>
+                                                
+                                                andarsene,  
+                                                
+                                                <span class="choice text-block"><span class="variant lem" data-wit="strato2">fare tutti i suoi comodacci... Provi  un po a mettersi nei miei panni.</span><span class="variant rdg" data-wit="strato0">di fare tutto quello che le passa per la mente... Ma provi un po a mettersi nei miei panni: ci
+                                                            provi! </span><span class="variant rdg" data-wit="strato1">fare tutto ci&ograve; che le passa per la mente... Ma provi a mettersi nei miei panni.</span></span><span class="stage">(Fa l'atto  di cavarsi il maglione)</span> Non sono di bucato, l'avverto. Questo<br class="lb"> maglione da tre mesi
+                                                
+                                                <span class="choice text-block"><span class="variant lem" data-wit="strato2">me lo porto addosso</span><span class="variant rdg" data-wit="strato0">che lo porto addosso</span><span class="variant rdg" data-wit="strato1"><span class="unclear" title="Unclear (erased)">non me</span> lo <span class="unclear" title="Unclear (erased)">sono</span> cavato</span></span>
+                                                
+                                                ma se non le  fa schifo ci provi, e vedr&agrave; se ho ragione si o no di  brontolare.
+                                               
+                           </p>
+                        </div>
+                        <div class="sp"><span class="speaker"><span class="entity persName">Spett.</span></span><p>  Capisco, ma
+                                                <span class="choice text-block"><span class="variant lem" data-wit="strato2">un po di pazienza ci vuole, - che diamine! un po di sopportazione...</span><span class="variant rdg" data-wit="strato0">d&#8217;altra parte un po di pazienza ci vuole, un po di sopportazione &#8230; che diavolo!</span><span class="variant rdg" data-wit="strato1">un po di pazienza ci vuole, - che diavolo! un po di sopportazione&#8230;</span></span></p>
+                        </div>
+                        <div class="sp"><span class="speaker"><span class="entity persName">Euril.</span></span><p>Pazienza? Ha mai creduto 
+                                                <span class="choice text-block"><span class="variant lem" data-wit="strato1">lei</span><span class="variant rdg" data-wit="strato0"></span></span>
+                                                
+                                                che la pazienza fosse un  deposito senza fondo? 
+                           </p>
+                        </div>
+                        <div class="sp"><span class="speaker"><span class="entity persName">Spett.</span></span><p>Non dico, ma insomma... </p>
+                        </div>
+                        <div class="sp"><span class="speaker"><span class="entity persName">Euril.</span></span><p>Ne ho avuta fin troppa. Ero
+                                                vestito, imbottito, carrozzato  di pazienza: coperto di pazienza dalla testa ai piedi, <span class="unclear" title="Unclear (illegible)">come</span><span class="choice text-block"><span class="variant lem" data-wit="strato2">certi uomini</span><span class="variant rdg" data-wit="strato0"><span class="unclear" title="Unclear (illegible)">e riso</span></span></span>
+                                                
+                                                di <span class="unclear" title="Unclear (illegible)">di pelo</span>. 
+                                                <span class="choice text-block"><span class="variant lem" data-wit="strato1">Poi,</span><span class="variant rdg" data-wit="strato0"><span class="unclear" title="Unclear (erased)">Mai,</span></span></span>
+                                                
+                                                tagli tagli,
+                                                
+                                                <span class="choice text-block"><span class="variant lem" data-wit="strato1">la</span><span class="variant rdg" data-wit="strato0">questa</span></span>
+                                                
+                                                pazienza  se
+                                                
+                                                <span class="choice text-block"><span class="variant lem" data-wit="strato2">n'&eacute; andata</span><span class="variant rdg" data-wit="strato0">ne va</span></span>
+                                                
+                                                via a falde. Nudo sono rimasto e pelato: pronto per lo spiedo, come il pollo.
+                           </p>
+                        </div>
+                        <ul class="page-entities-source" hidden="hidden">
+                           <li data-type="persName" data-role="speaker" data-wd="" data-key="#Spettatore">Spettatore</li>
+                           <li data-type="persName" data-role="speaker" data-wd="https://www.wikidata.org/entity/Q993387" data-key="https://www.wikidata.org/entity/Q993387">Euriloco</li>
+                           <li data-type="persName" data-role="speaker" data-wd="" data-key="#Spettatore">Spettatore</li>
+                           <li data-type="persName" data-role="speaker" data-wd="https://www.wikidata.org/entity/Q993387" data-key="https://www.wikidata.org/entity/Q993387">Euriloco</li>
+                           <li data-type="persName" data-role="speaker" data-wd="" data-key="#Spettatore">Spettatore</li>
+                           <li data-type="persName" data-role="speaker" data-wd="https://www.wikidata.org/entity/Q993387" data-key="https://www.wikidata.org/entity/Q993387">Euriloco</li>
+                           <li data-type="persName" data-role="speaker" data-wd="" data-key="#Spettatore">Spettatore</li>
+                           <li data-type="persName" data-role="speaker" data-wd="https://www.wikidata.org/entity/Q993387" data-key="https://www.wikidata.org/entity/Q993387">Euriloco</li>
+                           <li data-type="persName" data-role="speaker" data-wd="" data-key="#Spettatore">Spettatore</li>
+                           <li data-type="persName" data-role="speaker" data-wd="https://www.wikidata.org/entity/Q993387" data-key="https://www.wikidata.org/entity/Q993387">Euriloco</li>
+                           <li data-type="persName" data-role="speaker" data-wd="" data-key="#Spettatore">Spettatore</li>
+                           <li data-type="persName" data-role="speaker" data-wd="https://www.wikidata.org/entity/Q993387" data-key="https://www.wikidata.org/entity/Q993387">Euriloco</li>
+                           <li data-type="persName" data-role="speaker" data-wd="" data-key="#Spettatore">Spettatore</li>
+                           <li data-type="persName" data-role="speaker" data-wd="https://www.wikidata.org/entity/Q993387" data-key="https://www.wikidata.org/entity/Q993387">Euriloco</li>
+                           <li data-type="persName" data-role="speaker" data-wd="" data-key="#Spettatore">Spettatore</li>
+                           <li data-type="persName" data-role="speaker" data-wd="https://www.wikidata.org/entity/Q993387" data-key="https://www.wikidata.org/entity/Q993387">Euriloco</li>
+                           <li data-type="persName" data-role="speaker" data-wd="" data-key="#Spettatore">Spettatore</li>
+                           <li data-type="persName" data-role="speaker" data-wd="https://www.wikidata.org/entity/Q993387" data-key="https://www.wikidata.org/entity/Q993387">Euriloco</li>
+                        </ul>
+                     </div>
+                     <div class="page-image-column"><img class="page-image" src="assets/img/Ums25/page4.jpg" alt="Facsimile page 4"></div>
+                  </div>
+               </article>
+               <article class="page" data-page="5" data-facs="#P3">
+                  <header class="page-header">
+                     <h2 class="page-title">Page 5</h2>
+                  </header>
+                  <div class="page-inner">
+                     <div class="page-text-column">
+                        <div class="sp"><span class="speaker"><span class="entity persName">Spett.</span></span><p><span class="choice text-block"><span class="variant lem" data-wit="strato6">Purtroppo! A</span><span class="variant rdg" data-wit="strato5">Lo so, purtroppo! <span class="unclear" title="Unclear (erased)">E</span></span></span>
+                                                
+                                                   voler dire una parola di conforto, si riesce 
+                                                   
+                                                   <span class="choice text-block"><span class="variant lem" data-wit="strato6">le pi&ugrave; volte</span><span class="variant rdg" data-wit="strato5">il pi&ugrave; delle volte</span></span>
+                                                
+                                                      a irritare maggiormente.
+                           </p>
+                        </div>
+                        <div class="sp"><span class="speaker"><span class="entity persName">Euril.</span></span><p> Mica me la piglio 
+                                                <span class="choice text-block"><span class="variant lem" data-wit="strato6">con lei.</span><span class="variant rdg" data-wit="strato5">con lei sa?</span></span></p>
+                        </div>
+                        <div class="sp"><span class="speaker"><span class="entity persName">Spett.</span></span><p><span class="choice text-block"><span class="variant lem" data-wit="strato5">Avrebbe torto. Creda pure che</span><span class="variant rdg" data-wit="strato0">Avrebbe avuto torto perch&eacute;, <span class="unclear" title="Unclear (erased)">lei</span> si convinca pure,</span><span class="variant rdg" data-wit="strato1">Avrebbe avuto torto perch&eacute;, si convinca pure,</span></span>
+                                                
+                                                le mie intenzioni erano quanto di pi&ugrave; innocente... 
+                           </p>
+                        </div>
+                        <div class="sp"><span class="speaker"><span class="entity persName">Euril.</span></span><p>Lo so, lo so... 
+                                                <span class="choice text-block"><span class="variant lem" data-wit="strato7">Lasci perdere! (Rabbonito d'un tratto, si china e con fare confidenziale
+                                                         domanda:) Non</span><span class="variant rdg" data-wit="strato0">Non ci</span><span class="variant rdg" data-wit="strato5">Senta una cosa: non</span><span class="variant rdg" data-wit="strato6">Lasci andare! (Rabbonito d'un tratto, si china e con fare confidenziale
+                                                            domanda:) Non</span></span>
+                                                   
+                                                   avrebbe per caso  un pizzico di tabacco? 
+                           </p>
+                        </div>
+                        <div class="sp"><span class="speaker"><span class="entity persName">Spett.</span></span><p><span class="choice text-block"><span class="variant lem" data-wit="strato5">Mi dispiace! Glie l'avrei offerto con tutto il cuore, ma io,  sa non fumo! </span><span class="variant rdg" data-wit="strato0">Tabacco?.. Oh,<span class="unclear" title="Unclear (erased)">ma</span> glie l'avrei offerto di gran cuore ma io
+                                                            non fumo.</span><span class="variant rdg" data-wit="strato1">Tabacco?.. Oh, glie l'avrei offerto di gran cuore ma io non fumo.</span></span></p>
+                        </div>
+                        <div class="sp"><span class="speaker"><span class="entity persName">Euril.</span></span><p>Dio maestrale! la prima persona un po 
+                                                <span class="choice text-block"><span class="variant lem" data-wit="strato5">garbata</span><span class="variant rdg" data-wit="strato0">cortese </span></span>
+                                                
+                                                che <br class="lb">incontro. da un anno a questa
+                                                parte,
+                                                
+                                                <span class="choice text-block"><span class="variant lem" data-wit="strato6">e... <span class="stage">(S'interrompe e, con sforzo, ringoia la rabbia. Una forte malinconia gli
+                                                                  si tinge sul volto.Contempla la pipa.)</span> giorni venerabili della mia felicit&agrave;, non mi rimane che<br class="lb"> 
+                                                            seppellirsi nel focolare spento di questa pipa inutile<br class="lb"> e cara... Va ingrata! il tuo riposo te lo  sei
+                                                            guadagnato uccidendo la mia ultima gioia!  <span class="stage"> (Butta via la pipa) </span></span><span class="variant rdg" data-wit="strato0">e... e...non fuma!</span><span class="variant rdg" data-wit="strato1">e...e...</span><span class="variant rdg" data-wit="strato5">e... <span class="unclear" title="Unclear (erased)">nei</span> giorni venerabili della mia felicit&agrave;,
+                                                               non mi rimane che seppellirsi nel focolare spento di questa pipa inutile e cara... Va ingrata infelice!
+                                    il
+                                                               tuo riposo te lo sei guadagnato uccidendo la mia ultima gioia! <span class="stage"> (Butta via la pipa) </span></span></span></p>
+                        </div>
+                        <div class="sp"><span class="speaker"><span class="entity persName">Spettatore</span></span><p>
+                                                  Che fa, maestro! La poteva rompere... 
+                           </p>
+                        </div>
+                        <div class="sp"><span class="speaker"><span class="entity persName">Euriloco</span></span><p>Che importa! La mia vita ormai&#8230;
+                                               
+                           </p>
+                        </div>
+                        <ul class="page-entities-source" hidden="hidden">
+                           <li data-type="persName" data-role="speaker" data-wd="" data-key="#Spettatore">Spettatore</li>
+                           <li data-type="persName" data-role="speaker" data-wd="https://www.wikidata.org/entity/Q993387" data-key="https://www.wikidata.org/entity/Q993387">Euriloco</li>
+                           <li data-type="persName" data-role="speaker" data-wd="" data-key="#Spettatore">Spettatore</li>
+                           <li data-type="persName" data-role="speaker" data-wd="https://www.wikidata.org/entity/Q993387" data-key="https://www.wikidata.org/entity/Q993387">Euriloco</li>
+                           <li data-type="persName" data-role="speaker" data-wd="" data-key="#Spettatore">Spettatore</li>
+                           <li data-type="persName" data-role="speaker" data-wd="https://www.wikidata.org/entity/Q993387" data-key="https://www.wikidata.org/entity/Q993387">Euriloco</li>
+                           <li data-type="persName" data-role="speaker" data-wd="" data-key="#Spettatore">Spettatore</li>
+                           <li data-type="persName" data-role="speaker" data-wd="https://www.wikidata.org/entity/Q993387" data-key="https://www.wikidata.org/entity/Q993387">Euriloco</li>
+                        </ul>
+                     </div>
+                     <div class="page-image-column"><img class="page-image" src="assets/img/Ums25/page5.jpg" alt="Facsimile page 5"></div>
+                  </div>
+               </article>
+               <article class="page" data-page="6" data-facs="#P3a">
+                  <header class="page-header">
+                     <h2 class="page-title">Page 6</h2>
+                  </header>
+                  <div class="page-inner">
+                     <div class="page-text-column">
+                        <p><span class="stage"><span class="choice text-block"><span class="variant lem" data-wit="strato5">(Sulla parola &#8220;ormai&#8222; pronunciata dal <span class="entity persName">quartiermastro</span>, esce</span><span class="variant rdg" data-wit="strato0">(Sul&#8220;Dio maestrale&#8222; pronunciato da <span class="entity persName">Euriloco</span>, esce </span><span class="variant rdg" data-wit="strato4">Esce</span></span>
+                                                      
+                                                      sul  proscenio una coppia costituita da un giovane <span class="entity persName">marinaio</span>  e da una <span class="entity persName">ancella</span> di <span class="entity persName">Circe</span>. Il <span class="entity persName">marinaio</span><span class="choice text-block"><span class="variant lem" data-wit="strato2">tiene la <span class="entity persName">compagna</span> per la</span><span class="variant rdg" data-wit="strato0">tiene la <span class="entity persName">compagna</span> dalla</span><span class="variant rdg" data-wit="strato1">regge la <span class="entity persName">compagna</span> dalla</span></span>
+                                                   
+                                                   vita.
+                                                   
+                                                   <span class="choice text-block"><span class="variant lem" data-wit="strato2">Veste costui  il commun marinaro</span><span class="variant rdg" data-wit="strato0">&Egrave; vestito come tutti i <span class="unclear" title="Unclear (erased)">con tutti i</span><span class="gap" title="Gap (erased)"><span class="gap-marker">[&#8230;]</span></span> l&#8217;abito 
+                                                               <span class="gap" title="Gap (erased)"><span class="gap-marker">[&#8230;]</span></span> dei marinai</span><span class="variant rdg" data-wit="strato1">Veste costui il commun abito <span class="gap" title="Gap"><span class="gap-marker">[&#8230;]</span></span> dei marinai</span></span>
+                                                   
+                                                   , ma con 
+                                                   <span class="choice text-block"><span class="variant lem" data-wit="strato1">assai </span><span class="variant rdg" data-wit="strato0"><span class="unclear" title="Unclear (erased)">molta</span></span></span>
+                                                   
+                                                   ricercatezza. 
+                                                   
+                                                   <span class="choice text-block"><span class="variant lem" data-wit="strato2">Berretto sulle ventitre e  nuca rasata.</span><span class="variant rdg" data-wit="strato0">Porta il berretto sulle ventitre e ha la nuca rasata</span></span>
+                                                   
+                                                   L&#8217;<span class="entity persName">ancella</span> - capelli corti, serrati 
+                                                   
+                                                   <span class="choice text-block"><span class="variant lem" data-wit="strato2">intorno al cranio da nastro serico</span><span class="variant rdg" data-wit="strato0"><span class="gap" title="Gap (erased)"><span class="gap-marker">[&#8230;]</span></span> da un nastro</span><span class="variant rdg" data-wit="strato1">Da un nastro</span></span>
+                                                   
+                                                   - porta 
+                                                   
+                                                   <span class="choice text-block"><span class="variant lem" data-wit="strato2"> un <span class="foreign" lang="en" title="English">&#8220;tea-gown&#8222;</span> sul tipo di quelli<br class="lb"> confezionati</span><span class="variant rdg" data-wit="strato0">una vestaglia a <span class="foreign" lang="en" title="English">&#8220;tea-gown&#8222;</span> confezionata secondo i tipi lavorati</span><span class="variant rdg" data-wit="strato1">una vestaglia a <span class="foreign" lang="en" title="English">&#8220;tea-gown&#8222;</span> confezionata secondo i tipi confezionati</span></span>
+                                                   
+                                                   dalla sartoria <span class="entity persName">Poiret</span>  di <span class="entity placeName">Parigi</span>.
+                                                   Camminano  lenti ambedue, con affettazione e svenevolezza: l'<span class="entity persName">ancella</span> soprattutto, quale piega alla vita come gambo che cede  sotto 
+                                                   
+                                                   <span class="choice text-block"><span class="variant lem" data-wit="strato2">fiore</span><span class="variant rdg" data-wit="strato0">un fiore</span></span>
+                                                   
+                                                   troppo onusto. <span class="unclear" title="Unclear (illegible)">Sa</span> quella che <span class="entity persName">Euriloco</span> si  volta e vede
+                                                   avanzarsi la coppia, interrompe
+                              
+                                                     <span class="choice text-block"><span class="variant lem" data-wit="strato2">la frase incominciata,</span><span class="variant rdg" data-wit="strato0">la sua frase</span><span class="variant rdg" data-wit="strato1">la frase</span></span>
+                                                 
+                                                   seccato e assieme disgustato dalla presenza dei sopravvenuti.).</span></p>
+                        <div class="sp"><span class="speaker"><span class="entity persName">Marinaio</span></span><p><span class="choice text-block"><span class="variant lem" data-wit="strato2">Disturbiamo</span><span class="variant rdg" data-wit="strato0"><span class="gap" title="Gap (erased)"><span class="gap-marker">[&#8230;]</span></span> ti disturbiamo</span><span class="variant rdg" data-wit="strato1">Ti disturbiamo</span></span>
+                                                
+                                                 , maestro? Stavi parlando: continua.
+                           </p>
+                        </div>
+                        <div class="sp"><span class="speaker"><span class="entity persName">Euriloco</span></span><p><span class="stage">(Lo squadra dal capo alle piante, poi gli volta le spalle.)</span> Non ricevo ordini
+                                                
+                                                <span class="choice text-block"><span class="variant lem" data-wit="strato2"> da nessuno: da te</span><span class="variant rdg" data-wit="strato0">, consigli, incitamenti da nessuno: meno che meno da te</span><span class="variant rdg" data-wit="strato1">, consigli, incitamenti da nessuno: da te</span></span>
+                                                
+                                                , bel <span class="entity persName">rondone</span>, meno che meno.
+                           </p>
+                        </div>
+                        <div class="sp"><span class="speaker"><span class="entity persName">Marinaio</span></span><p><span class="choice text-block"><span class="variant lem" data-wit="strato2">Come</span><span class="variant rdg" data-wit="strato0">Oh!Oh! come</span></span>
+                                                
+                                                la pigliamo dall'alto! E che v'&egrave; capitato, <span class="entity persName">maestro</span>, che siete pieno d'umore paradisiaco?
+                           </p>
+                        </div>
+                        <div class="sp"><span class="speaker"><span class="entity persName">Euriloco</span></span><p> Pensa 
+                                                
+                                                <span class="choice text-block"><span class="variant lem" data-wit="strato1"> a portare la tua <span class="entity persName">gatta</span></span><span class="variant rdg" data-wit="strato0">alle tue faccende e <span class="unclear" title="Unclear (erased)">poi</span></span></span>
+                                                 
+                                                levamiti dai piedi!
+                           </p>
+                        </div>
+                        <ul class="page-entities-source" hidden="hidden">
+                           <li data-type="persName" data-role="mention" data-wd="https://www.wikidata.org/entity/Q993387" data-key="https://www.wikidata.org/entity/Q993387">Euriloco</li>
+                           <li data-type="persName" data-role="mention" data-wd="https://www.wikidata.org/entity/Q993387" data-key="https://www.wikidata.org/entity/Q993387">Euriloco</li>
+                           <li data-type="persName" data-role="mention" data-wd="" data-key="#Marinaio">Marinaio</li>
+                           <li data-type="persName" data-role="mention" data-wd="" data-key="#Ancella">Ancella</li>
+                           <li data-type="persName" data-role="mention" data-wd="https://www.wikidata.org/entity/Q187602" data-key="https://www.wikidata.org/entity/Q187602">Circe</li>
+                           <li data-type="persName" data-role="mention" data-wd="" data-key="#Marinaio">Marinaio</li>
+                           <li data-type="persName" data-role="mention" data-wd="" data-key="#Ancella">Ancella</li>
+                           <li data-type="persName" data-role="mention" data-wd="" data-key="#Ancella">Ancella</li>
+                           <li data-type="persName" data-role="mention" data-wd="" data-key="#Ancella">Ancella</li>
+                           <li data-type="persName" data-role="mention" data-wd="" data-key="#Ancella">Ancella</li>
+                           <li data-type="persName" data-role="mention" data-wd="https://www.wikidata.org/entity/Q631884" data-key="https://www.wikidata.org/entity/Q631884">Poiret</li>
+                           <li data-type="placeName" data-role="mention" data-wd="https://www.wikidata.org/entity/Q90" data-key="https://www.wikidata.org/entity/Q90">Parigi</li>
+                           <li data-type="persName" data-role="mention" data-wd="" data-key="#Ancella">Ancella</li>
+                           <li data-type="persName" data-role="mention" data-wd="https://www.wikidata.org/entity/Q993387" data-key="https://www.wikidata.org/entity/Q993387">Euriloco</li>
+                           <li data-type="persName" data-role="speaker" data-wd="" data-key="#Marinaio">Marinaio</li>
+                           <li data-type="persName" data-role="speaker" data-wd="https://www.wikidata.org/entity/Q993387" data-key="https://www.wikidata.org/entity/Q993387">Euriloco</li>
+                           <li data-type="persName" data-role="mention" data-wd="" data-key="#Marinaio">Marinaio</li>
+                           <li data-type="persName" data-role="speaker" data-wd="" data-key="#Marinaio">Marinaio</li>
+                           <li data-type="persName" data-role="mention" data-wd="https://www.wikidata.org/entity/Q993387" data-key="https://www.wikidata.org/entity/Q993387">Euriloco</li>
+                           <li data-type="persName" data-role="speaker" data-wd="https://www.wikidata.org/entity/Q993387" data-key="https://www.wikidata.org/entity/Q993387">Euriloco</li>
+                           <li data-type="persName" data-role="mention" data-wd="" data-key="#Ancella">Ancella</li>
+                        </ul>
+                     </div>
+                     <div class="page-image-column"><img class="page-image" src="assets/img/Ums25/page6.jpg" alt="Facsimile page 6"></div>
+                  </div>
+               </article>
+               <article class="page" data-page="7" data-facs="#P4">
+                  <header class="page-header">
+                     <h2 class="page-title">Page 7</h2>
+                  </header>
+                  <div class="page-inner">
+                     <div class="page-text-column">
+                        <div class="sp"><span class="speaker"><span class="entity persName">Marinaio</span></span><p><span class="stage"><span class="choice text-block"><span class="variant lem" data-wit="strato1">(Allo <span class="entity persName">spettatore</span>)</span><span class="variant rdg" data-wit="strato0">(rivolto allo <span class="entity persName">spettatore</span>)</span></span></span><span class="choice text-block"><span class="variant lem" data-wit="strato2">Adorabile! Addirittura squisito</span><span class="variant rdg" data-wit="strato0"> Ma &egrave; squisito, addirittura squisito</span><span class="variant rdg" data-wit="strato1">Squisito! Addirittura </span></span>
+                                                
+                                                stasera il nostro <span class="entity persName">maestro</span><span class="choice text-block"><span class="variant lem" data-wit="strato1">. Anche la</span><span class="variant rdg" data-wit="strato0">! La</span></span>
+                                                
+                                                    nostra conversazione si svolger&agrave;
+                                                    
+                                                    <span class="choice text-block"><span class="variant lem" data-wit="strato1">sul medesimo tono? Lei, immagino bene, avr&agrave; goduto un mondo!</span><span class="variant rdg" data-wit="strato0">su questo medesimo tono? Si <span class="gap" title="Gap (erased)"><span class="gap-marker">[&#8230;]</span></span> goduto un
+                                                                mondo, immagino bene, lei.</span></span></p>
+                        </div>
+                        <div class="sp"><span class="speaker"><span class="entity persName">Spettatore</span></span><p><span class="choice text-block"><span class="variant lem" data-wit="strato1">Che vuole! &eacute;</span><span class="variant rdg" data-wit="strato0">Non ce la fa. &Egrave;</span></span>
+                                                   
+                                                   un po 
+                                                   <span class="choice text-block"><span class="variant lem" data-wit="strato1">irritato.</span><span class="variant rdg" data-wit="strato0">seccato,</span></span>
+                                                      
+                                                      La <span class="gap" title="Gap (illegible)"><span class="gap-marker">[&#8230;]</span></span> perch&eacute; la 
+                                                   <span class="choice text-block"><span class="variant lem" data-wit="strato1">pipa</span><span class="variant rdg" data-wit="strato0">sua pipa</span></span>
+                                                      
+                                                      non tira.
+                           </p>
+                        </div>
+                        <div class="sp"><span class="speaker"><span class="entity persName">Euriloco</span></span><p><span class="stage">(
+                                                      <span class="choice text-block"><span class="variant lem" data-wit="strato1">Scatta</span><span class="variant rdg" data-wit="strato0">Balza</span></span>
+                                                      
+                                                      in piedi, furibondo.)</span> La mia pipa non tira! Sar&agrave; lei che non tira!.. Ma
+                                                   <span class="choice text-block"><span class="variant lem" data-wit="strato2">sentilo questo</span><span class="variant rdg" data-wit="strato0">sentita anche questa <span class="gap" title="Gap (erased)"><span class="gap-marker">[&#8230;]</span></span></span></span>
+                                                
+                                                   : "Alessandra&#8222; non tira!
+                           </p>
+                        </div>
+                        <div class="sp"><span class="speaker"><span class="entity persName">Ancella</span></span><p><span class="stage">(Al <span class="entity persName">marinaio</span>,<span class="choice text-block"><span class="variant lem" data-wit="strato6">curiosa</span><span class="variant rdg" data-wit="strato5">con stupore</span></span>)</span> 
+                                                   
+                                                   "Alessandra&#8222; <span class="foreign" lang="fr" title="French">Qu&#8217;est-ce que c&#8217;est &ccedil;a</span>, <span class="foreign" lang="en" title="English">my dear</span>?
+                           </p>
+                        </div>
+                        <div class="sp"><span class="speaker"><span class="entity persName">Euriloco</span></span><p><span class="choice text-block"><span class="variant lem" data-wit="strato5">(Guarda la pipa con tenerezza) Mia piccola "Alessandra&#8222;!</span><span class="variant rdg" data-wit="strato0">(Oh, mia piccola &#8220;Alessandra&#8222;! (Volge la testa e guarda con tenerezza la pipa rimasta a terra)</span></span></p>
+                        </div>
+                        <div class="sp"><span class="speaker"><span class="entity persName">Marinaio</span></span><p><span class="stage">(Accenna la pipa)</span> Quel piccolo arnese l&agrave;.
+                           </p>
+                           <p> Ancella Una pipa? Oh <span class="foreign" lang="fr" title="French"> que c'est dr&ocirc;le!</span></p>
+                        </div>
+                        <div class="sp"><span class="speaker"><span class="entity persName">Euriloco</span></span><p> Povera calunniata! <span class="stage">(Si
+                                                         approssima alla pipa, 
+                                                      <span class="choice text-block"><span class="variant lem" data-wit="strato5">la raccoglie</span><span class="variant rdg" data-wit="strato0">la raccatta</span></span>
+                                                      e contempla con occhio
+                                                      <span class="choice text-block"><span class="variant lem" data-wit="strato5">paterno</span><span class="variant rdg" data-wit="strato0">di padre</span></span>
+                                                         , 
+                                                         <span class="choice text-block"><span class="variant lem" data-wit="strato5">carezzandola</span><span class="variant rdg" data-wit="strato0">la carezza</span></span>
+                                                    lungo il tubo poi sul fornello, come 
+                                                    <span class="choice text-block"><span class="variant lem" data-wit="strato5">canarino malato</span><span class="variant rdg" data-wit="strato0">arezzare la testina d&#8217;un uccello</span></span>  .)</span> 
+                                               
+                                               Dillo te, 
+                                                <span class="choice text-block"><span class="variant lem" data-wit="strato1">dillo te</span><span class="variant rdg" data-wit="strato0"></span></span>
+                                              come 
+                                                   <span class="choice text-block"><span class="variant lem" data-wit="strato2">sai tirare se ti si mette anche un solo</span><span class="variant rdg" data-wit="strato0">tirassi quanto avevo ancora un</span></span>
+                                                pizzico di tabacco 
+                                                
+                                                <span class="choice text-block"><span class="variant lem" data-wit="strato2">nel</span><span class="variant rdg" data-wit="strato0">da mettere nel tuo</span></span>
+                                                
+                                                ventricino nero!.. <span class="stage">(Si volta, 
+                                                   <span class="choice text-block"><span class="variant lem" data-wit="strato2">con piglio minaccioso allo <span class="entity persName">spettatore</span>)</span><span class="variant rdg" data-wit="strato0">, brusco allo <span class="entity persName">spettatore</span>, con piglio minaccioso)</span></span></span><span class="choice text-block"><span class="variant lem" data-wit="strato2">Quanto a lei, se</span><span class="variant rdg" data-wit="strato0">Quanto a lei, se un'altra volta</span><span class="variant rdg" data-wit="strato1">Se</span></span>
+                                                
+                                                 le salta 
+                                                 
+                                                 <span class="choice text-block"><span class="variant lem" data-wit="strato1">ancora</span><span class="variant rdg" data-wit="strato0"></span></span>
+                                                   
+                                                in mente di calunniare la mia piccola "Alessandra&#8222; badi 
+                                                
+                                                <span class="choice text-block"><span class="variant lem" data-wit="strato2">bene</span><span class="variant rdg" data-wit="strato0">sa</span></span>
+                                                che un'altra volta non gliela 
+                                                
+                                                  <span class="choice text-block"><span class="variant lem" data-wit="strato2">passo</span><span class="variant rdg" data-wit="strato0">passer&ograve;</span></span>
+                                                cos&igrave; liscia! 
+                           </p>
+                        </div>
+                        <div class="sp"><span class="speaker"><span class="entity persName">Lo Spettatore</span></span><p><span class="stage">(Scusandosi)</span><span class="choice text-block"><span class="variant lem" data-wit="strato2">Creda pure che non</span><span class="variant rdg" data-wit="strato0">Non</span></span>
+                                                
+                                                avevo 
+                                                
+                                                <span class="choice text-block"><span class="variant lem" data-wit="strato2">la minima</span><span class="variant rdg" data-wit="strato0"></span></span>
+                                                 intenzione di offendere la sua pipa.
+                           </p>
+                        </div><span class="stage">(<span class="entity persName">Euriloco</span>, reggendo <span class="unclear" title="Unclear (illegible)">bruscamente</span> la
+                                                pipa, <span class="unclear" title="Unclear (illegible)">torna</span> e si siede, brontolando, sul primo gradino della scala che scende 
+                                                <span class="choice text-block"><span class="variant lem" data-wit="strato2">in</span><span class="variant rdg" data-wit="strato0">sulla</span></span>
+                                                
+                                                   platea. 
+                                                   
+                                                   <span class="choice text-block"><span class="variant lem" data-wit="strato2">I </span><span class="variant rdg" data-wit="strato0">Dietro, i</span></span>
+                                                
+                                                due giovani
+                                          </span><ul class="page-entities-source" hidden="hidden">
+                           <li data-type="persName" data-role="speaker" data-wd="" data-key="#Marinaio">Marinaio</li>
+                           <li data-type="persName" data-role="mention" data-wd="" data-key="#Spettatore">Spettatore</li>
+                           <li data-type="persName" data-role="mention" data-wd="" data-key="#Spettatore">Spettatore</li>
+                           <li data-type="persName" data-role="mention" data-wd="https://www.wikidata.org/entity/Q993387" data-key="https://www.wikidata.org/entity/Q993387">Euriloco</li>
+                           <li data-type="persName" data-role="speaker" data-wd="" data-key="#Spettatore">Spettatore</li>
+                           <li data-type="persName" data-role="speaker" data-wd="https://www.wikidata.org/entity/Q993387" data-key="https://www.wikidata.org/entity/Q993387">Euriloco</li>
+                           <li data-type="persName" data-role="speaker" data-wd="" data-key="#Ancella">Ancella</li>
+                           <li data-type="persName" data-role="mention" data-wd="" data-key="#Marinaio">Marinaio</li>
+                           <li data-type="persName" data-role="speaker" data-wd="https://www.wikidata.org/entity/Q993387" data-key="https://www.wikidata.org/entity/Q993387">Euriloco</li>
+                           <li data-type="persName" data-role="speaker" data-wd="" data-key="#Marinaio">Marinaio</li>
+                           <li data-type="persName" data-role="speaker" data-wd="https://www.wikidata.org/entity/Q993387" data-key="https://www.wikidata.org/entity/Q993387">Euriloco</li>
+                           <li data-type="persName" data-role="mention" data-wd="" data-key="#Spettatore">Spettatore</li>
+                           <li data-type="persName" data-role="mention" data-wd="" data-key="#Spettatore">Spettatore</li>
+                           <li data-type="persName" data-role="speaker" data-wd="" data-key="#Spettatore">Spettatore</li>
+                           <li data-type="persName" data-role="mention" data-wd="https://www.wikidata.org/entity/Q993387" data-key="https://www.wikidata.org/entity/Q993387">Euriloco</li>
+                        </ul>
+                     </div>
+                     <div class="page-image-column"><img class="page-image" src="assets/img/Ums25/page7.jpg" alt="Facsimile page 7"></div>
+                  </div>
+               </article>
+               <article class="page" data-page="8" data-facs="#P5">
+                  <header class="page-header">
+                     <h2 class="page-title">Page 8</h2>
+                  </header>
+                  <div class="page-inner">
+                     <div class="page-text-column"><span class="stage"><span class="choice text-block"><span class="variant lem" data-wit="strato5">ridono sommessamente.)</span><span class="variant rdg" data-wit="strato0">ridono sommessamente non tanto per&ograve; da non farsi scorgere dal <span class="entity persName">quartiermastro</span>)</span></span></span><div class="sp"><span class="speaker"><span class="entity persName">Euriloco</span></span><p><span class="stage">(Si volta,
+                                                      inviperitissimo.)</span> Che avete da ridere 
+                                                <span class="choice text-block"><span class="variant lem" data-wit="strato6">macachi?</span><span class="variant rdg" data-wit="strato5">bestiacce</span></span></p>
+                        </div>
+                        <div class="sp"><span class="speaker"><span class="entity persName">Marinaio</span></span><p><span class="stage">(Gli muove 
+                                                      <span class="choice text-block"><span class="variant lem" data-wit="strato6">contro</span><span class="variant rdg" data-wit="strato5">incontro</span></span>
+                                                .)</span> Guarda come parli!
+                           </p>
+                        </div>
+                        <div class="sp"><span class="speaker"><span class="entity persName">Spettatore</span></span><p><span class="stage">(Sale precipitosamente sulla scena a evitare 
+                                                      <span class="choice text-block"><span class="variant lem" data-wit="strato6">una</span><span class="variant rdg" data-wit="strato5">la</span></span>
+                                                      una rissa)</span> Calma! calma, signori! <span class="stage">(Spinge indietro il marinaio.)</span> 
+                                                 Non avrebbe per caso un po di tabacco da dargli? 
+                                                <span class="choice text-block"><span class="variant lem" data-wit="strato6">Lo placherebbe subito.</span><span class="variant rdg" data-wit="strato5"><span class="gap" title="Gap (erased)"><span class="gap-marker">[&#8230;]</span></span></span></span></p>
+                        </div>
+                        <div class="sp"><span class="speaker"><span class="entity persName">Marinaio</span></span><p><span class="choice text-block"><span class="variant lem" data-wit="strato6">Io non fumo</span><span class="variant rdg" data-wit="strato5">Non fumo</span></span><span class="stage">(All'<span class="entity persName">ancella</span>)</span><span class="choice text-block"><span class="variant lem" data-wit="strato6">Avete una</span><span class="variant rdg" data-wit="strato5">Una</span></span>
+                                                   
+                                                   sigaretta, <span class="foreign" lang="fr" title="French">ch&eacute;re</span>?
+                           </p>
+                        </div>
+                        <div class="sp"><span class="speaker"><span class="entity persName">Ancella</span></span><p><span class="stage">(Estrae da una borsetta a maglie d'oro un magnifico portasigarette, lo apre e, tesa la mano offerente,
+                                                      si avvicina al <span class="entity persName">quartiermastro</span>.)</span><span class="foreign" lang="fr" title="French">Tenez</span>, mio
+                                                povero signore, <span class="entity objectName">Murattys</span><span class="foreign" lang="fr" title="French">bout dor&eacute;s</span>.
+                           </p>
+                        </div>
+                        <div class="sp"><span class="speaker"><span class="entity persName">Euriloco</span></span><p><span class="stage">(Considera 
+                                                      
+                                                      <span class="choice text-block"><span class="variant lem" data-wit="strato1">con disprezzo sigarette astuccio e</span><span class="variant rdg" data-wit="strato0">con meraviglia mista a disprezzo le sigarette, l&#8217;astuccio e la</span></span><span class="entity persName">donna</span>)</span> 
+                                                A me?! 
+                                                <span class="choice text-block"><span class="variant lem" data-wit="strato1">A me queste</span><span class="variant rdg" data-wit="strato0">Io...Io fumare quelle</span></span>
+                                                 porcheriole?!.. <span class="stage">(Respinge il portasigarette)</span> Va! 
+                                                <span class="choice text-block"><span class="variant lem" data-wit="strato1">pussa via,</span><span class="variant rdg" data-wit="strato0">va via,</span></span><span class="entity persName">smorfiosa</span></p>
+                        </div>
+                        <div class="sp"><span class="speaker"><span class="entity persName">Ancella</span></span><p><span class="stage">(
+                                                      <span class="choice text-block"><span class="variant lem" data-wit="strato1">Indignata,</span><span class="variant rdg" data-wit="strato0">Infuriatissima,</span></span>
+                                                      
+                                                      batte il tacco per terra)</span> O <span class="foreign" lang="en" title="English">shocking!</span><span class="stage">(Al <span class="entity persName">marinaio</span>)</span> Quanto &egrave; <span class="foreign" lang="fr" title="French">grossier</span> questo vostro amico.
+                                                <span class="choice text-block"><span class="variant lem" data-wit="strato4"><span class="gap" title="Gap (erased)"><span class="gap-marker">[&#8230;]</span></span></span><span class="variant rdg" data-wit="strato0"><span class="foreign" lang="en" title="English">My dear</span>!</span></span>
+                                                
+                                                andiamo via! andiamo via!
+                                                
+                                                <span class="stage">(Se ne va, furibonda trascinandosi dietro il giovane <span class="entity persName">marinaio</span>.)</span>.
+                           </p>
+                        </div>
+                        <div class="sp"><span class="speaker"><span class="entity persName">Euriloco</span></span><p>L'ha guardata bene quella
+                                                   <span class="choice text-block"><span class="variant lem" data-wit="strato6"><span class="entity persName">bertuccia</span> ?</span><span class="variant rdg" data-wit="strato5"><span class="gap" title="Gap (erased)"><span class="gap-marker">[&#8230;]</span></span><span class="entity persName">cialtrona</span> ?</span></span></p>
+                        </div>
+                        <div class="sp"><span class="speaker"><span class="entity persName">Spettatore</span></span><p>Gi&agrave;! un po <span class="unclear" title="Unclear (illegible)">affettata</span>,
+                                             <span class="choice text-block"><span class="variant lem" data-wit="strato7"><span class="gap" title="Gap (erased)"><span class="gap-marker">[&#8230;]</span></span>...</span><span class="variant rdg" data-wit="strato5"><span class="gap" title="Gap (illegible)"><span class="gap-marker">[&#8230;]</span></span></span></span></p>
+                        </div>
+                        <div class="sp"><span class="speaker"><span class="entity persName">Euriloco</span></span><p>Tutte 
+                                                   <span class="choice text-block"><span class="variant lem" data-wit="strato6">a quel modo</span><span class="variant rdg" data-wit="strato5">cos&igrave;</span></span>
+                                                   
+                                                   a cominciare dalla <span class="entity persName">padrona</span>.
+                           </p>
+                        </div>
+                        <div class="sp"><span class="speaker"><span class="entity persName">Spettatore</span></span><p><span class="choice text-block"><span class="variant lem" data-wit="strato6">Che vuole Sono fatte cos&igrave; : donne moderne.</span><span class="variant rdg" data-wit="strato5">Donne moderne. Che cosa vuole ? Sono fatte cos&igrave;.</span></span></p>
+                        </div>
+                        <div class="sp"><span class="speaker"><span class="entity persName">Euriloco</span></span><p><span class="choice text-block"><span class="variant lem" data-wit="strato6"> Moderne</span><span class="variant rdg" data-wit="strato5">Donne moderne</span></span>
+                                                  ?.. Donne schife, dico io! Vedesse poi la villa, quei salotti! Non c'&egrave; nemmeno da sedersi: cuscini sparsi
+                              per terra,
+                                                <span class="foreign" lang="fr" title="French">poufs</span> che se ti ci metti su vai a gambe per aria, tende 
+                                                
+                                                   <span class="choice text-block"><span class="variant lem" data-wit="strato6">nere sulle quali scivolano</span><span class="variant rdg" data-wit="strato5">rigate di</span></span>
+                                                   
+                                                    lacrime d'argento, luci velate 
+                                                    
+                                                   <span class="choice text-block"><span class="variant lem" data-wit="strato6">che ti fissano dagli angoli come occhi di gatto e un</span><span class="variant rdg" data-wit="strato5">e un <span class="gap" title="Gap (erased)"><span class="gap-marker">[&#8230;]</span></span></span></span>
+                                                
+                                                     puzzo d'incenso dappertutto che ti 
+                                                     
+                                                   <span class="choice text-block"><span class="variant lem" data-wit="strato6">torce</span><span class="variant rdg" data-wit="strato5">rivolta</span></span>
+                                                
+                                                   torce lo stomaco.
+                           </p>
+                        </div>
+                        <ul class="page-entities-source" hidden="hidden">
+                           <li data-type="persName" data-role="mention" data-wd="https://www.wikidata.org/entity/Q993387" data-key="https://www.wikidata.org/entity/Q993387">Euriloco</li>
+                           <li data-type="persName" data-role="speaker" data-wd="https://www.wikidata.org/entity/Q993387" data-key="https://www.wikidata.org/entity/Q993387">Euriloco</li>
+                           <li data-type="persName" data-role="speaker" data-wd="" data-key="#Marinaio">Marinaio</li>
+                           <li data-type="persName" data-role="speaker" data-wd="" data-key="#Spettatore">Spettatore</li>
+                           <li data-type="persName" data-role="speaker" data-wd="" data-key="#Marinaio">Marinaio</li>
+                           <li data-type="persName" data-role="mention" data-wd="" data-key="#Ancella">Ancella</li>
+                           <li data-type="persName" data-role="speaker" data-wd="" data-key="#Ancella">Ancella</li>
+                           <li data-type="persName" data-role="mention" data-wd="https://www.wikidata.org/entity/Q993387" data-key="https://www.wikidata.org/entity/Q993387">Euriloco</li>
+                           <li data-type="objectName" data-role="mention" data-wd="https://www.wikidata.org/entity/Q3867367" data-key="https://www.wikidata.org/entity/Q3867367">Murattys</li>
+                           <li data-type="persName" data-role="speaker" data-wd="https://www.wikidata.org/entity/Q993387" data-key="https://www.wikidata.org/entity/Q993387">Euriloco</li>
+                           <li data-type="persName" data-role="mention" data-wd="" data-key="#Ancella">Ancella</li>
+                           <li data-type="persName" data-role="mention" data-wd="" data-key="#Ancella">Ancella</li>
+                           <li data-type="persName" data-role="speaker" data-wd="" data-key="#Ancella">Ancella</li>
+                           <li data-type="persName" data-role="mention" data-wd="" data-key="#Marinaio">Marinaio</li>
+                           <li data-type="persName" data-role="mention" data-wd="" data-key="#Marinaio">Marinaio</li>
+                           <li data-type="persName" data-role="speaker" data-wd="https://www.wikidata.org/entity/Q993387" data-key="https://www.wikidata.org/entity/Q993387">Euriloco</li>
+                           <li data-type="persName" data-role="mention" data-wd="" data-key="#Ancella">Ancella</li>
+                           <li data-type="persName" data-role="mention" data-wd="" data-key="#Ancella">Ancella</li>
+                           <li data-type="persName" data-role="speaker" data-wd="" data-key="#Spettatore">Spettatore</li>
+                           <li data-type="persName" data-role="speaker" data-wd="https://www.wikidata.org/entity/Q993387" data-key="https://www.wikidata.org/entity/Q993387">Euriloco</li>
+                           <li data-type="persName" data-role="mention" data-wd="https://www.wikidata.org/entity/Q187602" data-key="https://www.wikidata.org/entity/Q187602">Circe</li>
+                           <li data-type="persName" data-role="speaker" data-wd="" data-key="#Spettatore">Spettatore</li>
+                           <li data-type="persName" data-role="speaker" data-wd="https://www.wikidata.org/entity/Q993387" data-key="https://www.wikidata.org/entity/Q993387">Euriloco</li>
+                        </ul>
+                     </div>
+                     <div class="page-image-column"><img class="page-image" src="assets/img/Ums25/page8.jpg" alt="Facsimile page 8"></div>
+                  </div>
+               </article>
+               <article class="page" data-page="9" data-facs="#P6">
+                  <header class="page-header">
+                     <h2 class="page-title">Page 9</h2>
+                  </header>
+                  <div class="page-inner">
+                     <div class="page-text-column">
+                        <div class="sp"><span class="speaker"><span class="entity persName">Spett.</span></span><p>Ma il <span class="entity persName">capitano</span> che dice?
+                           </p>
+                        </div>
+                        <div class="sp"><span class="speaker"><span class="entity persName">Euril.</span></span><p>Il <span class="entity persName">capitano</span>? S'infila fra le lenzuola di seta di madama <span class="entity persName">Circe</span> e
+                                                sogna! Me li hanno stregati tutti, dio controvelaccino! 
+                           </p>
+                        </div>
+                        <div class="sp"><span class="speaker"><span class="entity persName">Spett.</span></span><p><span class="choice text-block"><span class="variant lem" data-wit="strato6"><span class="unclear" title="Unclear (illegible)">Senta</span> lei - scusi l'intromissione-</span><span class="variant rdg" data-wit="strato5">E lei non</span></span>
+                                                   
+                                                   dorme tra lenzuoli di seta nera?
+                           </p>
+                        </div>
+                        <div class="sp"><span class="speaker"><span class="entity persName">Euril.</span></span><p> Io? 
+                                                <span class="choice text-block"><span class="variant lem" data-wit="strato6"><span class="gap" title="Gap (erased)"><span class="gap-marker">[&#8230;]</span></span></span><span class="variant rdg" data-wit="strato5"><span class="gap" title="Gap (erased)"><span class="gap-marker">[&#8230;]</span></span></span></span>
+                                                
+                                                Madonna contromezzana!
+                                                <span class="choice text-block"><span class="variant lem" data-wit="strato6">Cos&igrave; nero che</span><span class="variant rdg" data-wit="strato5"><span class="gap" title="Gap (erased)"><span class="gap-marker">[&#8230;]</span></span> cos&igrave; nero che <span class="unclear" title="Unclear (erased)">mi</span></span></span>
+                                                
+                                                sono <span class="entity persName">quartiermastro</span>, tutte le sere salgo a bordo e butto questo 
+                                                <span class="choice text-block"><span class="variant lem" data-wit="strato6">mio</span><span class="variant rdg" data-wit="strato5"></span></span><span class="unclear" title="Unclear (illegible)">guanto sopra</span> sull'amaca... Vuol sapere cos'&egrave; quest'isola? Glie lo dico
+                                                <span class="choice text-block"><span class="variant lem" data-wit="strato6">:</span><span class="variant rdg" data-wit="strato5"> io cos'&egrave;:</span></span>
+                                               &egrave; la sede dell'estetismo. Tutto &eacute; vacuo, falso, artificioso. Lo stesso mare...
+                                               <span class="choice text-block"><span class="variant lem" data-wit="strato6"><span class="gap" title="Gap (erased)"><span class="gap-marker">[&#8230;]</span></span></span><span class="variant rdg" data-wit="strato0">che circonda l'isola...</span></span><span class="choice text-block"><span class="variant lem" data-wit="strato6">Ha mai visto il mare lei, quello vero?</span><span class="variant rdg" data-wit="strato0">Lei conosce il mare? Ha mai visto il mare</span><span class="variant rdg" data-wit="strato1">Ha mai visto il mare</span><span class="variant rdg" data-wit="strato5">Ha mai visto il mare lei?</span></span></p>
+                        </div>
+                        <div class="sp"><span class="speaker"><span class="entity persName">Spett.</span></span><p><span class="choice text-block"><span class="variant lem" data-wit="strato5">Come no!</span><span class="variant rdg" data-wit="strato0">Il mare!... eh! come no!.. tante volte</span></span></p>
+                        </div>
+                        <div class="sp"><span class="speaker"><span class="entity persName">Euril.</span></span><p> Allora lo sa com'&eacute;:</p>
+                           <p>l'onda che 
+                                                <span class="choice text-block"><span class="variant lem" data-wit="strato2">si butta</span><span class="variant rdg" data-wit="strato0">sale</span></span>
+                                                
+                                                sulla riva, poi 
+                                                <span class="choice text-block"><span class="variant lem" data-wit="strato3">torna indietro per scagliarsi un'altra volta; il</span><span class="variant rdg" data-wit="strato0">si ritira. Il</span><span class="variant rdg" data-wit="strato1">torna indietro il</span><span class="variant rdg" data-wit="strato2">torna indietro per scagliarsi poi un&#8217;altra volta; </span></span>
+                                               
+                                                mare, nemico della terra, avversario indomabile; il mare che assalta la terra 
+                                                <span class="choice text-block"><span class="variant lem" data-wit="strato1">e vuole</span><span class="variant rdg" data-wit="strato0">cerca di</span></span>
+                                                invaderla notte e giorno 
+                                                <span class="choice text-block"><span class="variant lem" data-wit="strato1">; il</span><span class="variant rdg" data-wit="strato0">: - Il</span></span> 
+                                                
+                                                mare insomma, con la sua vita propria, la sua oscura,
+                                                ostinatissima volont&agrave;, le sue passioni,
+                                                <span class="choice text-block"><span class="variant lem" data-wit="strato1"><span class="gap" title="Gap (erased)"><span class="gap-marker">[&#8230;]</span></span></span><span class="variant rdg" data-wit="strato0"><span class="unclear" title="Unclear (erased)">tremende</span></span></span>
+                                                le sue scemenze. 
+                           </p>
+                        </div>
+                        <ul class="page-entities-source" hidden="hidden">
+                           <li data-type="persName" data-role="speaker" data-wd="" data-key="#Spettatore">Spettatore</li>
+                           <li data-type="persName" data-role="mention" data-wd="https://www.wikidata.org/entity/Q47231" data-key="https://www.wikidata.org/entity/Q47231">Ulisse</li>
+                           <li data-type="persName" data-role="speaker" data-wd="https://www.wikidata.org/entity/Q993387" data-key="https://www.wikidata.org/entity/Q993387">Euriloco</li>
+                           <li data-type="persName" data-role="mention" data-wd="https://www.wikidata.org/entity/Q47231" data-key="https://www.wikidata.org/entity/Q47231">Ulisse</li>
+                           <li data-type="persName" data-role="mention" data-wd="https://www.wikidata.org/entity/Q187602" data-key="https://www.wikidata.org/entity/Q187602">Circe</li>
+                           <li data-type="persName" data-role="speaker" data-wd="" data-key="#Spettatore">Spettatore</li>
+                           <li data-type="persName" data-role="speaker" data-wd="https://www.wikidata.org/entity/Q993387" data-key="https://www.wikidata.org/entity/Q993387">Euriloco</li>
+                           <li data-type="persName" data-role="mention" data-wd="https://www.wikidata.org/entity/Q993387" data-key="https://www.wikidata.org/entity/Q993387">Euriloco</li>
+                           <li data-type="persName" data-role="speaker" data-wd="" data-key="#Spettatore">Spettatore</li>
+                           <li data-type="persName" data-role="speaker" data-wd="https://www.wikidata.org/entity/Q993387" data-key="https://www.wikidata.org/entity/Q993387">Euriloco</li>
+                        </ul>
+                     </div>
+                     <div class="page-image-column"><img class="page-image" src="assets/img/Ums25/page9.jpg" alt="Facsimile page 9"></div>
+                  </div>
+               </article>
+               <article class="page" data-page="10" data-facs="#P7">
+                  <header class="page-header">
+                     <h2 class="page-title">Page 10</h2>
+                  </header>
+                  <div class="page-inner">
+                     <div class="page-text-column">
+                        <p>l'onda che 
+                                             <span class="choice text-block"><span class="variant lem" data-wit="strato2">si butta</span><span class="variant rdg" data-wit="strato0">sale</span></span>
+                                             
+                                             sulla riva, poi 
+                                             <span class="choice text-block"><span class="variant lem" data-wit="strato3">torna indietro per scagliarsi un'altra volta; il</span><span class="variant rdg" data-wit="strato0">si ritira. Il</span><span class="variant rdg" data-wit="strato1">torna indietro il</span><span class="variant rdg" data-wit="strato2">torna indietro per scagliarsi poi un&#8217;altra volta; </span></span>
+                                            
+                                             mare, nemico della terra, avversario indomabile; il mare che assalta la terra 
+                                             <span class="choice text-block"><span class="variant lem" data-wit="strato1">e vuole</span><span class="variant rdg" data-wit="strato0">cerca di</span></span>
+                                             invaderla notte e giorno 
+                                             <span class="choice text-block"><span class="variant lem" data-wit="strato1">; il</span><span class="variant rdg" data-wit="strato0">: - Il</span></span> 
+                                             
+                                             mare insomma, con la sua vita propria, la sua oscura,
+                                             ostinatissima volont&agrave;, le sue passioni,
+                                             <span class="choice text-block"><span class="variant lem" data-wit="strato1"><span class="gap" title="Gap (erased)"><span class="gap-marker">[&#8230;]</span></span></span><span class="variant rdg" data-wit="strato0"><span class="unclear" title="Unclear (erased)">tremende</span></span></span>
+                                             le sue scemenze. 
+                        </p>
+                        <div class="sp"><span class="speaker"><span class="entity persName">Spet.</span></span><p>E questo invece?</p>
+                        </div>
+                        <div class="sp"><span class="speaker"><span class="entity persName">Euril.</span></span><p>Diversissimo! Un'altra cosa! Non pi&ugrave; l'avversario, ma un alleato fedelissimo della terra, implicati entrambi nella stessa
+                              perfida complicit&agrave;. Un mare senza
+                                                volont&agrave;, senza individualit&agrave; - Si figuri! lui, l'individualista per eccellenza! - Un mare emanazione della
+                              terra: la terra che 
+                                                <span class="choice text-block"><span class="variant lem" data-wit="strato2">muta</span><span class="variant rdg" data-wit="strato0">si prolunga, <span class="unclear" title="Unclear (erased)">mostrando</span></span><span class="variant rdg" data-wit="strato1">e muta</span></span>
+                                                sostanza e si prolunga.
+                           </p>
+                        </div>
+                        <div class="sp"><span class="speaker"><span class="entity persName">Spet.</span></span><p><span class="choice text-block"><span class="variant lem" data-wit="strato1">Come</span><span class="variant rdg" data-wit="strato0"><span class="unclear" title="Unclear (erased)">E</span> come</span></span>
+                                                   mai?
+                           </p>
+                        </div><span class="choice text-block"><span class="variant lem" data-wit="strato4">
+                              <div class="sp"><span class="speaker"><span class="entity persName">Euril.</span></span><p>Mah!.. Io dico anche gli elementi sono corrotti qui intorno. E la variet&agrave;! quella costante, inesauribile variet&agrave; del mare,
+                                    quel suo continuo cambiare faccia, vestito, sguardo; quei suoi umori mutabilissimi nei quali io - nato sul mare, cullato dalle
+                                    maree, dalle maree, cresciuto sulle creste delle onde - non sono riuscito ancora, vecchio come mi vede, a capirci nulla; qui
+                                    invece&#8230;
+                                 </p>
+                              </div></span><span class="variant rdg" data-wit="strato0">
+                              <div class="sp"><span class="speaker"><span class="entity persName">Euril.</span></span><p>Mah!.. Io dico anche gli elementi sono corrotti intorno... E la <span class="unclear" title="Unclear (erased)">diversit&agrave;</span></p>
+                              </div>
+                              <div class="sp"><span class="speaker"><span class="entity persName">Spet.</span></span><p>La diversit&agrave;?</p>
+                              </div>
+                              <div class="sp"><span class="speaker"><span class="entity persName">Euril</span></span><p>Quella costante inesauribile variet&agrave; del mare, quei <span class="unclear" title="Unclear (erased)">suoi</span> umori mutabilissimi che io nato sul mare, navigatore fin dalla culla, vissuto sulle creste delle onde - non sono riuscito
+                                    ancora a prendere mi riesce ancora <span class="unclear" title="Unclear (erased)">di</span> ritrovare tra un minuto e l'altro un <span class="unclear" title="Unclear (erased)">non te lo aspetti del mare che non si muove
+                                                                    inaspettato, inasprito</span> qui
+                                                           
+                                 </p>
+                              </div></span><span class="variant rdg" data-wit="strato1">
+                              <div class="sp"><span class="speaker"><span class="entity persName">Euril.</span></span><p>Mah!.. Io dico anche gli elementi sono corrotti qui intorno... E la variet&agrave;!</p>
+                              </div>
+                              <div class="sp"><span class="speaker"><span class="entity persName">Spet.</span></span><p>La variet&agrave;?</p>
+                              </div>
+                              <div class="sp"><span class="speaker"><span class="entity persName">Euril</span></span><p>Quella costante inesauribile variet&agrave; del mare, quel suo continuo cambiare faccia, vestito,<span class="gap" title="Gap (erased)"><span class="gap-marker">[&#8230;]</span></span>; sguardo; quei suoi umori mutabilissimi nei quali io - nato sul mare, navigatore fin dalla culla sulle creste delle onde
+                                    - non sono riuscito <span class="gap" title="Gap (erased)"><span class="gap-marker">[&#8230;]</span></span> ancora, vecchio come mi vede, a capirci nulla;<span class="unclear" title="Unclear (erased)">di</span> qui invece... minuti
+                                 </p>
+                              </div></span><span class="variant rdg" data-wit="strato2">
+                              <div class="sp"><span class="speaker"><span class="entity persName">Euril.</span></span><p>Mah!.. Io dico anche gli elementi sono corrotti qui intorno. E la variet&agrave;!</p>
+                              </div>
+                              <div class="sp"><span class="speaker"><span class="entity persName">Spet.</span></span><p>La variet&agrave;?</p>
+                              </div>
+                              <div class="sp"><span class="speaker"><span class="entity persName">Euril</span></span><p>Quella costante inesauribile variet&agrave; del mare, quel suo continuo cambiare faccia, vestito, sguardo; quei suoi umori mutabilissimi
+                                    nei quali io - nato sul mare, cullato dalle maree, dalle maree, cresciuto sulle creste delle onde - sono riuscito ancora,
+                                    vecchio come mi vede, a capirci nulla; qui invece&#8230; 
+                                 </p>
+                              </div></span></span><div class="sp"><span class="speaker"><span class="entity persName">Spet.</span></span><p><span class="choice text-block"><span class="variant lem" data-wit="strato1">Calmo?</span><span class="variant rdg" data-wit="strato0"><span class="unclear" title="Unclear (erased)">L&igrave;</span> calmo</span></span>
+                                                  ?
+                           </p>
+                        </div>
+                        <div class="sp"><span class="speaker"><span class="entity persName">Euril.</span></span><p><span class="choice text-block"><span class="variant lem" data-wit="strato1">Come</span><span class="variant rdg" data-wit="strato0">Calmo? come</span></span>
+                                                si fa a dire calmo? 
+                                                <span class="choice text-block"><span class="variant lem" data-wit="strato4">Morto... Ma neppure. Perch&egrave;</span><span class="variant rdg" data-wit="strato0">Sono <span class="unclear" title="Unclear (erased)">innocente</span>, io, il mio parlare &egrave; povero. Ma credo che nemmeno lei
+                                                            che m'ha l'aria d'una persona istruita, troverebbe una parola per esprimere... Calmo ,no! morto
+                                                            forse... ma nemmeno perch&eacute; </span><span class="variant rdg" data-wit="strato1">Sono <span class="unclear" title="Unclear (erased)">innocente</span>, io, il mio parlare &egrave; povero. Ma credo nemmeno lei
+                                                            che m'ha l'aria d'una persona istruita, troverebbe una parola per esprimere... Calmo ,no! morto
+                                                            forse... ma nemmeno perch&eacute;</span><span class="variant rdg" data-wit="strato2">Morto... Ma neppure il mio parlare &egrave; povero. Ma credo nemmeno lei
+                                                            che m'ha l'aria d'una persona istruita, troverebbe una parola per esprimere...
+                                                            forse... ma perch&eacute;</span></span>
+                                                si muove, non &egrave; che
+                           </p>
+                        </div>
+                        <ul class="page-entities-source" hidden="hidden">
+                           <li data-type="persName" data-role="speaker" data-wd="" data-key="#Spettatore">Spettatore</li>
+                           <li data-type="persName" data-role="speaker" data-wd="https://www.wikidata.org/entity/Q993387" data-key="https://www.wikidata.org/entity/Q993387">Euriloco</li>
+                           <li data-type="persName" data-role="speaker" data-wd="" data-key="#Spettatore">Spettatore</li>
+                           <li data-type="persName" data-role="speaker" data-wd="https://www.wikidata.org/entity/Q993387" data-key="https://www.wikidata.org/entity/Q993387">Euriloco</li>
+                           <li data-type="persName" data-role="speaker" data-wd="https://www.wikidata.org/entity/Q993387" data-key="https://www.wikidata.org/entity/Q993387">Euriloco</li>
+                           <li data-type="persName" data-role="speaker" data-wd="" data-key="#Spettatore">Spettatore</li>
+                           <li data-type="persName" data-role="speaker" data-wd="https://www.wikidata.org/entity/Q993387" data-key="https://www.wikidata.org/entity/Q993387">Euriloco</li>
+                           <li data-type="persName" data-role="speaker" data-wd="https://www.wikidata.org/entity/Q993387" data-key="https://www.wikidata.org/entity/Q993387">Euriloco</li>
+                           <li data-type="persName" data-role="speaker" data-wd="" data-key="#Spettatore">Spettatore</li>
+                           <li data-type="persName" data-role="speaker" data-wd="https://www.wikidata.org/entity/Q993387" data-key="https://www.wikidata.org/entity/Q993387">Euriloco</li>
+                           <li data-type="persName" data-role="speaker" data-wd="https://www.wikidata.org/entity/Q993387" data-key="https://www.wikidata.org/entity/Q993387">Euriloco</li>
+                           <li data-type="persName" data-role="speaker" data-wd="" data-key="#Spettatore">Spettatore</li>
+                           <li data-type="persName" data-role="speaker" data-wd="https://www.wikidata.org/entity/Q993387" data-key="https://www.wikidata.org/entity/Q993387">Euriloco</li>
+                           <li data-type="persName" data-role="speaker" data-wd="" data-key="#Spettatore">Spettatore</li>
+                           <li data-type="persName" data-role="speaker" data-wd="https://www.wikidata.org/entity/Q993387" data-key="https://www.wikidata.org/entity/Q993387">Euriloco</li>
+                        </ul>
+                     </div>
+                     <div class="page-image-column"><img class="page-image" src="assets/img/Ums25/page10.jpg" alt="Facsimile page 10"></div>
+                  </div>
+               </article>
+            </section>
+            <aside id="metadata-panel" class="metadata-panel" hidden="hidden">
+               <h2 class="metadata-title">Manuscript Metadata</h2>
+               <div class="metadata-block">
+                  <h3>Work</h3>
+                  <p><strong>Title:</strong>Capitan Ulisse 
+                  </p>
+                  <p><strong>Author:</strong> <a href="https://www.wikidata.org/entity/Q691973" target="_blank" rel="schema:author">Alberto Savinio</a>
+                  </p>
+               </div>
+               <div class="metadata-block">
+                  <h3>Manuscript</h3>
+                  <p><strong>Repository:</strong> <a href="https://www.wikidata.org/entity/Q930825" target="_blank" rel="noopener noreferrer">Archivio Contemporaneo Gabinetto Vieusseux</a></p>
+                  <p><strong>Collection:</strong>Fondo Alberto Savinio
+                  </p>
+                  <p><strong>ID:</strong>AS. II. 11.5
+                  </p>
+                  <p><strong>Date:</strong> 1925-02
+                  </p>
+               </div>
+               <div class="metadata-block">
+                  <h3>Related resources</h3>
+                  <p><strong>Related printed edition:</strong> <a href="U34.html" target="_blank" rel="noopener noreferrer">Printed edition</a></p>
+               </div>
+               <div class="metadata-block characters-block">
+                  <h3>People</h3>
+                  <ul id="meta-people-list"></ul>
+               </div>
+               <div class="metadata-block">
+                  <h3>Places</h3>
+                  <ul id="meta-places-list"></ul>
+               </div>
+               <div class="metadata-block">
+                  <h3>Other entities</h3>
+                  <ul id="meta-other-list"></ul>
+               </div>
+            </aside>
+         </main>
+      </div>
+
+  <footer id="footer" class="footer accent-background">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-5 col-md-12 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <span class="sitename">Text on Stage</span>
+          </a>
+          <p>This website was created by Denise Biasio as part of her thesis project for the MA in Digital Humanities and Digital Knowledge at the University of Bologna.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Techie</strong> <span>All Rights Reserved</span></p>
+      <div class="credits">
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/JS/Ums25.js"></script>
+  <script src="assets/JS/main.js"></script>
+
+</body>
+
+</html>
