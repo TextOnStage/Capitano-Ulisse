@@ -1,0 +1,1553 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         
+         <titleStmt>
+            <title>Capitan Ulisse Manuscript Critical Transcription</title>
+            <author ref="#AS">Alberto Savinio</author>
+            <respStmt>
+               <resp>Transcribed by</resp>
+               <persName>Denise Biasio</persName>
+            </respStmt>
+         </titleStmt>
+         
+         <editionStmt>
+            <edition n="1">Private edition, <date>December, 2024</date></edition>
+            <respStmt>
+               <resp>Annotations by</resp>
+               <persName>Denise Biasio</persName>
+            </respStmt>
+         </editionStmt>
+         
+         <publicationStmt>
+            <authority xml:id="GV" ref="https://www.wikidata.org/entity/Q930825">Archivio Contemporaneo Gabinetto Vieusseux</authority>
+            <availability status="restricted">
+               <p>Available upon request for academic purposes only.</p> 
+            </availability>
+         </publicationStmt>
+         
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository ref="#GV">Archivio Contemporaneo Gabinetto Vieusseux</repository>
+                  <collection>Fondo Alberto Savinio</collection>
+                  <idno>AS. II. 11.5</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Capitan Ulisse</title>
+                     <author ref="#AS">Alberto Savinio</author>
+                     <docDate when="1925-02">1925</docDate>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <p>Stesura ms. del testo, a penna e parzialmente a lapis, con cartulazione in varie sequenze a matita blu, e con cassature e correzioni autogr., a penna e a matita blu
+                     Il testo ms. è suddiviso in fascicoli, con titolo autogr. di A. Savinio, a matita blu: "Capitan Ulisse | Atto Primo"; " Capitan Ulisse | Atto Secondo | Scena I°";
+                     "Atto Secondo | Secondo Quadro"; "Atto Secondo | Terzo Quadro"; "Atto Terzo"</p>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>Cartaceo</support>
+                        <extent>73 c. + dss., 82 c.</extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+            <listWit>
+               <witness cert="medium" xml:id="strato0">Lezione originale – prima stesura manoscritta.</witness>
+               <witness cert="low" xml:id="strato1">Prima correzione – di solito in penna più scura, spesso con cancellature parzialmente leggibili.</witness>
+               <witness cert="low" xml:id="strato2">Seconda correzione – di solito tratti a matita o penna più chiara, sovrascrivono le modifiche precedenti.</witness>
+               <witness cert="low" xml:id="strato3">Terza correzione – raramente presente, modifica le correzioni precedenti.</witness>
+               <witness cert="low" xml:id="strato4">Correzione a matita blu – spesso associata a cancellazioni nette o numerazioni di pagina.</witness>
+               <witness cert="high" xml:id="strato5">Lezione incollati o sui fogli aggiunti– può sostituire sezioni precedenti o integrarsi con il testo esistente.</witness>
+               <witness cert="medium" xml:id="strato6">Prima correzione sul testo incollato o sui fogli aggiunti</witness>
+               <witness cert="high" xml:id="strato7">Seconda correzione sul testo incollato o sui fogli aggiunti</witness>
+            </listWit>            
+         </sourceDesc>
+      </fileDesc>
+     <profileDesc> 
+        <particDesc>
+           <listPerson>
+              <person xml:id="AS">
+                 <persName ref="https://www.wikidata.org/entity/Q691973" xml:lang="it">Alberto Savinio</persName>
+              </person>
+              <person xml:id="MS" >
+                 <persName ref="https://www.wikidata.org/entity/Q52156963" xml:lang="it">Maria Morino Savinio</persName>
+              </person>
+           </listPerson>
+           <listPerson type="play_characters">
+              <person xml:id="Ancella">
+                 <persName xml:lang="it">Ancella</persName>                  
+              </person>
+              <person xml:id="Circe">
+                 <persName ref="https://www.wikidata.org/entity/Q187602" xml:lang="it">Circe</persName>
+              </person>
+              <person xml:id="Euriloco">
+                 <persName ref="https://www.wikidata.org/entity/Q993387" xml:lang="it">Euriloco</persName>
+              </person>
+              <person xml:id="Marinaio">
+                 <persName xml:lang="it">Marinaio</persName>                  
+              </person>
+              <person xml:id="Spettatore">
+                 <persName xml:lang="it">Spettatore</persName>
+              </person>
+              <person xml:id="Ulisse">
+                 <persName ref="https://www.wikidata.org/entity/Q47231" xml:lang="it">Ulisse</persName>
+              </person>
+           </listPerson>
+        </particDesc>
+     </profileDesc>
+  </teiHeader>
+   <facsimile>
+      
+      <surface xml:id="Title" n="1">
+         <graphic url="assets/img/Ums25/page1.jpg"/>
+      </surface>
+      
+      <surface xml:id="P1" n="2">
+         <graphic url="assets/img/Ums25/page2.jpg"/>
+      </surface>
+      
+      <surface xml:id="P1bis" n="3">
+         <graphic url="assets/img/Ums25/page3.jpg"/>
+      </surface>
+      
+      <surface xml:id="P2" n="4">
+         <graphic url="assets/img/Ums25/page4.jpg"/>
+      </surface>
+      
+      <surface xml:id="P3" n="5">
+         <graphic url="assets/img/Ums25/page5.jpg"/>
+      </surface>
+      
+      <surface xml:id="P3a" n="6">
+         <graphic url="assets/img/Ums25/page6.jpg"/>
+      </surface>
+      
+      <surface xml:id="P4" n="7">
+         <graphic url="assets/img/Ums25/page7.jpg"/>
+      </surface>
+      
+      <surface xml:id="P5" n="8">
+         <graphic url="assets/img/Ums25/page8.jpg"/>
+      </surface>
+      
+      <surface xml:id="P6" n="9">
+         <graphic url="assets/img/Ums25/page9.jpg"/>
+      </surface>
+      
+      <surface xml:id="P7" n="10">
+         <graphic url="assets/img/Ums25/page10.jpg"/>
+      </surface>
+      
+   </facsimile>
+   
+   
+  <text>
+     <body xml:lang="it">
+         
+        <div type="play">
+           
+           <pb facs="#Title" n="1"/>
+         
+           <salute hand="#AS"> A <persName ref="#MS">Maria</persName> colei che <persName ref="#Ulisse">Ulisse</persName>
+                  cercava <lb/> <persName ref="#AS" type="signature">Savinio</persName> <lb/> <placeName ref="https://www.wikidata.org/entity/Q220">Roma</placeName>,<date when="1925-06">giugno,1925</date></salute>
+               
+               <head>"Capitan <persName ref="#Ulisse">Ulisse</persName>„</head>
+           
+           <div type="act" n="1">
+               
+               <p>Atto Primo</p>
+        
+           <pb facs="#P1" n="2"/>
+              
+                 <app> 
+                    <lem wit="#strato5"> <stage> Sipario chiuso.</stage></lem> 
+                    <rdg wit="#strato0"><gap reason="notInVersion"/></rdg>
+                 </app>
+              
+              <sp>
+                 <speaker>
+                    
+                    <persName ref="#Euriloco">Euriloco</persName>
+                    
+                 </speaker>
+                 
+                 <app>
+                    <lem wit="#strato6"><stage>(Vecchio lupo di mare barba a gorgiera - maglione scuro,  calzoni di velluto - viene sul proscenio e va a sedersi sul  primo gradino della
+                          scala che unisce il palcoscenico alla platea. É accigliato nero. Cava la pipa di tasca, l'accende:  la pipa non tira.)</stage></lem>
+                    <rdg wit="#strato0"><gap reason="notInVersion"/></rdg>
+                    <rdg wit="#strato5"><stage>(Vecchio lupo di mare barba a gorgiera, maglione scuro e calzoni di velluto, viene sul proscenio si va a sedere sul primo gradino della scala
+                       che unisce il palcoscenico alla  platea. É accigliato nero. Cava la pipa di tasca, l'accende: la pipa non tira.) </stage></rdg>
+                 </app>
+                    
+                    <p>Porca miseria! <stage>(Poppa rabbiosamente.)</stage> Dio pappafico!</p>
+                        
+                        <app>
+                           
+                           <lem wit="#strato5"><stage>(Brucia parecchi fiammiferi uno dietro  l’altro:</stage></lem>
+                           <rdg wit="#strato0"><stage>(brucia un altro fiammifero:</stage></rdg>
+                           
+                        </app>
+                        
+                        <stage>la pipa s'ostina a non tirare.)</stage> <p> Madonna pie' di pollo! Anche "Alessandra„ ci si mette! Boh!..  
+                     O fumare o morire!  <stage>(Scruta dentro il fornello.)</stage>  Dio bompresso  e libeccioso!.. Cenere!
+                     cenere!.. Chi dice cenere dice  zero.  <stage>(Si fruga nelle tasche.)</stage> Nulla! nemmeno 
+                     
+                     <app>
+                        
+                        <lem wit="#strato5">il chicco di grazia</lem>
+                        <rdg wit="#strato0">l'ultimo chicco </rdg>
+                        
+                     </app> 
+                        
+                      che si dà ai 
+                      
+                      <app>
+                         
+                         <lem wit="#strato5">condannati.</lem>
+                         <rdg wit="#strato0"><unclear cert="low" reason="erased">moribondi!</unclear></rdg>
+                         <rdg wit="#strato1">condannati!</rdg>
+                         
+                      </app>
+                      
+                    <app>
+                       
+                       <lem wit="#strato5" type="addition">Dio sprofondi  l'isola di <persName ref="#Circe">Circe</persName>.</lem>
+                       <rdg wit="#strato0"><gap reason="notInVersion"/></rdg>
+                       
+                    </app>
+                    </p>
+              </sp>
+               <sp>
+                  <speaker><persName ref="#Spettatore">Spettatore</persName></speaker>
+                  
+                  <stage>
+                     <app>
+                        
+                        <lem wit="#strato6">(Seduto in una poltrona di prima fila. Signore sulla cinquantina e calvo;
+                           cerimonioso,
+                           burocratico, banale.)</lem>
+                        <rdg wit="#strato0"><gap reason="notInVersion"/></rdg>
+                        <rdg wit="#strato5" type="addition">(Seduto in una poltrona di prima fila. Signore sulla cinquantina, 
+                        cerimonioso, burocratico, banale.)</rdg>
+                     
+                     </app>
+                  </stage> 
+                  
+                 <p>Salute a  lei, maestro.</p>
+                  
+               </sp>
+              
+              <sp>
+               
+               <speaker> <persName ref="#Euriloco">Euriloco</persName></speaker> 
+                 
+                 <p>Chi parla? 
+                    
+                    <stage>
+                  
+                  <app>
+                     <lem wit="#strato6">(Guarda in platea, riparandosi gli occhi con  la mano: riconosce lo Spettatore)</lem>
+                     <rdg wit="#strato0"><gap reason="notInVersion"/></rdg>
+                     <rdg wit="#strato5">(Guarda in platea, riparandosi gli occhi con la mano: vede lo Spettatore)</rdg>
+                  </app>
+                    
+                    </stage>
+                  
+                  Dica un 
+                  
+                  <app>
+                     <lem wit="#strato5">po lei:</lem>
+                     <rdg wit="#strato0">po:</rdg>
+                  </app> 
+                  
+                  le è  capitato mai di vedersi spuntare 
+                  
+                  <app>
+                     
+                     <lem wit="#strato5">tabacco sul cranio? </lem>
+                     <rdg wit="#strato0"><unclear cert="low" reason="erased">del</unclear> tabacco sotto la pancia?</rdg>
+                     <rdg wit="#strato1"><unclear cert="medium" reason="erased">il</unclear> tabacco sotto la pancia?</rdg>
+                     <rdg wit="#strato2">tabacco sotto la pancia?</rdg>
+                  </app>
+               </p>
+                 
+              </sp>
+              <sp>
+                 <speaker><persName ref="#Spettatore">Spettatore</persName></speaker>
+                 <p>
+                    <app>
+                       <lem wit="#strato5"> <stage>(Offeso)</stage> Non le permetto!.. </lem>
+                       <rdg wit="#strato0">A me!</rdg>
+                    </app>
+                 </p>
+              </sp>
+              
+              <sp>
+                 
+                 <speaker> <persName ref="#Euriloco">Euriloco</persName></speaker> 
+                 <p>
+                  
+                  <app>
+                  <lem wit="#strato5">No?.. Peccato! Era più facile vederlo sputare sul suo cranio che</lem>
+                  <rdg wit="#strato0"><unclear cert="low" reason="erased">Più facile sarebbe</unclear> che vederlo spuntare</rdg>
+                  <rdg wit="#strato1"> No?.. Peccato! C’era più speranza che le spuntasse là dove le ho detto, che</rdg>
+                  <rdg wit="#strato2">No?.. Peccato! C’era più speranza vederlo spuntare là dove le ho detto, che</rdg>
+                  </app>
+                  
+                  in questo sacramentatissimo paese. </p>
+                 
+              </sp>
+               
+              <sp>
+                 <speaker><persName ref="#Spettatore">Spettatore</persName></speaker>
+                 <p>
+                    <stage>
+                       <app>
+                          <lem wit="#strato6">(Ammansito)</lem>
+                          <rdg wit="#strato0"><gap reason="notInVersion"/></rdg>
+                          <rdg wit="#strato5">(Subito ammansito)</rdg>
+                       </app>
+                    </stage>
+                     
+                     Ha cercato bene?  
+                 </p>
+              </sp>
+              
+               <pb facs="#P1bis" n="3"/>
+               
+              <sp>
+                 
+                 <speaker> <persName ref="#Euriloco">Euriloco</persName></speaker> 
+                 <p>  Che vuol cercare! Fame, sete, rabbia di fumare: crepare  bisogna!</p>
+              </sp>
+              <sp>
+                 <speaker><persName ref="#Spettatore">Spettatore</persName></speaker>
+                 <p>Anche la fame e la sete?</p> 
+              </sp>
+               
+              <sp>
+                 <speaker><persName ref="#Euriloco">Euriloco</persName></speaker>
+                 <p> Provi a sfamarsi lei con gelatine, <foreign xml:lang="fr">soufflès</foreign>, 
+                  
+                  <app>
+                     <lem wit="#strato1">sgonfiotti, spumoni e altre  porcherie</lem>
+                     <rdg wit="#strato0">e altri <unclear cert="low" reason="erased">pasticci</unclear></rdg>
+                  </app>
+                  
+                  di questo genere  
+                  
+                  <app>
+                     <lem wit="#strato2">. Roba trasparente</lem>
+                     <rdg wit="#strato0">, trasparenti</rdg>
+                     <rdg wit="#strato1">. Tutta roba trasparente</rdg>
+                  </app>
+                  
+                     come
+                     <app>
+                        <lem wit="#strato1">celluloide, </lem>
+                        <rdg wit="#strato0">la celluloide</rdg>
+                     </app>
+                     
+                     tremolante come le cosce dei cavalli; 
+               <app>
+                  <lem wit="#strato1">ti nausea </lem>
+                  <rdg wit="#strato0">che ti nauseava</rdg>
+               </app>
+                  
+                  prima di saziarti!.. Hai sete? Di vino qui non 
+                  
+                  <app>
+                     <lem wit="#strato1">si parla:</lem>
+                     <rdg wit="#strato0">se ne parla neppure</rdg>
+                  </app>
+              
+                  questa bella gente festeggia 
+                  <app>
+                     <lem wit="#strato1">con liquori, rosolii e sciroppi - </lem>
+                     <rdg wit="#strato0"> coi liquori <unclear cert="low" reason="illegible">e</unclear></rdg>
+                  </app>
+                   possa andare  in bocca al pescecane!.. 
+                    
+                  <app>
+                     <lem wit="#strato2">Nemmeno l'acqua ti danno. Ma che acqua! acqua di seltz</lem>
+                     <rdg wit="#strato0">E nemmeno acqua ti danno: ma acqua di seltz</rdg>
+                     <rdg wit="#strato1">Ma nemmeno acqua ti danno: ma acqua di seltz</rdg>
+                  </app>
+                  
+                    che 
+                  
+                  <app>
+                    <lem wit="#strato3">, anziché levarla, mette</lem>
+                    <rdg wit="#strato0">invece di dissetarti ti mette</rdg>
+                    <rdg wit="#strato1">invece di dissetarti mette</rdg>
+                    <rdg wit="#strato2">anziché levartela mette</rdg>
+                  </app>
+                  
+                  più sete  di prima!..</p>
+              </sp>
+               
+              <sp>
+                 <speaker><persName ref="#Spettatore">Spettatore</persName></speaker>
+                 <p> Si calmi, 
+                  
+                  <app>
+                     <lem wit="#strato2">maestro! Non</lem>
+                     <rdg wit="#strato0">maestro! Si calmi! Non</rdg>
+                  </app>
+                  
+                  ha risposto neppure al  mio 
+                  <app>
+                     <lem wit="#strato2">saluto.</lem>
+                     <rdg wit="#strato0">buonasera.</rdg>
+                  </app>
+                 </p></sp>
+              <sp>
+                 <speaker><persName ref="#Euriloco">Euriloco</persName></speaker>
+                 <p> Buonasera... 
+                  <app>
+                    <lem wit="#strato2"><stage>(Continua a borbottare sottovoce.)</stage> Che</lem>
+                    <rdg wit="#strato0"> Buonasera! Domando io:che</rdg>
+                    <rdg wit="#strato1">Buonasera! Che</rdg>
+                     
+                  </app>
+                  
+                  significa 
+                  <app>
+                     <lem wit="#strato2">“Buonasera„ ?..</lem>
+                     <rdg wit="#strato0">“buo na sera„ ?..</rdg>
+                  </app>
+                        
+                  Sera buona! Anche le parole
+                  <app>
+                     <lem wit="#strato2">mi prendono in giro!</lem>
+                     <rdg wit="#strato0"><unclear cert="low" reason="erased">mi si</unclear> prendono in giro, vecchio sciagurato!</rdg>
+                     <rdg wit="#strato1">ti prendono in giro, vecchio sciagurato!</rdg>
+                  </app>
+                 </p>
+              </sp>
+              <sp>
+                 <speaker><persName ref="#Spettatore">Spettatore</persName></speaker>
+                 <p>
+                  
+                  <app>
+                     <lem wit="#strato2">Non ci badi: é</lem>
+                     <rdg wit="#strato0">Non ci badi maestro: <unclear cert="medium" reason="illegible">e</unclear></rdg>
+                     <rdg wit="#strato1"><unclear cert="medium" reason="illegible">E</unclear></rdg>
+                  </app>
+                  
+                  un modo 
+                  
+                  <app>
+                     <lem wit="#strato2">di dire,</lem>
+                     <rdg wit="#strato0">dire</rdg>
+                     <rdg wit="#strato1">di dire, non ci badi</rdg>
+                  </app>
+                  
+                 una frase convenzionale.</p>
+              </sp>
+               
+              <sp>
+                 <speaker><persName ref="#Euriloco">Euril.</persName></speaker>
+                 <p>Dove se le procura lei queste consolazioni? </p>
+              </sp>
+               <pb facs="#P2" n="4"/>
+               
+              <sp>
+                 <speaker><persName ref="#Spettatore">Spett.</persName></speaker>
+                 <p> Del resto, etimologia a parte, la serata è bella. 
+                  
+                  <app>
+                     <lem wit="#strato1">Poco mentre venivo</lem>
+                     <rdg wit="#strato0">Poco fa, quando venivo qui</rdg>
+                  </app>
+                
+                  sotto il cielo stellato… </p>
+              </sp>
+              
+              <sp>
+                 <speaker><persName ref="#Euriloco">Euril.</persName></speaker>
+                 <p>Si lasciano cacciare nella pipa </p>
+                 
+              </sp>
+              
+              <sp>
+                 <speaker><persName ref="#Spettatore">Spett.</persName></speaker> 
+                 <p>Chi?</p>
+              </sp>
+              
+              <sp>
+                 <speaker><persName ref="#Euriloco">Euril.</persName></speaker>
+                 <p>Si mangiano? </p> 
+              </sp>
+              
+              <sp>
+                 <speaker><persName ref="#Spettatore">Spett.</persName></speaker> 
+                 <p>Chi? </p>
+              </sp>
+              
+              <sp>
+                 <speaker><persName ref="#Euriloco"> Euril.</persName></speaker> 
+                 <p>Le stelle.</p>
+              </sp>
+              
+              <sp>
+                 <speaker><persName ref="#Spettatore">Spett.</persName></speaker> 
+                 <p>Che fame ciclopica!</p>
+              </sp>
+              
+              <sp>
+                 <speaker><persName ref="#Euriloco">Euril.</persName></speaker> 
+                 <p>
+                  
+                  <app>
+                     <lem wit="#strato3"> Giacché non si fumano, giacché non si mangiano, vada alla malora</lem>
+                     <rdg wit="#strato0">Vada a farsi benedire</rdg>
+                     <rdg wit="#strato1"><gap reason="erased" unit="word"/> a farsi benedire</rdg>
+                     <rdg wit="#strato2">E allora vada alla malora</rdg>
+                  </app>
+                   lei e le sue stelle!</p>
+              </sp>
+           
+              <sp>
+                 <speaker><persName ref="#Spettatore">Spett.</persName></speaker> 
+                 <p><stage>(risentito)</stage>
+                  <app>
+                     <lem wit="#strato4">Bel modo <unclear cert="medium">,</unclear></lem>
+                     <rdg wit="#strato0">Grazie! grazie! Bel modo <unclear cert="low">questo di</unclear></rdg>
+                     <rdg wit="#strato1">Grazie! grazie! Bel modo!</rdg>
+                  </app>
+                     
+                     sfogare i suoi  umori bisbetici con un uomo che non le ha fatto nulla di male! </p>
+              </sp>
+              <sp>
+                 <speaker><persName ref="#Euriloco">Euril.</persName></speaker> 
+                 <p>Bisbetico a me!</p>
+              </sp>
+              
+              <sp>
+                 <speaker><persName ref="#Spettatore">Spett.</persName></speaker> 
+                 <p> 
+                  <app>
+                     <lem wit="#strato2">Le sembra forse</lem>
+                     <rdg wit="#strato0">Le <unclear cert="low" reason="erased">pare forse</unclear></rdg>
+                     <rdg wit="#strato1">Le pare</rdg>
+                  </app>
+                     di essere una persona con cui si può ragionare? </p>
+              </sp>
+              
+              <sp>
+                 <speaker><persName ref="#Euriloco">Euril.</persName></speaker> 
+                 <p> 
+                  <app>
+                     <lem wit="#strato2">Che ci guadagna a ragionare? </lem>
+                     <rdg wit="#strato0">E che ci guadagnerebbe a ragionare con me?</rdg>
+                     <rdg wit="#strato1">Che ci guadagna a ragionare con me?</rdg>
+                  </app>
+                 </p>
+              </sp>
+
+              <sp>
+                 <speaker><persName ref="#Spettatore">Spett.</persName></speaker> 
+                 <p> 
+                     <app>
+                        <lem wit="#strato1">Dicevo così,tanto per fare quattro chiacchere. </lem>
+                        <rdg wit="#strato0"><gap reason="erased" unit="word"/>, dicevo così, tanto per passare il tempo.</rdg>
+                     </app>
+                  </p>
+              </sp>
+              
+              <sp>
+                 <speaker><persName ref="#Euriloco">Euril.</persName></speaker> 
+                 <p>
+                  <app>
+                     <lem wit="#strato2">Sfido io! Lei</lem>
+                     <rdg wit="#strato0">Parla facilmente lei! Sfido lei</rdg>
+                     <rdg wit="#strato1">Sfido lei</rdg>
+                  </app>
+                  
+                  viene qui la sera, si sdraia 
+                         <app>
+                            <lem wit="#strato1"><gap reason="erased"/></lem>
+                            <rdg wit="#strato0">comodamente</rdg>
+                         </app>
+                         
+                             in poltrona, è padrone di restare, 
+                  <app>
+                     <lem wit="#strato1"><gap reason="erased"/></lem>
+                     <rdg wit="#strato0">di</rdg>
+                  </app>
+                  
+                  andarsene,  
+                  
+                  <app>
+                     <lem wit="#strato2">fare tutti i suoi comodacci... Provi  un po a mettersi nei miei panni.</lem> 
+                     <rdg wit="#strato0">di fare tutto quello che le passa per la mente... Ma provi un po a mettersi nei miei panni: ci
+                        provi! </rdg>
+                     <rdg wit="#strato1">fare tutto ciò che le passa per la mente... Ma provi a mettersi nei miei panni.</rdg>
+                  </app>
+                  
+                  <stage>(Fa l'atto  di cavarsi il maglione)</stage> Non sono di bucato, l'avverto. Questo<lb/> maglione da tre mesi
+                  
+                  <app>
+                     <lem wit="#strato2">me lo porto addosso</lem>
+                     <rdg wit="#strato0">che lo porto addosso</rdg>
+                     <rdg wit="#strato1"><unclear cert="medium" reason="erased">non me</unclear> lo <unclear cert="medium" reason="erased">sono</unclear> cavato</rdg>
+                  </app>
+                  
+                  ma se non le  fa schifo ci provi, e vedrà se ho ragione si o no di  brontolare.
+                 </p>
+              </sp>
+              
+              <sp>
+                    <speaker><persName ref="#Spettatore">Spett.</persName></speaker> 
+                    <p>  Capisco, ma
+                  <app> 
+                     <lem wit="#strato2">un po di pazienza ci vuole, - che diamine! un po di sopportazione...</lem>
+                     <rdg wit="#strato0">d’altra parte un po di pazienza ci vuole, un po di sopportazione … che diavolo!</rdg>
+                     <rdg wit="#strato1">un po di pazienza ci vuole, - che diavolo! un po di sopportazione…</rdg>
+                  </app>
+               </p>
+              </sp>
+              
+              <sp>
+                 <speaker><persName ref="#Euriloco">Euril.</persName></speaker> 
+                 <p>Pazienza? Ha mai creduto 
+                  <app>
+                     <lem wit="#strato1" type="addition">lei</lem>
+                     <rdg wit="#strato0"><gap reason="notInVersion"/></rdg>
+                  </app>
+                  
+                  che la pazienza fosse un  deposito senza fondo? </p>
+              </sp>
+              
+              <sp>
+                 <speaker><persName ref="#Spettatore">Spett.</persName></speaker> 
+                 <p>Non dico, ma insomma... </p>
+              </sp>
+              
+              <sp>
+                 <speaker><persName ref="#Euriloco">Euril.</persName></speaker> 
+                 <p>Ne ho avuta fin troppa. Ero
+                  vestito, imbottito, carrozzato  di pazienza: coperto di pazienza dalla testa ai piedi, <unclear
+                     cert="low" reason="illegible">come</unclear>
+                  <app>
+                     <lem wit="#strato2">certi uomini</lem>
+                     <rdg wit="#strato0"><unclear cert="low" reason="illegible">e riso</unclear></rdg>
+                  </app>
+                  
+                  di <unclear cert="low" reason="illegible">di pelo</unclear>. 
+                  <app>
+                     <lem wit="#strato1">Poi,</lem>
+                     <rdg wit="#strato0"><unclear cert="low" reason="erased">Mai,</unclear></rdg>
+                  </app>
+                  
+                  tagli tagli,
+                  
+                  <app>
+                     <lem wit="#strato1">la</lem>
+                     <rdg wit="#strato0">questa</rdg>
+                  </app>
+                  
+                  pazienza  se
+                  
+                  <app>
+                     <lem wit="#strato2">n'é andata</lem>
+                     <rdg wit="#strato0">ne va</rdg>
+                  </app>
+                  
+                  via a falde. Nudo sono rimasto e pelato: pronto per lo spiedo, come il pollo.</p>
+              </sp>
+               
+               <pb facs="#P3" n="5"/>
+               
+              <sp>
+                 <speaker><persName ref="#Spettatore">Spett.</persName></speaker> 
+                 <p>  
+                  
+                  <app>
+                     <lem wit="#strato6">Purtroppo! A</lem>
+                     <rdg wit="#strato5">Lo so, purtroppo! <unclear cert="low" reason="erased">E</unclear></rdg>
+                  </app>
+                  
+                     voler dire una parola di conforto, si riesce 
+                     
+                     <app>
+                        <lem wit="#strato6">le più volte</lem>
+                        <rdg wit="#strato5">il più delle volte</rdg>
+                     </app>
+                  
+                        a irritare maggiormente.</p>
+              </sp>
+
+              <sp>
+                 <speaker><persName ref="#Euriloco">Euril.</persName></speaker> 
+                 <p> Mica me la piglio 
+                  <app>
+                     <lem wit="#strato6">con lei.</lem>
+                     <rdg wit="#strato5">con lei sa?</rdg>
+                  </app>
+                 </p>
+              </sp>
+              
+              <sp>
+                 <speaker><persName ref="#Spettatore">Spett.</persName></speaker> 
+                 <p>
+                  <app>
+                     <lem wit="#strato5">Avrebbe torto. Creda pure che</lem>
+                     <rdg wit="#strato0">Avrebbe avuto torto perché, <unclear cert="low" reason="erased">lei</unclear> si convinca pure,</rdg>
+                     <rdg wit="#strato1">Avrebbe avuto torto perché, si convinca pure,</rdg>
+                  </app>
+                  
+                  le mie intenzioni erano quanto di più innocente... </p>
+              </sp>
+              
+              <sp>
+                 <speaker><persName ref="#Euriloco">Euril.</persName></speaker> 
+                 <p>Lo so, lo so... 
+                  <app>
+                     <lem wit="#strato7">Lasci perdere! (Rabbonito d'un tratto, si china e con fare confidenziale
+                     domanda:) Non</lem>
+                     <rdg wit="#strato0">Non ci</rdg>
+                     <rdg wit="#strato5">Senta una cosa: non</rdg>
+                     <rdg wit="#strato6">Lasci andare! (Rabbonito d'un tratto, si china e con fare confidenziale
+                        domanda:) Non</rdg>
+                  </app>
+                     
+                     avrebbe per caso  un pizzico di tabacco? </p>
+              </sp>
+              
+              <sp>
+                 <speaker><persName ref="#Spettatore">Spett.</persName></speaker> 
+                 <p>
+                  <app>
+                     <lem wit="#strato5">Mi dispiace! Glie l'avrei offerto con tutto il cuore, ma io,  sa non fumo! </lem>
+                     <rdg wit="#strato0">Tabacco?.. Oh,<unclear cert="low" reason="erased">ma</unclear> glie l'avrei offerto di gran cuore ma io
+                        non fumo.</rdg>
+                     <rdg wit="#strato1">Tabacco?.. Oh, glie l'avrei offerto di gran cuore ma io non fumo.</rdg>
+                  </app>
+                 </p>
+              </sp>
+              
+              <sp>
+                 <speaker><persName ref="#Euriloco">Euril.</persName></speaker> 
+                 <p>Dio maestrale! la prima persona un po 
+                  <app>
+                     <lem wit="#strato5">garbata</lem>
+                     <rdg wit="#strato0">cortese </rdg>
+                  </app>
+                  
+                  che <lb/>incontro. da un anno a questa
+                  parte,
+                  
+                  <app>
+                     <lem wit="#strato6">e... <stage>(S'interrompe e, con sforzo, ringoia la rabbia. Una forte malinconia gli
+                           si tinge sul volto.Contempla la pipa.)</stage> giorni venerabili della mia felicità, non mi rimane che<lb/> 
+                        seppellirsi nel focolare spento di questa pipa inutile<lb/> e cara... Va ingrata! il tuo riposo te lo  sei
+                        guadagnato uccidendo la mia ultima gioia!  <stage> (Butta via la pipa) </stage></lem>
+                     <rdg wit="#strato0">e... e...non fuma!</rdg>
+                     <rdg wit="#strato1">e...e...</rdg>
+                     <rdg wit="#strato5">e... <unclear cert="medium" reason="erased">nei</unclear> giorni venerabili della mia felicità,
+                           non mi rimane che seppellirsi nel focolare spento di questa pipa inutile e cara... Va ingrata infelice! il
+                           tuo riposo te lo sei guadagnato uccidendo la mia ultima gioia! <stage> (Butta via la pipa) </stage></rdg>
+                  </app>
+                 </p>
+              </sp>
+              
+              <sp>
+                 <speaker><persName ref="#Spettatore">Spettatore</persName></speaker> 
+                 <p>
+                    Che fa, maestro! La poteva rompere... </p>
+              </sp>
+              <sp>
+                 <speaker><persName ref="#Euriloco">Euriloco</persName></speaker> 
+                 <p>Che importa! La mia vita ormai…
+                 </p>
+              </sp>
+               
+              
+               <pb facs="#P3a" n="6"/>
+
+
+               <p> <stage>
+                     
+                     <app>
+                        <lem wit="#strato5">(Sulla parola “ormai„ pronunciata dal <persName ref="#Euriloco">quartiermastro</persName>, esce</lem>
+                        <rdg wit="#strato0">(Sul“Dio maestrale„ pronunciato da <persName ref="#Euriloco"
+                              role="speaker">Euriloco</persName>, esce </rdg>
+                        <rdg wit="#strato4">Esce</rdg>
+                     </app>
+                        
+                        sul  proscenio una coppia costituita da un giovane <persName ref="#Marinaio">marinaio</persName>  e da una <persName ref="#Ancella">ancella</persName> di <persName ref="#Circe">Circe</persName>. Il <persName ref="#Marinaio">marinaio</persName>
+                     <app>
+                        <lem wit="#strato2">tiene la <persName ref="#Ancella">compagna</persName> per la</lem>
+                        <rdg wit="#strato0">tiene la <persName ref="#Ancella">compagna</persName> dalla</rdg>
+                        <rdg wit="#strato1">regge la <persName ref="#Ancella">compagna</persName> dalla</rdg>
+                     </app>
+                     
+                     vita.
+                     
+                     <app>
+                        <lem wit="#strato2">Veste costui  il commun marinaro</lem>
+                        <rdg wit="#strato0">È vestito come tutti i <unclear cert="low" reason="erased">con tutti i</unclear> <gap reason="erased" unit="word" quantity="2"/> l’abito 
+                           <gap reason="erased" unit="word" quantity="1"/> dei marinai</rdg>
+                        <rdg wit="#strato1">Veste costui il commun abito <gap unit="word" quantity="1"/> dei marinai</rdg>
+                     </app>
+                     
+                     , ma con 
+                     <app>
+                        <lem wit="#strato1">assai </lem>
+                        <rdg wit="#strato0"><unclear cert="low" reason="erased">molta</unclear></rdg>
+                     </app>
+                     
+                     ricercatezza. 
+                     
+                     <app>
+                        <lem wit="#strato2">Berretto sulle ventitre e  nuca rasata.</lem>
+                        <rdg wit="#strato0">Porta il berretto sulle ventitre e ha la nuca rasata</rdg>
+                     </app>
+                     
+                     L’<persName ref="#Ancella">ancella</persName> - capelli corti, serrati 
+                     
+                     <app>
+                        <lem wit="#strato2">intorno al cranio da nastro serico</lem>
+                        <rdg wit="#strato0"> <gap reason="erased" unit="word" quantity="3"/> da un nastro</rdg>
+                        <rdg wit="#strato1">Da un nastro</rdg>
+                     </app>
+                     
+                     - porta 
+                     
+                     <app>
+                        <lem wit="#strato2"> un <foreign xml:lang="en">“tea-gown„</foreign> sul tipo di quelli<lb/> confezionati</lem>
+                        <rdg wit="#strato0">una vestaglia a <foreign xml:lang="en">“tea-gown„</foreign> confezionata secondo i tipi lavorati</rdg>
+                        <rdg wit="#strato1">una vestaglia a <foreign xml:lang="en">“tea-gown„</foreign> confezionata secondo i tipi confezionati</rdg>
+                     </app>
+                     
+                     dalla sartoria <persName ref="https://www.wikidata.org/entity/Q631884" cert="medium">Poiret</persName>  di <placeName
+                        ref="https://www.wikidata.org/entity/Q90">Parigi</placeName>.
+                     Camminano  lenti ambedue, con affettazione e svenevolezza: l'<persName ref="#Ancella">ancella</persName> soprattutto, quale piega alla vita come gambo che cede  sotto 
+                     
+                     <app>
+                        <lem wit="#strato2">fiore</lem>
+                        <rdg wit="#strato0">un fiore</rdg>
+                     </app>
+                     
+                     troppo onusto. <unclear reason="illegible">Sa</unclear> quella che <persName ref="#Euriloco">Euriloco</persName> si  volta e vede
+                     avanzarsi la coppia, interrompe
+
+                       <app>
+                          <lem wit="#strato2">la frase incominciata,</lem>
+                          <rdg wit="#strato0">la sua frase</rdg>
+                          <rdg wit="#strato1">la frase</rdg>
+                       </app>
+                   
+                     seccato e assieme disgustato dalla presenza dei sopravvenuti.).</stage></p>
+              
+              <sp>
+                 <speaker><persName ref="#Marinaio">Marinaio</persName></speaker>
+                 <p>
+                  <app>
+                     <lem wit="#strato2">Disturbiamo</lem>
+                     <rdg wit="#strato0"><gap reason="erased" unit="word" quantity="1"/> ti disturbiamo</rdg>
+                     <rdg wit="#strato1">Ti disturbiamo</rdg>
+                  </app>
+                  
+                   , maestro? Stavi parlando: continua.</p>
+              </sp>
+              
+              <sp>
+                 <speaker><persName ref="#Euriloco">Euriloco</persName></speaker>
+
+               <p><stage>(Lo squadra dal capo alle piante, poi gli volta le spalle.)</stage> Non ricevo ordini
+                  
+                  <app>
+                     <lem wit="#strato2"> da nessuno: da te</lem>
+                     <rdg wit="#strato0">, consigli, incitamenti da nessuno: meno che meno da te</rdg>
+                     <rdg wit="#strato1">, consigli, incitamenti da nessuno: da te</rdg>
+                  </app>
+                  
+                  , bel <persName ref="#Marinaio">rondone</persName>, meno che meno.</p>
+              </sp>
+              <sp>
+                 <speaker><persName ref="#Marinaio">Marinaio</persName></speaker>
+                 <p>
+                  
+                  <app>
+                     <lem wit="#strato2">Come</lem>
+                     <rdg wit="#strato0">Oh!Oh! come</rdg>
+                  </app>
+                  
+                  la pigliamo dall'alto! E che v'è capitato, <persName ref="#Euriloco">maestro</persName>, che siete pieno d'umore paradisiaco?</p>
+              </sp>
+              
+              <sp>
+                 <speaker><persName ref="#Euriloco">Euriloco</persName></speaker>
+               <p> Pensa 
+                  
+                  <app>
+                     <lem wit="#strato1"> a portare la tua <persName ref="#Ancella">gatta</persName></lem>
+                     <rdg wit="#strato0">alle tue faccende e <unclear cert="low" reason="erased">poi</unclear></rdg>
+                  </app>
+                   
+                  levamiti dai piedi!</p>
+              </sp>
+              
+
+               <pb facs="#P4" n="7"/>
+
+              <sp>
+                 <speaker><persName ref="#Marinaio">Marinaio</persName></speaker>
+                 <p><stage>
+                     <app>
+                        <lem wit="#strato1">(Allo <persName ref="#Spettatore">spettatore</persName>)</lem>
+                        <rdg wit="#strato0">(rivolto allo <persName ref="#Spettatore">spettatore</persName>)</rdg>
+                     </app>
+               </stage> 
+                  
+                  <app>
+                     <lem wit="#strato2">Adorabile! Addirittura squisito</lem>
+                     <rdg wit="#strato0" cert="medium"> Ma è squisito, addirittura squisito</rdg>
+                     <rdg wit="#strato1" cert="medium">Squisito! Addirittura </rdg>
+                  </app>
+                  
+                  stasera il nostro <persName ref="#Euriloco">maestro</persName>
+                  
+                     <app>
+                        <lem wit="#strato1">. Anche la</lem>
+                        <rdg wit="#strato0">! La</rdg>
+                     </app>
+                  
+                      nostra conversazione si svolgerà
+                      
+                      <app>
+                         <lem wit="#strato1">sul medesimo tono? Lei, immagino bene, avrà goduto un mondo!</lem>
+                         <rdg wit="#strato0">su questo medesimo tono? Si <gap reason="erased" unit="word" quantity="1"/> goduto un
+                            mondo, immagino bene, lei.</rdg>
+                         
+                      </app>
+                 </p>
+              </sp>
+              <sp>
+                 <speaker><persName ref="#Spettatore">Spettatore</persName></speaker>
+                 <p> 
+                     
+                     <app>
+                     <lem wit="#strato1">Che vuole! é</lem>
+                     <rdg wit="#strato0">Non ce la fa. È</rdg>
+                     </app>
+                     
+                     un po 
+                     <app>
+                     <lem wit="#strato1">irritato.</lem>
+                     <rdg wit="#strato0">seccato,</rdg>
+                     </app>
+                        
+                        La <gap reason="illegible"/> perché la 
+                     <app>
+                        <lem wit="#strato1">pipa</lem>
+                        <rdg wit="#strato0">sua pipa</rdg>
+                     </app>
+                        
+                        non tira.</p>
+              </sp>
+              
+              <sp>
+                 <speaker><persName ref="#Euriloco">Euriloco</persName></speaker>
+                 <p> <stage>(
+                     <app>
+                        <lem wit="#strato1">Scatta</lem>
+                        <rdg wit="#strato0">Balza</rdg>
+                     </app>
+                     
+                     in piedi, furibondo.)</stage> La mia pipa non tira! Sarà lei che non tira!.. Ma
+                     <app>
+                        <lem wit="#strato2">sentilo questo</lem>
+                        <rdg wit="#strato0">sentita anche questa <gap reason="erased" unit="word" quantity="1"/></rdg>
+                     </app>
+                  
+                     : "Alessandra„ non tira!</p>
+              </sp>
+              
+              <sp>
+                 <speaker><persName ref="#Ancella">Ancella</persName></speaker><p>
+                 <stage>(Al <persName ref="#Marinaio">marinaio</persName>,<app>
+                           <lem wit="#strato6">curiosa</lem>
+                           <rdg wit="#strato5">con stupore</rdg>
+                        </app>)</stage> 
+                     
+                     "Alessandra„ <foreign xml:lang="fr">Qu’est-ce que c’est ça</foreign>, <foreign xml:lang="en">my dear</foreign>?</p>
+              </sp>
+               
+               <sp>
+                  <speaker><persName ref="#Euriloco">Euriloco</persName></speaker>
+                  <p> 
+                     <app>
+                        <lem wit="#strato5">(Guarda la pipa con tenerezza) Mia piccola "Alessandra„!</lem>
+                         <rdg wit="#strato0">(Oh, mia piccola “Alessandra„! (Volge la testa e guarda con tenerezza la pipa rimasta a terra)</rdg>
+                     </app>
+                  </p>
+               </sp> 
+              
+              <sp>
+                 <speaker><persName ref="#Marinaio">Marinaio</persName></speaker>
+                  <p><stage>(Accenna la pipa)</stage> Quel piccolo arnese là.</p>
+               
+                  <p> Ancella Una pipa? Oh <foreign xml:lang="fr"> que c'est drôle!</foreign></p>
+              </sp>
+              
+              <sp>
+                 <speaker><persName ref="#Euriloco">Euriloco</persName></speaker>
+
+                  <p> Povera calunniata! <stage>(Si
+                        approssima alla pipa, 
+                     <app>
+                        <lem wit="#strato5">la raccoglie</lem>
+                        <rdg wit="#strato0">la raccatta</rdg>
+                     </app>
+                     e contempla con occhio
+                     <app>
+                        <lem wit="#strato5">paterno</lem>
+                        <rdg wit="#strato0">di padre</rdg>
+                     </app>
+                        , 
+                        <app>
+                           <lem wit="#strato5">carezzandola</lem>
+                           <rdg wit="#strato0">la carezza</rdg>
+                        </app>
+                   lungo il tubo poi sul fornello, come 
+                   <app>
+                      <lem wit="#strato5">canarino malato</lem>
+                      <rdg wit="#strato0">arezzare la testina d’un uccello</rdg>
+                   </app>  .)</stage> 
+                 
+                 Dillo te, 
+                  <app>
+                     <lem wit="#strato1" type="addition">dillo te</lem>
+                     <rdg wit="#strato0"><gap reason="notInVersion"/></rdg>
+                  </app>
+                come 
+                     <app>
+                        <lem wit="#strato2">sai tirare se ti si mette anche un solo</lem>
+                        <rdg wit="#strato0">tirassi quanto avevo ancora un</rdg>
+                     </app>
+                  pizzico di tabacco 
+                  
+                  <app>
+                     <lem wit="#strato2">nel</lem>
+                     <rdg wit="#strato0">da mettere nel tuo</rdg>
+                  </app>
+                  
+                  ventricino nero!.. <stage>(Si volta, 
+                  <app>
+                     <lem wit="#strato2">con piglio minaccioso allo <persName ref="#Spettatore">spettatore</persName>)</lem>
+                     <rdg wit="#strato0">, brusco allo <persName ref="#Spettatore">spettatore</persName>, con piglio minaccioso)</rdg>
+                  </app>
+                  
+                  </stage>
+                 
+                 <app>
+                    <lem wit="#strato2">Quanto a lei, se</lem>
+                    <rdg wit="#strato0">Quanto a lei, se un'altra volta</rdg>
+                    <rdg wit="#strato1">Se</rdg>
+                 </app>
+                  
+                   le salta 
+                   
+                   <app>
+                      <lem wit="#strato1" type="addition">ancora</lem>
+                      <rdg wit="#strato0"><gap reason="notInVersion"/></rdg>
+                   </app>
+                     
+                  in mente di calunniare la mia piccola "Alessandra„ badi 
+                  
+                  <app>
+                     <lem wit="#strato2">bene</lem>
+                     <rdg wit="#strato0">sa</rdg>
+                  </app>
+                  che un'altra volta non gliela 
+                  
+                    <app>
+                        <lem wit="#strato2">passo</lem>
+                        <rdg wit="#strato0">passerò</rdg>
+                     </app>
+                  così liscia! </p>
+              </sp>
+               
+               <sp>
+                  <speaker><persName ref="#Spettatore">Lo Spettatore</persName></speaker>
+               <p><stage>(Scusandosi)</stage> 
+                  
+                  <app>
+                     <lem wit="#strato2">Creda pure che non</lem>
+                     <rdg wit="#strato0">Non</rdg>
+                  </app>
+                  
+                  avevo 
+                  
+                  <app>
+                     <lem wit="#strato2">la minima</lem>
+                     <rdg wit="#strato0"><gap reason="notInVersion"/></rdg>
+                  </app>
+                   intenzione di offendere la sua pipa.</p>
+               </sp>
+              
+              <stage>(<persName ref="#Euriloco">Euriloco</persName>, reggendo <unclear reason="illegible" cert="low">bruscamente</unclear> la
+                     pipa, <unclear reason="illegible" cert="low">torna</unclear> e si siede, brontolando, sul primo gradino della scala che scende 
+                     <app>
+                        <lem wit="#strato2">in</lem>
+                        <rdg wit="#strato0">sulla</rdg>
+                     </app>
+                     
+                        platea. 
+                        
+                        <app>
+                           <lem wit="#strato2">I </lem>
+                           <rdg wit="#strato0">Dietro, i</rdg>
+                        </app>
+                     
+                     due giovani
+               </stage>
+                  
+               
+
+<pb facs="#P5" n="8"/>
+
+               <stage> 
+                     <app>
+                        <lem wit="#strato5">ridono sommessamente.)</lem>
+                        <rdg wit="#strato0">ridono sommessamente non tanto però da non farsi scorgere dal <persName ref="#Euriloco">quartiermastro</persName>)</rdg>
+                     </app>
+               
+               </stage>
+              
+              <sp>
+                 <speaker><persName ref="#Euriloco">Euriloco</persName></speaker>
+               
+               <p> <stage>(Si volta,
+                     inviperitissimo.)</stage> Che avete da ridere 
+                  <app>
+                     <lem wit="#strato6">macachi?</lem>
+                     <rdg wit="#strato5">bestiacce</rdg>
+                  </app>
+              </p>
+              </sp>
+              
+              <sp>
+                 <speaker><persName ref="#Marinaio">Marinaio</persName></speaker>
+
+               <p><stage>(Gli muove 
+                     <app>
+                        <lem wit="#strato6">contro</lem>
+                        <rdg wit="#strato5">incontro</rdg>
+                     </app>
+               .)</stage> Guarda come parli!</p>
+              </sp>
+              
+              <sp>
+                 <speaker><persName ref="#Spettatore">Spettatore</persName></speaker>
+
+               <p><stage>(Sale precipitosamente sulla scena a evitare 
+                     <app>
+                        <lem wit="#strato6">una</lem>
+                        <rdg wit="#strato5">la</rdg>
+                     </app>
+                     una rissa)</stage> Calma! calma, signori! <stage>(Spinge indietro il marinaio.)</stage> 
+                   Non avrebbe per caso un po di tabacco da dargli? 
+                  <app>
+                     <lem wit="#strato6">Lo placherebbe subito.</lem>
+                     <rdg wit="#strato5"> <gap reason="erased" unit="word"/></rdg>
+                  </app>
+               </p>
+              </sp>
+              
+              <sp>
+                 <speaker><persName ref="#Marinaio">Marinaio</persName></speaker>
+                  
+                  <p>
+                     <app>
+                        <lem wit="#strato6">Io non fumo</lem>
+                        <rdg wit="#strato5">Non fumo</rdg>
+                     </app>
+                     
+                    <stage>(All'<persName ref="#Ancella">ancella</persName>)</stage> 
+                     
+                     <app>
+                     <lem wit="#strato6">Avete una</lem>
+                     <rdg wit="#strato5">Una</rdg>
+                     </app>
+                     
+                     sigaretta, <foreign xml:lang="fr">chére</foreign>?</p>
+              </sp>
+              
+              <sp>
+                 <speaker><persName ref="#Ancella">Ancella</persName></speaker>
+
+               <p><stage>(Estrae da una borsetta a maglie d'oro un magnifico portasigarette, lo apre e, tesa la mano offerente,
+                     si avvicina al <persName ref="#Euriloco">quartiermastro</persName>.)</stage> <foreign xml:lang="fr">Tenez</foreign>, mio
+                  povero signore, <objectName ref="https://www.wikidata.org/entity/Q3867367" cert="medium">Murattys</objectName> <foreign xml:lang="fr">bout dorés</foreign>.</p>
+              </sp>
+              
+              <sp>
+                 <speaker><persName ref="#Euriloco">Euriloco</persName></speaker>
+
+               <p> <stage>(Considera 
+                     
+                     <app>
+                        <lem wit="#strato1">con disprezzo sigarette astuccio e</lem>
+                        <rdg wit="#strato0">con meraviglia mista a disprezzo le sigarette, l’astuccio e la</rdg>
+                     </app>
+                     <persName ref="#Ancella">donna</persName>)</stage> 
+                  A me?! 
+                  <app>
+                     <lem wit="#strato1">A me queste</lem>
+                     <rdg wit="#strato0">Io...Io fumare quelle</rdg>
+                  </app>
+                   porcheriole?!.. <stage>(Respinge il portasigarette)</stage> Va! 
+                  <app>
+                     <lem wit="#strato1">pussa via,</lem>
+                     <rdg wit="#strato0">va via,</rdg>
+                  </app>
+                  <persName ref="#Ancella">smorfiosa</persName> </p>
+              </sp>
+              
+              <sp>
+                 <speaker><persName ref="#Ancella">Ancella</persName></speaker>
+
+               <p><stage>(
+                     <app>
+                        <lem wit="#strato1">Indignata,</lem>
+                        <rdg wit="#strato0">Infuriatissima,</rdg>
+                     </app>
+                     
+                     batte il tacco per terra)</stage> O <foreign xml:lang="en">shocking!</foreign> 
+                  
+                  <stage>(Al <persName ref="#Marinaio">marinaio</persName>)</stage> Quanto è <foreign xml:lang="fr">grossier</foreign> questo vostro amico.
+                  <app>
+                     <lem wit="#strato4"><gap reason="erased"/></lem>
+                     <rdg wit="#strato0"><foreign xml:lang="en">My dear</foreign>!</rdg>
+                  </app>
+                  
+                  andiamo via! andiamo via!
+                  
+                  <stage>(Se ne va, furibonda trascinandosi dietro il giovane <persName ref="#Marinaio">marinaio</persName>.)</stage>.</p>
+              </sp>
+              
+              <sp>
+                 <speaker><persName ref="#Euriloco">Euriloco</persName></speaker>
+
+               <p>L'ha guardata bene quella
+                     <app>
+                        <lem wit="#strato6"><persName ref="#Ancella">bertuccia</persName> ?</lem>
+                        <rdg wit="#strato5"> <gap reason="erased" unit="word"/><persName ref="#Ancella">cialtrona</persName> ?</rdg>
+                     </app>
+                  </p>
+
+              </sp>
+              <sp> 
+                 <speaker><persName ref="#Spettatore">Spettatore</persName></speaker>
+               <p>Già! un po <unclear cert="low" reason="illegible">affettata</unclear>,
+               <app>
+                  <lem wit="#strato7"><gap reason="erased" unit="word" quantity="1"/>...</lem>
+                  <rdg wit="#strato5"><gap reason="illegible" unit="word" quantity="1"/></rdg>
+               </app>
+                  </p>
+              </sp>
+              
+              <sp>
+                 <speaker><persName ref="#Euriloco">Euriloco</persName></speaker>
+
+               <p>Tutte 
+                     <app>
+                        <lem wit="#strato6">a quel modo</lem>
+                        <rdg wit="#strato5">così</rdg>
+                     </app>
+                     
+                     a cominciare dalla <persName ref="#Circe">padrona</persName>.</p>
+              </sp>
+              
+              <sp>
+                 <speaker><persName ref="#Spettatore">Spettatore</persName></speaker>
+
+                  <p>
+                     <app>
+                        <lem wit="#strato6">Che vuole Sono fatte così : donne moderne.</lem>
+                        <rdg wit="#strato5">Donne moderne. Che cosa vuole ? Sono fatte così.</rdg>
+                     </app>
+                   </p>
+              </sp>
+              
+              <sp>
+                 <speaker><persName ref="#Euriloco">Euriloco</persName></speaker>
+
+               <p> 
+                     <app>
+                        <lem wit="#strato6"> Moderne</lem>
+                        <rdg wit="#strato5">Donne moderne</rdg>
+                     </app>
+                    ?.. Donne schife, dico io! Vedesse poi la villa, quei salotti! Non c'è nemmeno da sedersi: cuscini sparsi per terra,
+                  <foreign xml:lang="fr">poufs</foreign> che se ti ci metti su vai a gambe per aria, tende 
+                  
+                     <app>
+                        <lem wit="#strato6">nere sulle quali scivolano</lem>
+                        <rdg wit="#strato5">rigate di</rdg>
+                     </app>
+                     
+                      lacrime d'argento, luci velate 
+                      
+                     <app>
+                        <lem wit="#strato6">che ti fissano dagli angoli come occhi di gatto e un</lem>
+                        <rdg wit="#strato5">e un <gap reason="erased" unit="word" quantity="1"/></rdg>
+                     </app>
+                  
+                       puzzo d'incenso dappertutto che ti 
+                       
+                     <app>
+                        <lem wit="#strato6">torce</lem>
+                        <rdg wit="#strato5">rivolta</rdg>
+                     </app>
+                  
+                     torce lo stomaco.</p>
+              </sp>
+
+
+               <pb facs="#P6" n="9"/>
+              
+              <sp>
+                 <speaker><persName ref="#Spettatore">Spett.</persName></speaker>
+
+               <p>Ma il <persName ref="#Ulisse">capitano</persName> che dice?</p>
+              </sp>
+              
+              <sp>
+                 <speaker><persName ref="#Euriloco">Euril.</persName></speaker>
+
+                 <p>Il <persName ref="#Ulisse">capitano</persName>? S'infila fra le lenzuola di seta di madama <persName ref="#Circe">Circe</persName> e
+                  sogna! Me li hanno stregati tutti, dio controvelaccino! </p>
+              </sp>
+              
+              <sp>
+                 <speaker><persName ref="#Spettatore">Spett.</persName></speaker>
+               
+               <p> 
+                  <app>
+                     <lem wit="#strato6"><unclear cert="low" reason="illegible">Senta</unclear> lei - scusi l'intromissione-</lem>
+                     <rdg wit="#strato5">E lei non</rdg>
+                  </app>
+                     
+                     dorme tra lenzuoli di seta nera?</p>
+              </sp>
+              
+              <sp>
+                 <speaker><persName ref="#Euriloco">Euril.</persName></speaker>
+
+               <p> Io? 
+                  <app>
+                     <lem wit="#strato6"><gap reason="erased"/></lem>
+                     <rdg wit="#strato5"><gap reason="erased" unit="word"/></rdg>
+                  </app>
+                  
+                  Madonna contromezzana!
+                  <app>
+                     <lem wit="#strato6">Così nero che</lem>
+                     <rdg wit="#strato5"><gap reason="erased" unit="word"/> così nero che <unclear cert="medium" reason="erased">mi</unclear></rdg>
+                  </app>
+                  
+                  sono <persName ref="#Euriloco">quartiermastro</persName>, tutte le sere salgo a bordo e butto questo 
+                  <app>
+                     <lem wit="#strato6">mio</lem>
+                     <rdg wit="#strato5"><gap reason="notInVersion"/></rdg>
+                  </app>
+                   <unclear reason="illegible" cert="low">guanto sopra</unclear> sull'amaca... Vuol sapere cos'è quest'isola? Glie lo dico
+                  <app>
+                     <lem wit="#strato6">:</lem>
+                     <rdg wit="#strato5"> io cos'è:</rdg>
+                  </app>
+                 è la sede dell'estetismo. Tutto é vacuo, falso, artificioso. Lo stesso mare...
+                 <app>
+                    <lem wit="#strato6"><gap reason="erased"/></lem>
+                    <rdg wit="#strato0">che circonda l'isola...</rdg>
+                 </app>
+                  
+                  <app>
+                     <lem wit="#strato6">Ha mai visto il mare lei, quello vero?</lem>
+                     <rdg wit="#strato0">Lei conosce il mare? Ha mai visto il mare</rdg>
+                     <rdg wit="#strato1">Ha mai visto il mare</rdg>
+                     <rdg wit="#strato5">Ha mai visto il mare lei?</rdg>
+                  </app>
+                 </p>
+              </sp>
+              
+              <sp>
+                 <speaker><persName ref="#Spettatore">Spett.</persName></speaker>
+
+               <p>
+                  <app>
+                     <lem wit="#strato5">Come no!</lem>
+                     <rdg wit="#strato0">Il mare!... eh! come no!.. tante volte</rdg>
+                  </app>
+                  </p>
+              </sp>
+              
+              <sp>
+                 <speaker><persName ref="#Euriloco">Euril.</persName></speaker>
+
+               <p> Allora lo sa com'é:</p>
+              
+             
+               <pb facs="#P7" n="10"/>
+     
+               <p>l'onda che 
+                  <app>
+                     <lem wit="#strato2">si butta</lem>
+                     <rdg wit="#strato0">sale</rdg>
+                  </app>
+                  
+                  sulla riva, poi 
+                  <app>
+                     <lem wit="#strato3">torna indietro per scagliarsi un'altra volta; il</lem>
+                     <rdg wit="#strato0">si ritira. Il</rdg>
+                     <rdg wit="#strato1">torna indietro il</rdg>
+                     <rdg wit="#strato2">torna indietro per scagliarsi poi un’altra volta; </rdg>
+                  </app>
+                 
+                  mare, nemico della terra, avversario indomabile; il mare che assalta la terra 
+                  <app>
+                     <lem wit="#strato1">e vuole</lem>
+                     <rdg wit="#strato0">cerca di</rdg>
+                  </app>
+                  invaderla notte e giorno 
+                  <app>
+                     <lem wit="#strato1">; il</lem>
+                     <rdg wit="#strato0">: - Il</rdg>
+                  </app> 
+                  
+                  mare insomma, con la sua vita propria, la sua oscura,
+                  ostinatissima volontà, le sue passioni,
+                  <app>
+                     <lem wit="#strato1"><gap reason="erased"/></lem>
+                     <rdg wit="#strato0"><unclear cert="low" reason="erased">tremende</unclear></rdg>
+                  </app>
+                  le sue scemenze. </p>
+              </sp>
+              
+              <sp>
+                 <speaker><persName ref="#Spettatore">Spet.</persName></speaker>
+
+               <p>E questo invece?</p>
+              </sp>
+              
+              <sp>
+                 <speaker><persName ref="#Euriloco">Euril.</persName></speaker>
+
+               <p>Diversissimo! Un'altra cosa! Non più l'avversario, ma un alleato fedelissimo della terra, implicati entrambi nella stessa perfida complicità. Un mare senza
+                  volontà, senza individualità - Si figuri! lui, l'individualista per eccellenza! - Un mare emanazione della terra: la terra che 
+                  <app>
+                     <lem wit="#strato2">muta</lem>
+                     <rdg wit="#strato0">si prolunga, <unclear cert="low" reason="erased">mostrando</unclear></rdg>
+                     <rdg wit="#strato1">e muta</rdg>
+                  </app>
+                  sostanza e si prolunga.</p>
+              </sp>
+              
+              <sp>
+                 <speaker><persName ref="#Spettatore">Spet.</persName></speaker>
+                  <p>
+                     <app>
+                        <lem wit="#strato1">Come</lem>
+                        <rdg wit="#strato0"><unclear cert="low" reason="erased">E</unclear> come</rdg>
+                     </app>
+                     mai?</p>
+              </sp>
+              
+              <app>
+                 
+                 <lem wit="#strato4">
+                    <sp> 
+                       <speaker><persName ref="#Euriloco">Euril.</persName></speaker>
+                       <p>Mah!.. Io dico anche gli elementi sono corrotti qui intorno. E la varietà! quella costante, inesauribile varietà del mare, quel suo continuo cambiare faccia, vestito, sguardo; quei suoi umori mutabilissimi nei quali io - nato sul mare, cullato dalle maree, dalle maree, cresciuto sulle creste delle onde - non sono riuscito ancora, vecchio come mi vede, a capirci nulla; qui invece…</p> </sp>
+                 </lem>
+                 
+                 <rdg wit="#strato0">
+                    <sp>
+                       <speaker><persName ref="#Euriloco">Euril.</persName></speaker>
+                       <p>Mah!.. Io dico anche gli elementi sono corrotti intorno... E la <unclear cert="low"
+                             reason="erased">diversità</unclear></p></sp>
+                    <sp>
+                       <speaker><persName ref="#Spettatore">Spet.</persName></speaker>
+                       <p>La diversità?</p></sp>
+                    <sp>
+                       <speaker><persName ref="#Euriloco">Euril</persName></speaker>
+                       <p>Quella costante inesauribile varietà del mare, quei <unclear cert="low" reason="erased">suoi</unclear> umori mutabilissimi che io nato sul mare, navigatore fin dalla culla, vissuto sulle creste delle onde - non sono riuscito ancora a prendere mi riesce ancora <unclear cert="low" reason="erased">di</unclear> ritrovare tra un minuto e l'altro un <unclear reason="erased" cert="low">non te lo aspetti del mare che non si muove
+                             inaspettato, inasprito</unclear> qui
+                       </p>
+                    </sp>
+                 </rdg>
+                 <rdg wit="#strato1">
+                    <sp> 
+                       <speaker><persName ref="#Euriloco">Euril.</persName></speaker>
+                       <p>Mah!.. Io dico anche gli elementi sono corrotti qui intorno... E la varietà!</p></sp>
+                    <sp>
+                       <speaker><persName ref="#Spettatore">Spet.</persName></speaker>
+                       <p>La varietà?</p></sp>
+                    <sp>
+                       <speaker><persName ref="#Euriloco">Euril</persName></speaker>
+                       <p>Quella costante inesauribile varietà del mare, quel suo continuo cambiare faccia, vestito,<gap reason="erased" unit="word"/>; sguardo; quei suoi umori mutabilissimi nei quali io - nato sul mare, navigatore fin dalla culla sulle creste delle onde - non sono riuscito <gap reason="erased" unit="word" quantity="1"/> ancora, vecchio come mi vede, a capirci nulla;<unclear cert="low" reason="erased">di</unclear> qui invece... minuti</p></sp>
+                 </rdg>
+                 <rdg wit="#strato2">
+                    <sp> 
+                       <speaker><persName ref="#Euriloco">Euril.</persName></speaker>
+                       <p>Mah!.. Io dico anche gli elementi sono corrotti qui intorno. E la varietà!</p></sp>
+                    <sp>
+                       <speaker><persName ref="#Spettatore">Spet.</persName></speaker>
+                       <p>La varietà?</p></sp>
+                    <sp>
+                       <speaker><persName ref="#Euriloco">Euril</persName></speaker>
+                       <p>Quella costante inesauribile varietà del mare, quel suo continuo cambiare faccia, vestito, sguardo; quei suoi umori mutabilissimi nei quali io - nato sul mare, cullato dalle maree, dalle maree, cresciuto sulle creste delle onde - sono riuscito ancora, vecchio come mi vede, a capirci nulla; qui invece… </p></sp>
+                 </rdg>
+                 
+              </app>
+            
+              <sp>
+                  <speaker><persName ref="#Spettatore">Spet.</persName></speaker>
+                 <p>
+                  <app> 
+                        <lem wit="#strato1">Calmo?</lem>
+                        <rdg wit="#strato0"> <unclear cert="low" reason="erased">Lì</unclear> calmo</rdg>
+                     </app>
+                    ?</p>
+              </sp>
+              
+              <sp>
+                 <speaker><persName ref="#Euriloco">Euril.</persName></speaker>
+
+               <p>
+                  <app>
+                     <lem wit="#strato1">Come</lem>
+                     <rdg wit="#strato0">Calmo? come</rdg>
+                  </app>
+                  si fa a dire calmo? 
+                  <app>
+                     <lem wit="#strato4">Morto... Ma neppure. Perchè</lem>
+                     <rdg wit="#strato0">Sono <unclear cert="low" reason="erased">innocente</unclear>, io, il mio parlare è povero. Ma credo che nemmeno lei
+                        che m'ha l'aria d'una persona istruita, troverebbe una parola per esprimere... Calmo ,no! morto
+                        forse... ma nemmeno perché </rdg>
+                     <rdg wit="#strato1">Sono <unclear cert="low" reason="erased">innocente</unclear>, io, il mio parlare è povero. Ma credo nemmeno lei
+                        che m'ha l'aria d'una persona istruita, troverebbe una parola per esprimere... Calmo ,no! morto
+                        forse... ma nemmeno perché</rdg>
+                     <rdg wit="#strato2">Morto... Ma neppure il mio parlare è povero. Ma credo nemmeno lei
+                        che m'ha l'aria d'una persona istruita, troverebbe una parola per esprimere...
+                        forse... ma perché</rdg>
+                  </app>
+                  si muove, non è che</p>
+              </sp>
+              
+
+           </div> 
+        </div>
+      </body>
+  </text>
+</TEI>

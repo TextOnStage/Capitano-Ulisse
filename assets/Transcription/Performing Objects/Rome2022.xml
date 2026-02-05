@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="poster-2022">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="a">Promotional Poster for <title level="m">Capitano Ulisse</title> (2022)</title>
+        <author ref="https://www.wikidata.org/entity/Q691973">Alberto Savinio</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Digital scholarly edition project “Text on Stage”.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>
+          Promotional poster associated with the 2022 staging of <title level="m">Capitano Ulisse</title>.
+          <ref type="source" target="https://www.exhimusic.com/magazine/2020/03/07/teatro-trastevere-presenta-dal-17-al-22-marzo-2020-capitano-ulisse-di-alberto-savinio-regia-di-andrea-martella/">image</ref>
+        </p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+
+  <facsimile>
+    <graphic url="assets/img/Poster2022.jpg"/>
+  </facsimile>
+
+  <text>
+    <body>
+      <div type="object" xml:id="poster">
+        <head>Poster</head>
+        <p>
+          This object records a promotional poster associated with the 2022 staging of
+          <hi rend="italic">Capitano Ulisse</hi>. The poster documents the event and contributes to the
+          historical reconstruction of the performance context.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

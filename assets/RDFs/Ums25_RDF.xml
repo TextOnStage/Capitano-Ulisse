@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:frbroo="http://iflastandards.info/ns/fr/frbr/frbroo/"
+   xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+   xmlns:dct="http://purl.org/dc/terms/"
+   xmlns:schema="http://schema.org/"
+   xml:base="https://textonstage.github.io/Capitano-Ulisse/">
+   
+   <crm:E21_Person rdf:about="id/person/savinio">
+      <schema:name>Alberto Savinio</schema:name>
+      <schema:sameAs rdf:resource="https://www.wikidata.org/wiki/Q691973"/>
+   </crm:E21_Person>
+   
+   <frbroo:F1_Work rdf:about="id/work/CU">
+      <schema:name xml:lang="it">Capitano Ulisse</schema:name>
+      <dct:creator rdf:resource="id/person/savinio"/>
+      <frbroo:R3_is_realised_in rdf:resource="id/expr/ms1925"/>
+      <frbroo:R3_is_realised_in rdf:resource="id/expr/ts1925"/>
+      <frbroo:R3_is_realised_in rdf:resource="id/expr/ts1934"/>
+      <frbroo:R3_is_realised_in rdf:resource="id/expr/print1934"/>
+   </frbroo:F1_Work>
+   
+   <frbroo:F2_Expression rdf:about="id/expr/ms1925">
+      <dct:type xml:lang="en">Manuscript text (1925)</dct:type>
+      <frbroo:R4_is_embodied_in rdf:resource="id/manifest/ms1925"/>
+      <schema:url rdf:resource="Ums25.html"/>
+      <schema:relatedLink rdf:resource="U34.html"/>
+   </frbroo:F2_Expression>
+
+   <frbroo:F4_Manifestation_Singleton rdf:about="id/manifest/ms1925">
+      <schema:name xml:lang="en">Capitano Ulisse – Manuscript carrier (1925)</schema:name>
+      <crm:P50_has_current_keeper rdf:resource="id/repo/ms-repo"/>
+      <crm:P48_has_preferred_identifier rdf:resource="id/ms1925-shelfmark"/>
+   </frbroo:F4_Manifestation_Singleton>
+
+   <crm:E42_Identifier rdf:about="id/id/ms1925-shelfmark">
+      <crm:P190_has_symbolic_content>AS. II. 11.5</crm:P190_has_symbolic_content>
+   </crm:E42_Identifier>
+
+   <crm:E40_Legal_Body rdf:about="id/repo/ms-repo">
+      <schema:name>Archivio Contemporaneo Gabinetto Vieusseux</schema:name>
+      <schema:sameAs rdf:resource="https://www.wikidata.org/wiki/Q930825"/>
+   </crm:E40_Legal_Body>
+
+   <frbroo:F2_Expression rdf:about="id/expr/ts1925">
+      <dct:type xml:lang="en">Typescript text (1925) – conceptual/inferred</dct:type>
+      <dct:description xml:lang="en">
+         Conceptual typescript derived from the 1925 manuscript and integrated as a witness
+         within the parallel segmentation of the edited text.
+      </dct:description>
+      <frbroo:R2_is_derivative_of rdf:resource="id/expr/ms1925"/>
+   </frbroo:F2_Expression>
+   
+   <frbroo:F2_Expression rdf:about="id/expr/ts1934">
+      <dct:type xml:lang="en">Typescript of the printed edition text (1934) – pre-publication copy</dct:type>
+      <dct:description xml:lang="en">
+         Conceptual pre-publication typescript corresponding to the text of the 1934 printed edition.
+      </dct:description>
+      <frbroo:R2_is_derivative_of rdf:resource="id/expr/ts1925"/>
+   </frbroo:F2_Expression>
+
+   <frbroo:F2_Expression rdf:about="id/expr/print1934">
+      <dct:type xml:lang="en">Printed edition text (1934)</dct:type>
+      <frbroo:R2_is_derivative_of rdf:resource="id/expr/ts1934"/>
+      <dct:relation rdf:resource="id/expr/ms1925"/>
+      <schema:url rdf:resource="U34.html"/>
+   </frbroo:F2_Expression>
+   
+</rdf:RDF>
+

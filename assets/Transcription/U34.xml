@@ -1,0 +1,891 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitano Ulisse</title>
+            <author ref="AS">Alberto Savinio</author>
+            <respStmt>
+               <resp>Encoding by</resp>
+               <persName>Denise Biasio</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority ref="https://www.wikidata.org/entity/Q86520932" xml:id="BV">Biblioteca del Gabinetto Scientifico Letterario G.P. Vieusseux</authority>
+            <availability status="free"> 
+               <p>Available upon request.</p>
+            </availability>
+            
+         </publicationStmt>
+         
+         <sourceDesc>
+            <bibl>
+               <author>Alberto Savinio</author>
+               <title>Capitano Ulisse</title>
+               <date when="1934">1934</date>
+               <publisher>Novissima</publisher>
+               <pubPlace>Roma</pubPlace>
+               <note>Edizione a stampa del 1934. L’ultima versione supervisionata dall'autore.</note>
+            </bibl>
+            
+            <listWit>
+               <witness cert="high" xml:id="U34">
+                  <bibl>
+                     <author>Alberto Savinio</author>
+                     <title>Capitano Ulisse</title>
+                     <date when="1934">1934</date>
+                     <publisher>Novissima</publisher>
+                     <pubPlace>Roma</pubPlace>
+                     <orgName type="repository" ref="#BV"> Biblioteca del Gabinetto Scientifico Letterario G.P. Vieusseux</orgName>
+                     <idno type="shelfmark">FSAV-994</idno>
+                     <note>Edizione a stampa del 1934. L’ultima versione supervisionata dall'autore.</note>
+                  </bibl>
+               </witness>
+              
+               <witness cert="high" xml:id="Ums25">
+                  <msDesc>
+                     <msIdentifier>
+                        <repository>Archivio Contemporaneo Gabinetto Vieusseux</repository>
+                        <collection>Fondo Alberto Savinio</collection>
+                        <idno>AS. II. 11.5</idno>
+                     </msIdentifier>
+                     <msContents>
+                        <msItem>
+                           <title>Capitan Ulisse</title>
+                           <author>Alberto Savinio</author>
+                           <docDate when="1925-02">1925</docDate>
+                        </msItem>
+                     </msContents>
+                     <physDesc>
+                        <p>Stesura ms. del testo, a penna e parzialmente a lapis, con cartulazione in varie sequenze a matita blu, e con cassature e correzioni autogr., a penna e a matita blu
+                        Il testo ms. è suddiviso in fascicoli, con titolo autogr. di A. Savinio, a matita blu: "Capitan Ulisse | Atto Primo"; " Capitan Ulisse | Atto Secondo | Scena I°";
+                        "Atto Secondo | Secondo Quadro"; "Atto Secondo | Terzo Quadro"; "Atto Terzo"</p>
+                        <objectDesc>
+                           <supportDesc>
+                              <support>Cartaceo</support>
+                              <extent>73 c. + dss., 82 c.</extent>
+                           </supportDesc>
+                        </objectDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+               <witness cert="medium" xml:id="Uds25">
+                  <msDesc>
+                     <msIdentifier>
+                        <repository>Archivio Contemporaneo Gabinetto Vieusseux</repository>
+                        <collection>Fondo Alberto Savinio</collection>
+                        <idno>S. II. 11.5</idno></msIdentifier>
+                     <msContents>
+                        <msItem>
+                           <title>Capitan Ulisse</title>
+                           <author>Alberto Savinio</author>
+                           <docDate when="1925-02">1925</docDate>
+                        </msItem>
+                     </msContents>
+                     <physDesc>
+                        <p>Stesura ds. del testo manoscritto; alcune carte con margini strappati e lacerati.</p>
+                        <objectDesc>
+                           <supportDesc>
+                              <support>Cartaceo</support>
+                              <extent>73 c. + dss., 82 c.</extent>
+                           </supportDesc>
+                        </objectDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+               <witness cert="medium" xml:id="Uds34">
+                  <msDesc>
+                     <msIdentifier>
+                        <repository>Archivio Contemporaneo Gabinetto Vieusseux</repository>
+                        <collection>Fondo Alberto Savinio</collection>
+                        <idno>AS. II. 11.9</idno></msIdentifier>
+                     <msContents>
+                        <msItem>
+                           <title>Capitano Ulisse</title>
+                           <author>Alberto Savinio</author>
+                        </msItem>
+                     </msContents>
+                     <physDesc>
+                        <p>Ds. fascicolato di Capitano Ulisse nell'edizione del 1934, come indicato dal titolo: "Capitano | Ulisse | di | Alberto Savinio | Dramma moderno in tre atti | con
+                              una giustificazione dell'autore | Quaderni di Nuovissima | Roma Anno Dodicesimo | 1934" Il testo è preceduto dallo scritto di Savinio "La verità sull'ultimo
+                              viaggio", inserito nell'edizione del 1976 per "Scena".</p>
+                        <objectDesc>
+                           <supportDesc>
+                              <support>Cartaceo</support>
+                              <extent>184 c. + copia, 184 c.</extent>
+                           </supportDesc>
+                        </objectDesc>
+                     </physDesc>
+                     <history>
+                        <origin>
+                           <date when="1976">1976</date>
+                           <note>Datazione archivistica; probabile copia del dattiloscritto del 1934, preparata per l’edizione su “Scena”.</note>
+                        </origin>
+                        <provenance>
+                           <date when="1934">1934</date>
+                           <note>Contenuto corrispondente all’edizione a stampa del 1934; da considerarsi testimone coevo.</note>
+                        </provenance>
+                     </history>
+                  </msDesc>
+               </witness>
+            
+            </listWit> 
+         </sourceDesc>
+      </fileDesc>
+     <profileDesc> 
+        <particDesc>
+           <listPerson>
+              
+              <person xml:id="AS">
+                 <persName ref="https://www.wikidata.org/entity/Q691973" xml:lang="it">Alberto Savinio</persName>
+              </person>
+              
+           </listPerson>
+           
+           <listPerson type="play_characters">
+              
+              <person xml:id="Ulisse">
+                 <persName ref="https://www.wikidata.org/entity/Q47231" xml:lang="it">Ulisse</persName>
+              </person>
+              <person xml:id="Circe">
+                 <persName ref="https://www.wikidata.org/entity/Q187602" xml:lang="it">Circe</persName>
+              </person>
+              <person xml:id="Euriloco">
+                 <persName ref="https://www.wikidata.org/entity/Q993387" xml:lang="it">Euriloco</persName>
+              </person>
+              <person xml:id="Telemaco">
+                 <persName ref="https://www.wikidata.org/entity/Q192482">Telemaco</persName>
+              </person>
+              <person xml:id="Eumeo">
+                 <persName ref="https://www.wikidata.org/entity/Q1333846">Eumeo</persName>
+              </person>
+              <person xml:id="Calipso">
+                 <persName ref="https://www.wikidata.org/entity/Q48961">Calipso</persName>
+              </person>
+              <person xml:id="Penelope">
+                 <persName ref="https://www.wikidata.org/entity/Q165769">Penelope</persName>
+              </person>
+              <person xml:id="Minerva">
+                 <persName ref="https://www.wikidata.org/entity/Q126916">Minerva</persName>
+              </person>
+              <person xml:id="Alcinoo">
+                 <persName ref="https://www.wikidata.org/entity/Q496595">Alcinoo</persName>
+              </person>
+              <person xml:id="Mercurio">
+                 <persName ref="https://www.wikidata.org/entity/Q1150">Mercurio</persName>
+              </person>
+              <person xml:id="A1">
+                 <name xml:lang="it">Prima Ancella</name>                  
+              </person>
+              <person xml:id="A2">
+                 <name xml:lang="it">Seconda Ancella</name>                  
+              </person>
+              <person xml:id="S1">
+                 <name xml:lang="it">Spettatore</name>
+              </person>
+              <person xml:id="S2">
+                 <name xml:lang="it">Spettatore</name>
+              </person>
+              <person xml:id="Margalone">
+                 <persName xml:lang="it"> Margalone</persName>
+              </person>
+              <person xml:id="Pandaro">
+                 <persName>Pandaro</persName>
+              </person>
+              <person xml:id="Senodulo">
+                 <persName>Senodulo</persName>
+              </person>
+              <person xml:id="Filalete">
+                 <persName>Filalete</persName>
+              </person>
+              <person xml:id="PM">
+                 <persName>Primo Ministro</persName>
+              </person>
+              <person xml:id="Regina">
+                 <persName ref="https://www.wikidata.org/entity/Q3622209">Regina</persName>
+              </person>
+              <person xml:id="Ufficiale">
+                 <persName>Un Ufficiale</persName>
+              </person>
+              <person xml:id="MP">
+                 <persName>Mademoiselle Pocher</persName>
+              </person>
+              <person xml:id="C">
+                 <persName>Cameriera di Calipso</persName>
+              </person>
+           
+           </listPerson>
+        </particDesc>
+     </profileDesc>
+  </teiHeader>
+   <facsimile>
+      <surface xml:id="Title" n="1">
+         <graphic url="assets/img/U34/Title.jpg"></graphic>
+      </surface>
+      <surface xml:id="cast" n="2">
+         <graphic url="assets/img/U34/Cast.jpg"></graphic>
+      </surface>
+      <surface xml:id="P0" n="3">
+         <graphic url="assets/img/U34/0.jpg"></graphic>
+      </surface>
+      <surface xml:id="P1" n="4">
+         <graphic url="assets/img/U34/1.jpg"></graphic>
+      </surface>
+      <surface xml:id="P2" n="5">
+         <graphic url="assets/img/U34/2.jpg"></graphic>
+      </surface>
+      <surface xml:id="P3" n="6">
+         <graphic url="assets/img/U34/3.jpg"></graphic>
+      </surface>
+      <surface xml:id="P4" n="7">
+         <graphic url="assets/img/U34/4.jpg"></graphic>
+      </surface>
+      <surface xml:id="P5" n="8">
+         <graphic url="assets/img/U34/5.jpg"></graphic>
+      </surface>
+      <surface xml:id="P6" n="9">
+         <graphic url="assets/img/U34/6.jpg"></graphic>
+      </surface>
+      <surface xml:id="P7" n="10">
+         <graphic url="assets/img/U34/7.jpg"></graphic>
+      </surface>
+      <surface xml:id="P8" n="11">
+         <graphic url="assets/img/U34/8.jpg"></graphic>
+      </surface>
+      <surface xml:id="P9" n="12">
+         <graphic url="assets/img/U34/9.jpg"></graphic>
+      </surface>
+   </facsimile>
+  <text>
+      <body>
+         <div type="play" xml:lang="it">
+            <pb facs="#Title" n="1"/>
+               <head>
+                  <app>
+                     <lem wit="#U34">Capitano <persName ref="#Ulisse">Ulisse</persName></lem>
+                     <rdg wit="#Ums25"> Capitan <persName ref="#Ulisse">Ulisse</persName></rdg>
+                     <rdg wit="#Uds25"><gap reason="notInVersion" sameAs="NIT"/></rdg>
+                  </app>
+               
+               </head>
+            <pb facs="#cast" n="2"/>
+            <app>
+               <lem wit="#U34 #Uds34">
+               <castList>
+                  <head>PERSONAGGI</head>
+                  
+                  <castItem>
+                     <roleName>CAPITANO
+                        <persName ref="#Ulisse">ULISSE</persName>
+                     </roleName>
+                  </castItem>
+                  <castItem>
+                     <roleName> <persName ref="#Euriloco">EURILOCO</persName></roleName>
+                     <roleDesc>quartiermastro</roleDesc>
+                  </castItem>
+                  <castItem>
+                     <roleName><persName ref="#Telemaco">TELEMACO</persName></roleName>
+                     <roleDesc>figlio di <persName ref="#Ulisse">ULISSE</persName></roleDesc>
+                  </castItem>
+                  <castItem>
+                     <role><persName ref="#Eumeo">EUMEO</persName></role>
+                     <roleDesc>maggiordomo</roleDesc>
+                  </castItem>
+                  <castItem>
+                     <role><persName ref="#Alcinoo">ALCINOO</persName></role>
+                     <roleDesc>re dei Feaci</roleDesc>
+                  </castItem>
+                  <castItem>
+                     <role><persName ref="#Mercurio">MERCURIO</persName></role>
+                  </castItem>
+                  <castItem>
+                     <role> <persName ref="#Margalone">MERGALONE</persName>, <persName ref="#Pandaro">PANDARO</persName>,<persName ref="#Senodulo"> SENODULO</persName>, <persName ref="#Filalete">FILALETE</persName></role>
+                     <roleDesc>marinai</roleDesc>
+                  </castItem>
+                  <castItem>
+                     <role><persName ref="#PM">IL PRIMO MINISTRO</persName></role>
+                     <roleDesc>alla corte di <persName ref="#Alcinoo">ALCINOO</persName></roleDesc>
+                  </castItem>
+                  <castItem>
+                     <role><persName ref="#Ufficiale">UN UFFICIALE</persName></role>
+                     <roleDesc>alla corte di <persName ref="#Alcinoo">ALCINOO</persName></roleDesc>
+                  </castItem>
+                  <castItem>
+                     <role><persName ref="#S1">LO SPETTATORE</persName> e il <persName ref="#S2">SECONDO SPETTATORE</persName></role>
+                  </castItem>
+                  <castItem>
+                     <role><persName ref="#Circe">CIRCE</persName>, <persName ref="#Calipso">CALIPSO</persName>, <persName ref="#Penelope">PENELOPE</persName></role>
+                     <note type="app">I personaggi di Circe, Clipso e Penelope sono raggruppati in un unico ruolo perchè l'autore voleva fari interpretare questi personaggi ad un unica attrice. Decisione drammaturgica che è stata poi mantenuta nella quasi totalità delle rappresentazioni teatrali del testo</note>
+                  </castItem>
+                  <castItem>
+                     <role><persName ref="#Minerva">MINERVA</persName></role>
+                     <roleDesc>nutrice di <persName ref="#Ulisse">ULISSE</persName></roleDesc>
+                  </castItem>
+                  <castItem>
+                     <role><persName ref="#MP">MADEMOISELLE PORCHER</persName></role>
+                     <roleDesc>maestra di pianoforte</roleDesc>
+                  </castItem>
+                  <castItem>
+                     <role><persName ref="#C">CAMERIERA</persName> di <persName ref="#Calipso">CALIPSO</persName></role>
+                  </castItem>
+                  <castItem>
+                     <role><persName ref="#A1">PRIMA</persName> e  <persName ref="#A2">SECONDA ANCELLA</persName> di <persName ref="#Circe">CIRCE</persName></role>
+                  </castItem>
+                  <castItem>
+                     <role><persName ref="#Regina">LA REGINA</persName></role>
+                     <roleDesc>moglie di <persName ref="#Alcinoo">ALCINOO</persName></roleDesc>
+                  </castItem>
+                 <castItem>
+                    <role>Ancelle di <persName ref="#Circe">Circe</persName>; uomini e donne del seguito di <persName ref="#Penelope">Penelope</persName>; ministri,
+                       dignitari, gentiluomini e ufficiali della corte di <persName ref="#Alcinoo">Alcinoo</persName>; spettatori.
+                    </role>
+                 </castItem>
+               </castList>
+               </lem>
+               <rdg wit="#Ums25 #Uds25"><gap reason="NotInVersion" sameAs="NIT"/></rdg>
+            </app>
+               
+            
+            <pb facs="#P0" n="3"/>
+  
+            <div type="act" n="1">
+               
+               <head>ATTO PRIMO</head>
+               
+               <pb facs="#P1" n="4"/>
+ 
+               <stage>
+                  <app>
+                     <lem wit="#U34">Nell'Isola di <persName ref="#Circe">Circe</persName></lem>
+                     <rdg wit="#Ums25 #Uds25"><gap reason="notInVersion" sameAs="NIT"/></rdg>
+                  </app>
+               </stage>
+               
+               <pb facs="#P2" n="5"/>
+                  <stage>SIPARIO CHIUSO</stage>
+               
+               <sp> <speaker><persName ref="#Euriloco">EURILOCO</persName></speaker>
+
+                  <stage>vecchio lupo di mare: barba a gorgiera, 
+                  <app>
+                     <lem wit="#U34">maglione chiuso fin sotto il mento</lem>
+                     <rdg wit="#Ums25">maglione scuro</rdg>
+                  </app>
+                  
+                  , calzoni 
+                  
+                  <app>
+                     <lem wit="#U34">di grosso velluto scannellato.</lem> 
+                     <rdg wit="#Ums25">di velluto</rdg>
+                  </app> Viene sul proscenio
+                  
+                  <app>
+                     <lem wit="#U34">, va a sedere</lem>
+                     <rdg wit="#Ums25">e va a sedersi</rdg>
+                  </app>
+                  
+                  sul primo gradino della scala che 
+                  
+                  <app>
+                     <lem wit="#U34"> unisce palcoscenico a</lem>
+                     <rdg wit="#Ums25">unisce il palcoscenico alla</rdg>
+                  </app>
+                  
+                 platea. E’ accigliato, nero. Cava la pipa di tasca, l’accende: la pipa non tira.</stage> 
+               <p> Porca miseria!</p> <stage>Poppa rabbiosamente.</stage> <p> Dio 
+                   pappafico!</p> <stage>Brucia parecchi fiammiferi uno
+                   
+                   <app>
+                      <lem wit="#U34">dopo</lem>
+                      <rdg wit="#Ums25">dietro</rdg>
+                   </app>
+                    l’altro: la pipa s’ostina a non 
+                  tirare. </stage> <p> Madonna piè di pollo! Anche 
+                  
+                  <app>
+                     <lem wit="#U34">Alessandra</lem>
+                     <rdg wit="#Ums25">“Alessandra„</rdg>
+                  </app>
+                 ci si mette… Boh!... O fumare o  morire.</p> <stage> Scruta dentro il fornello.</stage> <p> Dio bompresso e libeccioso… Cenere! cenere!... Chi dice cenere dice zero.</p> <stage>  Si fruga 
+                 
+                 <app>
+                    <lem wit="#U34"> disperatamente</lem>
+                    <rdg wit="#Ums25"><gap reason="notInVersion"/></rdg>
+                 </app>
+                  
+                 nelle tasche. </stage> <p> Nulla! 
+                  Nemmeno il chicco di grazia che si dà ai condannati. Dio sprofondi l’isola di 
+                    <persName ref="#Circe">Circe</persName>! </p>
+               
+               <stage>
+                  
+                  <app>
+                     <lem wit="#U34">Butta via la pipa.</lem>
+                     <rdg wit="#Ums25"><gap reason="notInVersion"/></rdg>
+                  </app> 
+               
+               </stage>
+               </sp>
+               <pb facs="#P3" n="6"/>
+               <sp>
+                  <speaker><persName ref="#S1">SPETTATORE</persName></speaker>
+                  <stage>seduto in una poltrona di prima file:sulla cinquatina e calvo; cerimonioso, burocratico, banale.</stage> <p>
+                     <app>
+                        <lem wit="#U34">Buonasera</lem>
+                        <rdg wit="#Ums25">Salute</rdg>
+                     </app> 
+                     
+                     a lei, maestro.</p> 
+                  
+               </sp>
+               
+               <sp>
+                  <speaker><persName ref="#Euriloco">EURILOCO</persName></speaker>
+                  <p>Chi parla?</p> <stage>Guarda in platea, 
+                     
+                     <app>
+                        <lem wit="#U34">la mano a visiera sugli occhi</lem>
+                        <rdg wit="#Ums25">riparandosi gli occhi con la mano</rdg>
+                     </app>
+                     
+                     : riconosce lo spettatore.</stage>
+                  <p>Dica un po lei, le è capitato mai 
+                     
+                     <app>
+                        <lem wit="#U34">vedersi</lem>
+                        <rdg wit="#Ums25">di vedersi</rdg>
+                     </app> 
+                     
+                     spuntare tabacco sul cranio?</p>
+                  
+               </sp>
+               
+               <sp>
+                  <speaker><persName ref="#S1">SPETTATORE</persName></speaker>
+                  <stage>offeso</stage>
+                  <p>Non le permetto!...</p>
+               </sp>
+               
+               <sp>
+                  <speaker><persName ref="#Euriloco">EURILOCO</persName></speaker>
+                  <p>
+                     <app>
+                        <lem wit="#U34">Peccato! Più facile vederlo spuntare là</lem>
+                        <rdg wit="#Ums25">No?.. Peccato! Era più facile vederlo spuntare sul suo cranio </rdg>
+                     </app>
+                        
+                        , che in questo sacramentatissimo paese. 
+                  </p>
+                  
+               </sp>
+               
+               <sp>
+                  <speaker><persName ref="#S1">SPETTATORE</persName></speaker>
+                  
+                 <p>
+                    <app>
+                       <lem wit="#U34">Ma… ha cercato bene?</lem>
+                       <rdg wit="#Ums25"><stage>(Ammansito) Ha cercato bene?</stage></rdg>
+                    </app>
+                 </p>
+               </sp>
+               
+               <sp>
+                  <speaker><persName ref="#Euriloco">EURILOCO</persName></speaker>
+                  <p>Che vuol cercare! Fame, sete, rabbia di 
+                  <app>
+                     <lem wit="#U34">fumare!...</lem>
+                     <rdg wit="#Ums25">fumare: crepare bisogna!</rdg>
+                  </app>
+                  </p>
+               </sp>
+               
+               <sp>
+                  <speaker><persName ref="#S1">SPETTATORE</persName></speaker>
+                  <p>Anche la fame e la sete?</p>
+               </sp>
+               
+               <sp>
+                  <speaker><persName ref="#Euriloco">EURILOCO</persName></speaker>
+                  <p>Provi a sfamarsi lei con gelatine, soufflés, sgonfiotti, spumoni e altre porcherie di questo genere: roba trasparente come celluloide, tremolante come le 
+                     
+                     <pb facs="#P4" n="7"/>
+                     
+                     cosce dei cavalli: ti nausea prima di saziarti. Hai sete? Di vino qui non si parla: 
+                     questa bella gente pasteggia con liquori, rosolii, sciroppi… possa andare in bocca al pescecane! Nemmeno l’acqua ti dànno. Ma che acqua! Acqua di seltz che anziché 
+                     <app>
+                        <lem wit="#U34">levartela</lem>
+                        <rdg wit="#Ums25">levarla </rdg>
+                     </app>
+                     , mette  più sete di prima!</p>
+               </sp>
+               
+               <sp>
+                  <speaker><persName ref="#S1">SPETTATORE</persName></speaker>
+                  <p>Capisco bene… ma un po di 
+                     <app>
+                        <lem wit="#U34">sopportazione, che diamine!</lem>
+                        <rdg wit="#Ums25">pazienza ci vuole , che diamine! un po di sopportazione…
+                        </rdg>
+                     </app>
+                  </p>
+               </sp>
+               
+               <sp>
+                  <speaker><persName ref="#Euriloco">EURILOCO</persName></speaker>
+                  <p>Sfido io! Lei viene qui la sera, si sdraia in poltrona, è padrone di restare, 
+                     andarsene, fare 
+                     <app>
+                        <lem wit="#U34">il suo porco comodo… </lem>
+                        <rdg wit="#Ums25">tutti i suoi comodacci…</rdg>
+                     </app>
+                     
+                     Provi un po a mettersi nei miei panni. <stage>Fa l’atto di cavarsi il
+                        maglione.</stage> Non sono di bucato, l’avverto: questo maglione da tre mesi
+                     me lo porto addosso; ma se non le 
+                     <app>
+                        <lem wit="#U34">fa schifo…</lem>
+                        <rdg wit="#Ums25">a schifo ci provi, e vedrà se ho ragione o no di  brontolare. 
+                        </rdg>
+                     </app>
+                  </p>
+               </sp>
+               
+               <stage>
+                  <app>
+                     <lem wit="#U34"><persName ref="#Margalone">Margalone</persName> e la <persName ref="#A1">prima ancella</persName> di <persName ref="#Circe">Circe</persName> escono dal lato destro
+                        dell’arco scenico.</lem>
+                     <rdg wit="#Ums25">Sulla parola “ormai” pronunciata dal <persName ref="#Euriloco">quartiermastro</persName>, esce sul
+                        proscenio una coppia costituita da un giovane marinaio e da una ancella di
+                        <persName ref="#Circe">Circe</persName>. </rdg>
+                  </app> 
+                  
+                  Il  <persName ref="#Margalone">marinaio</persName> tiene la compagna per la vita. Veste costui il commun abito marinaro,
+                  ma con assai ricercatezza. Berretto sulle ventitrè
+                  <app>
+                     <lem wit="#U34">, nuca rasata.</lem>
+                     <rdg wit="#Ums25">e nuca rasata</rdg>
+                  </app>
+                  L’<persName ref="#A1">ancella</persName> – capelli corti, serrati intorno al cranio da nastro serico – porta un tea-gown sul tipo di quelli confezionati dalla 
+                  <app>
+                     <lem wit="#U34">Casa <persName ref="https://www.wikidata.org/entity/Q631884" cert="medium">Poiret</persName>.</lem>
+                     <rdg wit="#Ums25">sartoria <persName ref="https://www.wikidata.org/entity/Q631884" cert="medium">Poiret</persName>, di <placeName
+                        ref="https://www.wikidata.org/entity/Q90">Parigi</placeName>.</rdg>
+                  </app>
+                  Camminano lenti ambedue, con affettazione e svenevolezza;
+                  
+                  <pb facs="#P5" n="8"/>
+                  
+                  l’<persName ref="#A1">ancella</persName> soprattutto, quale piega alla vita come gambo che cede 
+                  <app>
+                     <lem wit="#U34"> sotto troppo onusto fiore.</lem>
+                     <rdg wit="#Ums25">sotto fiore troppo onusto.</rdg>
+                  </app>
+                  
+                  <app>
+                     <lem wit="#U34"> Mentre <persName ref="#Euriloco">Euriloco</persName> si volta e vede avanzare la coppia, interrompe
+                        la frase</lem>
+                     <rdg wit="#Ums25"> <unclear/> quella che <persName ref="#Euriloco">Euriloco</persName> si volta e vede avvicinarsi
+                        la coppia, interrompe la frase incominciata</rdg>
+                  </app>
+                  , seccato e 
+                  <app>
+                     <lem wit="#U34">assieme disgustato.</lem>
+                     <rdg wit="#Ums25">e assieme disgustato della presenza dei sopravvenuti.
+                     </rdg>
+                  </app>
+               </stage>
+               
+               <sp>
+                  <speaker>
+                     <app>
+                        <lem wit="#U34"><persName ref="#Margalone">MARGALONE</persName></lem>
+                        <rdg wit="#Ums25">Marinaio</rdg>
+                     </app>
+                  </speaker>
+                  
+                  <p>Disturbiamo, <persName ref="#Euriloco">maestro</persName>?
+                     <app>
+                        <lem wit="#U34">Stavi conversando:</lem>
+                        <rdg wit="#Uds25">Stavi parlando: </rdg>
+                     </app>
+                      continua.</p>
+               </sp>
+               
+               <sp>
+                  <speaker><persName ref="#Euriloco">EURILOCO</persName></speaker>
+                  <stage>lo squadra dal capo 
+                  <app>
+                     <lem wit="#U34">alle piante.</lem>
+                     <rdg wit="#Ums25">alle piante. Poi gli volta le spalle.</rdg>
+                  </app>
+                  </stage>
+                  <p>Non ricevo ordini da nessuno: da te bel rondone, meno che meno.</p>
+                  
+                  <stage>
+                     <app>
+                        <lem wit="#U34">Gli volta le spalle.</lem>
+                        <rdg wit="#Ums25"><gap reason="notInVersion"/></rdg>
+                     </app>
+                  </stage>
+               </sp>
+               
+               <sp>
+                  <speaker>
+                     <app>
+                        <lem wit="#U34"><persName ref="#Margalone">MARGALONE</persName></lem>
+                        <rdg wit="#Ums25">Marinaio</rdg>
+                     </app> 
+                  </speaker>
+                     <p>
+                        <app>
+                           <lem wit="#U34">Come la pigliamo dall’alto!</lem>
+                           <rdg wit="#Ums25">Come la pigliamo dall’alto! E che v’è capitato, <persName ref="#Euriloco">maestro</persName>, che siete pieno d’umore paradisiaco? 
+                           </rdg>
+                        </app>
+                     </p>
+                  </sp>
+               
+               <sp>
+                  <speaker><persName ref="#S1">SPETTATORE</persName></speaker>
+                  
+                  <p>
+                     <app>
+                        <lem wit="#U34">Non ci badi: è un po irritato</lem>
+                        <rdg wit="#Ums25">Che vuole! è un po irritato <unclear/></rdg>
+                     </app>
+                     perché la pipa non tira. 
+                  </p>
+               </sp>
+               
+               <sp>
+                  <speaker><persName ref="#Euriloco">EURILOCO</persName></speaker>
+                  <stage>scatta in piedi furibondo.</stage>
+                  <p>
+                     <app>
+                        <lem wit="#U34">Alessandra non tira?</lem>
+                        <rdg wit="#Ums25">La mia pipa non tira? Sarà lei che non tira!... Ma sentilo questo: “Alessandra„ non tira! </rdg>
+                     </app>
+                  </p>
+               </sp>
+               
+               <sp>
+                  <speaker><persName ref="#A1">ANCELLA</persName></speaker>
+                  <stage>al <persName ref="#Margalone">marinaio</persName> curiosa</stage>
+                  <p>“Alessandra„? <foreign xml:lang="fr">qu’est-ce que c’est que ça</foreign>, <foreign xml:lang="en">my dear</foreign>?</p>
+               </sp>
+               
+               <sp>
+                  <speaker><persName ref="#Euriloco">EURILOCO</persName></speaker>
+                  <stage>
+                     <app>
+                        <lem wit="#U34">si approssima alla pipa,</lem>
+                        <rdg wit="#Ums25"> Povera calunniata! si approssima alla pipa,</rdg>
+                     </app>
+                     a raccoglie e contempla con occhio paterno,
+                     <app>
+                        <lem wit="#U34">carezzandola</lem>
+                        <rdg wit="#Ums25">accarezzandola</rdg>
+                     </app>
+                     lungo il tubo e sul fornello, come canarino malato.
+                  </stage>
+                  <p>Dillo te, dillo te come sai tirare se ti si mette anche 
+                     <app>
+                        <lem wit="#U34">un pizzico</lem>
+                        <rdg wit="#Ums25">un solo pizzico</rdg>
+                     </app>
+                     di tabacco nel
+                     
+                     <pb facs="#P6" n="9"/>
+                     ventricino nero!</p>
+               </sp>
+               
+               <stage>
+                  <app>
+                     <lem wit="#U34">I due giovani, dietro, ridono sommessamente.</lem>
+                     <rdg wit="#Ums25">I due giovani ridono sommessamente.</rdg>
+                  </app>
+               </stage>
+               
+               <sp>
+                  <speaker><persName ref="#Euriloco">EURILOCO</persName></speaker>
+                  <p>
+                  <app>
+                     <lem wit="#U34">Che avete da ridere macachi? <stage>Si volta
+                           inviperito.</stage></lem>
+                     <rdg wit="#Ums25"><stage>(Si volta, inviperitissimo)</stage> Che avete da
+                        ridere macachi?</rdg>
+                  </app>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <app>
+                        <lem wit="#U34"><persName ref="#Margalone">MARGALONE</persName></lem>
+                        <rdg wit="#Ums25">Marinaio</rdg>
+                     </app> 
+                  </speaker>
+                  
+                  <stage> gli muove contro.</stage>
+                  
+                  <p>Guarda come parli!</p>
+               </sp>
+               
+               <sp>
+                  <speaker><persName ref="#S1">SPETTATORE</persName></speaker>
+                  <stage>sale precipitosamente sul palcoscenico a evitare una rissa. </stage>
+                  <p>Calma, calma, signori.</p>
+                  
+                  <app>
+                     <lem wit="#U34"><stage>All’<persName ref="#A1">ancella</persName>:</stage> <p>Non avrebbe per caso un po di
+                        tabacco?</p></lem>
+                     <rdg wit="#Ums25"><stage>(Spinge indietro il marinaio.)</stage><p>Non avrebbe per caso un po di tabacco da dargli? </p></rdg>
+                  </app>
+                  <p>lo placherebbe subito.</p>
+               </sp>
+               
+               <sp>
+                  <speaker><persName ref="#A1">ANCELLA</persName></speaker>
+                  <stage>estrae da una borsetta a maglie d’oro un magnifico portasigarette, lo apre
+                     e, 
+                     <app>
+                        <lem wit="#U34">premurosa, impietosita, si avvicina al <persName ref="#Euriloco">quartiermastro</persName>.</lem>
+                        <rdg wit="#Ums25">tesa la mano offerente, si avvicina al 
+                           <persName ref="#Euriloco">quartiermastro</persName>.</rdg>
+                     </app>
+                  </stage>
+                  
+                  <p><foreign xml:lang="fr">Tenez</foreign> mio povero signore, 
+                     <app>
+                        <lem wit="#U34"><objectName ref="https://www.wikidata.org/entity/Q3867367" cert="medium">Muratti</objectName>’s</lem>
+                        <rdg wit="#Ums25"> <objectName ref="https://www.wikidata.org/entity/Q3867367" cert="medium">Murattys</objectName></rdg>
+                     </app>
+                      <foreign
+                        xml:lang="fr">bout doré</foreign>.</p>
+               </sp>
+               
+               <sp>
+                  <speaker><persName ref="#Euriloco">EURILOCO</persName></speaker>
+                  <stage>considera con disprezzo sigarette, astuccio e donna.</stage>
+                  <p>A me… a me queste porcheriole?...</p>
+                  <stage>Respinge il portasigarette.</stage> <p>Va! Pussa via, smorfiosa.</p>
+               </sp>
+               
+               <sp>
+                  <speaker><persName ref="#A1">ANCELLA</persName></speaker>
+                  <stage>indignata, batte il tacco a terra.</stage> <p><foreign xml:lang="en">O shocking</foreign>!</p> <stage>Al <persName ref="#Margalone">marinaio</persName>:</stage>
+                  <p>Quanto è <foreign xml:lang="fr">grossier</foreign>questo vostro amico. Andiamo via! Andiamo via!</p>
+                  <stage>
+                     Se ne va trascinandosi 
+                  </stage>
+               </sp>
+               
+               <pb facs="#P7" n="10"/>
+               <stage>  dietro il
+                  <app>
+                     <lem wit="#U34"> <persName ref="#Margalone">marinaio</persName></lem>
+                     <rdg wit="#Ums25">giovane marinaio.</rdg>
+                  </app>
+               </stage>
+               <sp>
+                  <speaker><persName ref="#Euriloco">EURILOCO</persName></speaker>
+                  <p>L’ha guardata bene quella bertuccia</p>
+               </sp>
+               
+               <sp>
+                  <speaker><persName ref="#S1">SPETTATORE</persName></speaker>
+                  <p>Già! un po affettata, smancerosa…</p>
+               </sp>
+               
+               <sp>
+                  <speaker><persName ref="#Euriloco">EURILOCO</persName></speaker>
+                  <p>Tutte a questo modo, a cominciare dalla <persName ref="#Circe">padrona</persName>.</p>
+               </sp>
+               <sp>
+                  <speaker><persName ref="#S1">SPETTATORE</persName></speaker>
+                  <p>
+                     <app>
+                        <lem wit="#U34">Che vuole? Donne moderne.</lem>
+                        <rdg wit="#Ums25">Che vuole? Sono fatte così: donne moderne.</rdg>
+                     </app>
+                  </p>
+               </sp>
+               
+               <sp>
+                  <speaker><persName ref="#Euriloco">EURILOCO</persName></speaker>
+                  <p> Moderne? Donne schife, dico io. Vedesse poi la villa, quei salotti! Non c’è 
+                    nemmeno da sedersi: cuscini sparsi per terra, poufs che se ti ci metti su vai a 
+                    gambe per aria, tende nere sulle quali scolano lacrime d’argento, luci velate che ti fissano dagli angoli come occhi di gatto, e un puzzo d’incenso 
+                    <app>
+                       <lem wit="#U34">dappertutto… </lem>
+                       <rdg wit="#Ums25">che ti torce lo stomaco.</rdg>
+                    </app>
+                    Vuol sapere cos’è quest’isola? Glie lo dico io: è la sede dell’estetismo. Tutto vacuo, falso, artificiale.
+                    <app>
+                       <lem wit="#U34"> Lo stesso mare qui intorno… Ha mai veduto il mare lei, quello vero?</lem>
+                       <rdg wit="#Ums25">lo stesso mare… Ha mai visto il mare lei, quello vero?</rdg>
+                    </app>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker><persName ref="#S1">SPETTATORE</persName></speaker>
+                  <p>Come no!</p>
+               </sp>
+               <sp>
+                  <speaker><persName ref="#Euriloco">EURILOCO</persName></speaker>
+                  <p>Allora sa com’è: l’onda che si butta sulla riva, poi
+                     <pb facs="#P8" n="11"/>
+                     
+                     torna indietro solo per scagliarsi un’altra volta. Il mare nemico della terra, avversario indomabile. Il mare che assalta la terra e vuole invaderla notte e giorno. Il mare insomma, con la sua vita propria, la sua oscura, ostinatissima volontà, le sue passioni, le sue scemenze…</p>
+               </sp>
+               <sp>
+                  <speaker><persName ref="#S1">SPETTATORE</persName></speaker>
+                  <p>E questo invece?</p>
+               </sp>
+               
+               <sp>
+                  <speaker><persName ref="#Euriloco">EURILOCO</persName></speaker>
+                  <p>Diversissimo! Un’altra cosa. Non più avversario, ma alleato fedelissimo della 
+                     terra.  Implicati entrambi nella 
+                     <app>
+                        <lem wit="#U34">stessa subdola complicità.</lem>
+                        <rdg wit="#Ums25">stessa perfida complicità</rdg>
+                     </app>
+                     Un mare senza volontà, senza  individualità – si figuri, lui,
+                     l’individualista per eccellenza! Un mare emanazione della  terra. La terra che
+                     muta sostanza e si prolunga.
+                  </p> 
+               </sp>
+               <sp>
+                  <speaker><persName ref="#S1">SPETTATORE</persName></speaker>
+                  <p>Come mai?</p>
+               </sp>
+               <sp>
+                  <speaker><persName ref="#Euriloco">EURILOCO</persName></speaker>
+                  <p>Mah… Io dico che anche gli elementi sono corrotti qui intorno… E la varietà?
+                     Quella costante, inesauribile varietà del mare; quel suo continuo cambiare
+                     faccia,vestito, sguardo: quei suoi umori mutabilissimi nei quali io – nato sul
+                     mare, cullato dalle maree, cresciuto sulle creste delle onde – non sono 
+                     riuscito 
+                     <pb facs="#P9" n="12"/>
+                     ancora, vecchio come mi vede, a capirci nulla; qui invece…
+                  </p>
+               </sp>
+               
+               <sp>
+                  <speaker><persName ref="#S1">SPETTATORE</persName></speaker>
+                  <p>Calmo?</p>
+               </sp>
+               <sp>
+                  <speaker><persName ref="#Euriloco">EURILOCO</persName></speaker>
+                  <p>Come si fa a dire calmo? Morto… Ma neppure. Perché si muove, non è </p>
+               </sp>
+           
+            </div>
+         </div>
+      </body>
+  </text>
+</TEI>

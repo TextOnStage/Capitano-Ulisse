@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:frbroo="http://iflastandards.info/ns/fr/frbr/frbroo/"
+   xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+   xmlns:dct="http://purl.org/dc/terms/"
+   xmlns:schema="http://schema.org/"
+   xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+   xml:base="https://textonstage.github.io/Capitano-Ulisse/">
+
+   <frbroo:F1_Work rdf:about="id/work/CU">
+      <schema:name xml:lang="it">Capitano Ulisse</schema:name>
+   </frbroo:F1_Work>
+   
+   <frbroo:F2_Expression rdf:about="id/expr/print1934">
+      <dct:type xml:lang="en">Printed edition text (1934)</dct:type>
+      <schema:url rdf:resource="U34.html"/>
+      <schema:relatedLink rdf:resource="performance-objects.html"/>
+   </frbroo:F2_Expression>
+   
+   <frbroo:F2_Expression rdf:about="id/expr/stageText/2022">
+      <dct:type xml:lang="en">Performance text for the 2022 staging</dct:type>
+      <dct:description xml:lang="en">
+         Context-specific stage-oriented textual configuration inferred for the 2022
+         performance, mediating between the authorised 1934 text and the documented staging.
+      </dct:description>
+      <frbroo:R2_is_derivative_of rdf:resource="id/expr/print1934"/>
+   </frbroo:F2_Expression>
+   
+   <frbroo:F31_Performance rdf:about="id/perf/2022">
+      <schema:name xml:lang="en">Staging of Capitano Ulisse (2022)</schema:name>
+      <schema:startDate rdf:datatype="xsd:date">2022-04-06</schema:startDate>
+      <schema:endDate rdf:datatype="xsd:date">2022-04-10</schema:endDate>
+      <frbroo:R80_performed rdf:resource="id/work/CU"/>
+      <schema:isBasedOn rdf:resource="id/expr/stageText/2022"/>
+      <schema:director rdf:resource="id/person/director-2022"/>
+      <schema:location rdf:resource="id/place/perf-2022"/>
+   </frbroo:F31_Performance>
+   
+   <schema:Person rdf:about="id/person/director-2022">
+      <schema:name>Andrea Martella</schema:name>
+   </schema:Person>
+   
+   <schema:Place rdf:about="id/place/perf-2022">
+      <schema:name>Teatro Trastevere</schema:name>
+   </schema:Place>
+
+   <schema:Person rdf:about="id/person/jacopo-mandich">
+      <schema:name>Jacopo Mandich</schema:name>
+   </schema:Person>
+
+   <schema:ImageObject rdf:about="id/poster/2022">
+      <dct:type xml:lang="en">Promotional poster</dct:type>
+      <schema:name xml:lang="en">Promotional poster for Capitano Ulisse (2022)</schema:name>
+      <dct:date rdf:datatype="xsd:gYear">2022</dct:date>
+      <schema:mainEntityOfPage rdf:resource="objects/poster-2022.html"/>
+      <schema:contentUrl rdf:resource="images/poster-2022.jpg"/>
+      <schema:image rdf:resource="images/poster-2022.jpg"/>
+      <schema:creditText xml:lang="it">Opera in locandina: Jacopo Mandich</schema:creditText>
+      <schema:about rdf:resource="id/person/jacopo-mandich"/>
+      <schema:about rdf:resource="id/perf/2022"/>
+      <schema:about rdf:resource="id/expr/stageText/2022"/>
+      <crm:P70_documents rdf:resource="id/perf/2022"/>
+      <schema:relatedLink rdf:resource="U34.html"/>
+   </schema:ImageObject>
+   
+</rdf:RDF>
+
