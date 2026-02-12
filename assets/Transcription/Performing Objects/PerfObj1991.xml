@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="article-1991">
+   <teiHeader>
+      <fileDesc>
+         
+         <titleStmt>
+            <title>Newspaper or journal article about "Capitano Ulisse" (1991)</title>
+            <author>
+               <persName ref="https://www.wikidata.org/wiki/Q3165279">Jean Cléo Godin</persName>
+            </author>
+         </titleStmt>
+         
+         <publicationStmt>
+            <publisher>
+               <orgName ref="https://www.wikidata.org/wiki/Q81865781">Jeu</orgName>
+            </publisher>
+            
+            <pubPlace>
+               <placeName ref="https://www.wikidata.org/wiki/Q3527509">Théâtre Maisonneuve</placeName>
+            </pubPlace>
+            
+            <date when="1991">1991</date>
+            
+            <availability>
+               <p>This digital TEI metadata is provided for non-commercial academic use only.</p>
+            </availability>
+            
+            <idno type="URI">id/doc/article-1991</idno>
+         </publicationStmt>
+         
+         <sourceDesc>
+            <p>
+               TEI metadata for a 1991 press article reviewing a performance of
+               <title level="m">Capitano Ulisse</title>.
+               Article: <title level="a">« Capitano Ulisse »</title>, by
+               <persName ref="https://www.wikidata.org/wiki/Q3165279">Jean Cléo Godin</persName>,
+               in <title level="j"><orgName ref="https://www.wikidata.org/wiki/Q81865781">Jeu</orgName></title>,
+               issue 58 (1991), p. 201.
+               Online record: <ref target="https://id.erudit.org/iderudit/27380ac">Érudit</ref>.
+               Local file: <ref target="pdf/Article1991.pdf">Article1991.pdf</ref>.
+               Director: <persName ref="https://www.wikidata.org/wiki/Q93580">Mario Missoli</persName>.
+            </p>
+         </sourceDesc>
+         
+      </fileDesc>
+   </teiHeader>
+
+   <facsimile>
+      <graphic url="img/1991.png"/>
+   </facsimile>
+   
+   <text>
+      <body>
+         <div type="object" xml:id="article">
+            <head>Press article </head>
+            <p>
+               This object records a critical review published in 1991 concerning the Montréal
+               presentation of <hi rend="italic">Capitano Ulisse</hi> by the Teatro Stabile di Palermo,
+               a production originally created in 1990. As a performance-related document, the
+               article provides evidence of the staging’s reception and critical interpretation,
+               contributing to the reconstruction of its performative history.
+               
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
