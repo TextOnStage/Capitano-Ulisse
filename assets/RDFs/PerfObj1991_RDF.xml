@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:frbroo="http://iflastandards.info/ns/fr/frbr/frbroo/"
+   xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+   xmlns:dct="http://purl.org/dc/terms/"
+   xmlns:schema="http://schema.org/"
+   xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+   xml:base="https://textonstage.github.io/Capitano-Ulisse/">
+   
+   <frbroo:F1_Work rdf:about="id/work/CU">
+      <schema:name xml:lang="it">Capitano Ulisse</schema:name>
+   </frbroo:F1_Work>
+   
+   <frbroo:F2_Expression rdf:about="id/expr/print1934">
+      <dct:type xml:lang="en">Printed edition text (1934)</dct:type>
+      <schema:url rdf:resource="U34.html"/>
+      <schema:relatedLink rdf:resource="performance-objects.html"/>
+   </frbroo:F2_Expression>
+   
+   <frbroo:F2_Expression rdf:about="id/expr/stageText/1991">
+      <dct:type xml:lang="en">Performance text (inferred) for the 1991 staging</dct:type>
+      <dct:description xml:lang="en">
+         Context-specific stage-oriented textual configuration, inferred from available evidence
+         and used as a mediating node between the authorised 1934 text and the documented 1991 performance.
+      </dct:description>
+      <frbroo:R2_is_derivative_of rdf:resource="id/expr/print1934"/>
+   </frbroo:F2_Expression>
+   
+   <frbroo:F31_Performance rdf:about="id/perf/1991">
+      <schema:name xml:lang="en">Staging of Capitano Ulisse (1991)</schema:name>
+      <schema:startDate rdf:datatype="xsd:date">1991-01-05</schema:startDate>
+      <schema:endDate rdf:datatype="xsd:date">1991-01-06</schema:endDate>
+      <frbroo:R80_performed rdf:resource="id/work/CU"/>
+      <schema:isBasedOn rdf:resource="id/expr/stageText/1991"/>
+      <schema:director rdf:resource="id/person/director-1991"/>
+      <schema:location rdf:resource="id/place/perf-1991"/>
+   </frbroo:F31_Performance>
+   
+   <schema:Person rdf:about="id/person/director-1991">
+      <schema:name>Mario Missoli</schema:name>
+      <schema:sameAs rdf:resource="https://www.wikidata.org/wiki/Q93580"/>
+   </schema:Person>
+   
+   <schema:Place rdf:about="id/place/perf-1991">
+      <schema:name xml:lang="fr">Théâtre Maisonneuve</schema:name>
+      <schema:sameAs rdf:resource="https://www.wikidata.org/wiki/Q3527509"/>
+   </schema:Place>
+   
+   <schema:Periodical rdf:about="id/periodical/jeu">
+      <schema:name xml:lang="fr">Jeu</schema:name>
+      <schema:sameAs rdf:resource="https://www.wikidata.org/wiki/Q81865781"/>
+   </schema:Periodical>
+   
+   <schema:PublicationIssue rdf:about="id/pubissue/jeu-58-1991">
+      <schema:isPartOf rdf:resource="id/periodical/jeu"/>
+      <schema:issueNumber>58</schema:issueNumber>
+      <schema:datePublished rdf:datatype="xsd:gYear">1991</schema:datePublished>
+   </schema:PublicationIssue>
+   
+   <schema:Organization rdf:about="id/org/erudit">
+      <schema:name xml:lang="fr">Érudit</schema:name>
+      <schema:sameAs rdf:resource="https://www.wikidata.org/wiki/Q3591464"/>
+   </schema:Organization>
+   
+   <schema:WebPage rdf:about="id/web/erudit-27380ac">
+      <schema:url rdf:resource="https://id.erudit.org/iderudit/27380ac"/>
+      <schema:datePublished rdf:datatype="xsd:date">2010-03-11</schema:datePublished>
+      <schema:provider rdf:resource="id/org/erudit"/>
+   </schema:WebPage>
+   
+   <crm:E31_Document rdf:about="id/doc/article-1991">
+      <dct:type xml:lang="en">Critical article / review</dct:type>
+      <dct:title xml:lang="it">« Capitano Ulisse »</dct:title>
+      
+      <dct:date rdf:datatype="xsd:gYear">1991</dct:date>
+      <dct:creator rdf:resource="id/person/journalist-1991"/>
+      
+      <schema:isPartOf rdf:resource="id/pubissue/jeu-58-1991"/>
+      <dct:publisher rdf:resource="id/periodical/jeu"/>
+      <schema:pagination>201</schema:pagination>
+      
+      <schema:mainEntityOfPage rdf:resource="id/web/erudit-27380ac"/>
+      <schema:provider rdf:resource="id/org/erudit"/>
+      
+      <schema:url rdf:resource="objects/article-1991.html"/>
+      <schema:encodingFormat>application/pdf</schema:encodingFormat>
+      <schema:contentUrl rdf:resource="pdf/Article1991.pdf"/>
+      
+      <schema:about rdf:resource="id/perf/1991"/>
+      <schema:about rdf:resource="id/expr/stageText/1991"/>
+      <crm:P70_documents rdf:resource="id/perf/1991"/>
+      <schema:relatedLink rdf:resource="U34.html"/>
+   </crm:E31_Document>
+   
+   <schema:Person rdf:about="id/person/journalist-1991">
+      <schema:name>Jean Cléo Godin</schema:name>
+      <schema:sameAs rdf:resource="https://www.wikidata.org/wiki/Q3165279"/>
+   </schema:Person>
+   
+</rdf:RDF>
+
+
