@@ -2790,21 +2790,18 @@ body.edition-landing .step-text{
 
 /*Documentation Section*/
 
-#documentation .row{
-  justify-content: center;
+#documentation{
+  background-color: #C9B27F !important;
 }
 
-#documentation .container{
-  text-align: center;
-}
-
-#documentation p{
-  margin-left: auto;
-  margin-right: auto;
+#documentation .about-text{
   max-width: 850px;
+  margin: 0 auto;
+  text-align: center !important;
 }
 
-#documentation .cta{
-  display: inline-block;
+#documentation .about-text p{
+  margin: 0 auto 16px;
 }
+
 
