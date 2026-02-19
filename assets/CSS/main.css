@@ -2804,4 +2804,16 @@ body.edition-landing .step-text{
   margin: 0 auto 16px;
 }
 
+#documentation .section-title{
+  padding-bottom: 18px;  
+}
+
+#documentation .section-title h2{
+  margin-bottom: 10px;    
+  padding-bottom: 12px;   
+}
+
+#documentation .about-text{
+  margin-top: 0;
+}
 
