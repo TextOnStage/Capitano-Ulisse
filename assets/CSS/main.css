@@ -2721,3 +2721,68 @@ body.edition-landing .step-text{
   color: color-mix(in srgb, var(--default-color), transparent 25%);
   margin: 0;
 }
+
+/*PerfObj 2009*/
+.perfobj-page .manuscript-viewer #page-viewer .page-image-column{
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: flex-start; 
+  gap: 12px; 
+} 
+
+/* Figure wrapper */ 
+.perfobj-page .manuscript-viewer #page-viewer .video-figure{ 
+  margin: 0; 
+  display: flex; 
+  flex-direction: column; 
+  align-items: 
+  center; width: 100%;
+} 
+
+/* Caption */ 
+.perfobj-page .manuscript-viewer #page-viewer .video-caption{ 
+  margin: 0; 
+  text-align: 
+  center; width: 100%; 
+} 
+
+.perfobj-page .manuscript-viewer #page-viewer .video-caption{ 
+  color: var(--text-mid); 
+  font-size: 16px; 
+  line-height: 1.6;
+}
+
+.perfobj-page .manuscript-viewer #page-viewer .video-caption a{ 
+  color: var(--text-dark); 
+  text-decoration: underline; 
+  text-underline-offset: 0.18em; 
+  text-decoration-thickness: 1px; 
+} 
+
+.perfobj-page .manuscript-viewer #page-viewer .video-caption a:hover{ 
+  color: var(--text-dark); 
+  text-decoration: 
+  underline; 
+  opacity: 0.85; 
+} 
+
+.perfobj-page .manuscript-viewer #page-viewer .video-caption a.cta:hover{
+  background-color: black;
+  color: white;
+  opacity: 1;              /* evita lo sbiadimento */
+  text-decoration: none;
+}
+
+.perfobj-page .manuscript-viewer #page-viewer .video-caption a.cta{ 
+  text-decoration: none;
+} 
+
+.cta { 
+  border: 2px solid black; 
+  color: black; 
+} 
+
+.cta:hover { 
+  background-color: black; 
+  color: white; }
