@@ -2786,3 +2786,20 @@ body.edition-landing .step-text{
 .cta:hover { 
   background-color: black; 
   color: white; }
+
+
+/*Documentation Section*/
+
+#documentation{
+  text-align: center;
+}
+#documentation .container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#documentation p{
+  max-width: 900px;
+  margin: 0 auto 18px;
+}
+
