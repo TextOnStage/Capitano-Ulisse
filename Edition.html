@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Capitano Ulisse – Digital Edition</title>
+  <meta name="description" content="Digital critical edition of Alberto Savinio’s Capitano Ulisse.">
+
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600;700;800&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body class="service-details-page edition-landing">
+
+<header id="header" class="header d-flex align-items-center fixed-top">
+  <div class="container-fluid container-xl d-flex align-items-center">
+
+    <a href="index.html" class="logo me-auto">
+      <h1 class="sitename">Text on Stage</h1>
+    </a>
+
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li class="dropdown">
+          <a href="#"><span>The Edition</span> <i class="bi bi-chevron-down"></i></a>
+          <ul>
+            <li><a href="Text-manuscript.html">Text – Manuscript</a></li>
+            <li><a href="Text-print.html">Text – Printed Edition</a></li>
+            <li><a href="Performance.html">Performance</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+
+  </div>
+</header>
+
+<main class="main">
+
+  <section class="edition-intro">
+    <div class="edition-shell">
+
+      <div class="edition-header">
+        <h1 class="edition-title">
+          Welcome to the Digital Edition of <em>Capitano Ulisse</em>
+        </h1>
+      </div>
+
+      <div class="edition-card">
+        <div class="edition-content">
+
+          <div class="edition-lead">
+            <span class="edition-badge">Digital Edition Overview</span>
+
+            <p>
+              This website presents a digital critical edition of <em>Capitano Ulisse</em>, a theatrical work shaped by a complex
+              process of composition and revision. In the autograph manuscript the title appears as
+              <em>Capitan Ulisse</em>, later standardised as <em>Capitano Ulisse</em> from the first printed edition onward.
+            </p>
+
+            <p class="edition-kicker">
+              The edition offers two complementary entry points. The difference between them is
+              <strong>not technical, but editorial</strong>: the manuscript view reconstructs a
+              <strong>diachronic writing process within a single document</strong>, while the printed edition view
+              supports <strong>synchronic comparison across distinct documentary witnesses</strong>.
+            </p>
+          </div>
+
+          <div class="edition-grid">
+
+            <section class="edition-block">
+              <h2>Manuscript Visualisation (CU 1925)</h2>
+
+              <p>
+                The manuscript view models the autograph as a stratified genetic document in which
+                successive stages of authorial revision are preserved within a single material witness.
+              </p>
+
+              <ul class="edition-bullets">
+                <li><strong>Variation type:</strong> diachronic development within one document.</li>
+                <li><strong>Layer selection:</strong> each selectable “witness” represents a revision layer.</li>
+                <li><strong>Text behaviour:</strong> when a layer introduces no local change, the last revised state is preserved to ensure continuity.</li>
+              </ul>
+
+              <div class="edition-callout">
+                <h3>Editorial model</h3>
+                <p>
+                  Parallel segmentation represents successive local states of writing.
+                  The <code>&lt;rdg&gt;</code> element encodes intermediate revision stages,
+                  while <code>&lt;lem&gt;</code> records the latest authorial form for each segment.
+                </p>
+              </div>
+            </section>
+
+            <section class="edition-block">
+              <h2>Printed Edition Visualisation (U34)</h2>
+
+              <p>
+                The printed edition view presents the authorised edition (U34) as a stabilised textual
+                expression and enables systematic comparison with other documentary witnesses.
+              </p>
+
+              <ul class="edition-bullets">
+                <li><strong>Variation type:</strong> synchronic differences across distinct documents.</li>
+                <li><strong>Base text:</strong> U34 functions as the reference <code>&lt;lem&gt;</code>.</li>
+                <li><strong>Comparison logic:</strong> alternative readings are aligned segment by segment through parallel segmentation.</li>
+              </ul>
+
+              <div class="edition-callout">
+                <h3>Editorial model</h3>
+                <p>
+                  In this view, parallel segmentation represents documentary variation.
+                  The <code>&lt;lem&gt;</code> corresponds to U34, while
+                  <code>&lt;rdg&gt;</code> records readings from other witnesses (Ums25, Uds25, Uds34).
+                </p>
+              </div>
+            </section>
+
+          </div>
+
+          <div class="edition-callout edition-global">
+            <h3>Why two views?</h3>
+            <p>
+              The edition distinguishes between revision within a document and variation across documents.
+              By separating diachronic genetic development from synchronic documentary comparison,
+              the interface makes explicit the different editorial logics underlying the manuscript
+              and the printed text.
+            </p>
+          </div>
+
+          <section class="edition-block edition-howto">
+            <h2>How to Use the Interface</h2>
+
+            <p class="edition-small">
+              The viewer synchronises transcribed text with manuscript facsimiles and contextual metadata.
+            </p>
+
+            <ol class="edition-steps">
+              <li>
+                <span class="step-title">Page selection</span>
+                <span class="step-text">Navigate page by page; each page aligns text and the corresponding facsimile image.</span>
+              </li>
+              <li>
+                <span class="step-title">Witness selection <em>(manuscript view only)</em></span>
+                <span class="step-text">Switch between revision layers within the manuscript; divergences are highlighted against the base layer.</span>
+              </li>
+              <li>
+                <span class="step-title">Facsimile synchronisation</span>
+                <span class="step-text">Compare the documentary source directly with its encoded representation.</span>
+              </li>
+              <li>
+                <span class="step-title">Metadata panel</span>
+                <span class="step-text">Open “Show / hide metadata” to access bibliographic information, related resources, and page-level named entities.</span>
+              </li>
+            </ol>
+
+            <p class="edition-small">
+              Through this interface, users can move between genetic analysis, documentary evidence,
+              and contextual metadata, supporting both close study and broader exploration.
+            </p>
+          </section>
+
+          <div class="edition-cta">
+            <p class="edition-cta-title">Choose how you want to enter the text:</p>
+
+            <div class="edition-cta-buttons">
+              <a class="cta" href="Ums25.html">Manuscript</a>
+              <a class="cta" href="U34.html">Printed Edition</a>
+            </div>
+
+            <p class="edition-note">
+              The manuscript view focuses on the seven layers of revision and their variants,
+              synchronised with the facsimile images. The printed edition view offers a
+              continuous reading experience based on the first authorised printed edition.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer id="footer" class="footer accent-background">
+  <div class="container footer-top">
+    <p>
+      This website was created by Denise Biasio as part of her thesis project for the
+      MA in Digital Humanities and Digital Knowledge at the University of Bologna.
+    </p>
+  </div>
+</footer>
+
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>
