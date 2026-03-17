@@ -2697,25 +2697,34 @@ body.edition-landing .edition-cta-title {
 
 /*About The Case Study Aggiunta*/
 
-
-#author .author-block{
+#about .author-block,
+#author .author-block {
   max-width: 560px;
   margin: 0 auto;
   text-align: left;
 }
-
-#author .author-block h3{
+#about .author-block h3,
+#author .author-block h3 {
   margin: 0 0 14px;
   font-size: 1.4rem;
   font-weight: 700;
   line-height: 1.25;
 }
 
-#author .author-block p{
+#about .author-block p,
+#author .author-block p {
   margin: 0 0 14px;
   font-size: 1.02rem;
   line-height: 1.7;
   color: color-mix(in srgb, var(--default-color), transparent 10%);
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+}
+
+#about .author-block p:last-child,
+#author .author-block p:last-child {
+  margin-bottom: 0;
 }
 
 #author .author-block p:last-child{
