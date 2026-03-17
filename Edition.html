@@ -47,31 +47,30 @@
 
 <main class="main">
 
-  <section class="edition-intro">
+    <section class="edition-intro">
     <div class="edition-shell">
-
+  
       <div class="edition-header">
         <h1 class="edition-title">
-          Welcome to the Digital Edition of <em>Capitano Ulisse</em>
+          Textual Edition of <em>Capitano Ulisse</em>
         </h1>
       </div>
-
+  
       <div class="edition-card">
         <div class="edition-content">
-
+  
           <div class="edition-lead">
-
+  
             <p>
-              This website presents a digital critical edition of <em>Capitano Ulisse</em>, a theatrical work shaped by a complex
-              process of composition and revision. In the autograph manuscript the title appears as
+              This website presents a digital scholarly edition of <em>Capitano Ulisse</em>, a theatrical work shaped by a complex
+              process of composition, revision, and later performative realisation. In the autograph manuscript the title appears as
               <em>Capitan Ulisse</em>, later standardised as <em>Capitano Ulisse</em> from the first printed edition onward.
             </p>
-
+  
             <p class="edition-kicker">
-              The edition offers two complementary entry points. The difference between them is
-              <strong>not technical, but editorial</strong>: the manuscript view reconstructs a
-              <strong>diachronic writing process within a single document</strong>, while the printed edition view
-              supports <strong>synchronic comparison across distinct documentary witnesses</strong>.
+              The edition offers two complementary textual entry points. The distinction between them is editorial:
+              the manuscript view represents the <strong>authorial revision process within a single document</strong>,
+              while the printed edition view supports <strong>comparison across distinct documentary witnesses</strong>.
             </p>
           </div>
 
@@ -79,69 +78,87 @@
 
             <section class="edition-block">
               <h2>Manuscript Visualisation (CU 1925)</h2>
-
+          
               <p>
-                The manuscript view models the autograph as a stratified genetic document in which
-                successive stages of authorial revision are preserved within a single material witness.
+                The manuscript view models the autograph as a stratified genetic document, representing successive
+                phases of authorial revision within a single material witness.
               </p>
-
+          
               <ul class="edition-bullets">
-                <li><strong>Variation type:</strong> diachronic development within one document.</li>
-                <li><strong>Layer selection:</strong> each selectable “witness” represents a revision layer.</li>
-                <li><strong>Text behaviour:</strong> when a layer introduces no local change, the last revised state is preserved to ensure continuity.</li>
+                <li><strong>Type of variation:</strong> changes within a single document during the writing process.</li>
+                <li><strong>Base text:</strong> Layer 0 corresponds to the earliest draft and is displayed by default.</li>
+                <li><strong>Layer selection:</strong> users can navigate across eight revision layers, from Layer 0 to Layer 7.</li>
+                <li><strong>Text behaviour:</strong> when a segment is modified, its latest revised state is preserved in the following layers until a new change occurs.</li>
+                <li><strong>Comparison logic:</strong> differences between layers are aligned through parallel segmentation, allowing the evolution of the text to be explored step by step.</li>
               </ul>
-
+          
               <div class="edition-callout">
                 <h3>Editorial model</h3>
                 <p>
-                  Parallel segmentation represents successive local states of writing.
-                  The <code>&lt;rdg&gt;</code> element encodes intermediate revision stages,
-                  while <code>&lt;lem&gt;</code> records the latest authorial form for each segment.
+                  Parallel segmentation is used to represent successive local states of writing.
+                  Variation is encoded through aligned segments, allowing the revision process to be explored
+                  without reducing it to a single linear reconstruction.
                 </p>
               </div>
             </section>
-
+          
             <section class="edition-block">
               <h2>Printed Edition Visualisation (U34)</h2>
-
+          
               <p>
-                The printed edition view presents the authorised edition (U34) as a stabilised textual
-                expression and enables systematic comparison with other documentary witnesses.
+                The printed edition view presents U34 as a stabilised textual expression and enables comparison
+                with other documentary witnesses in the textual tradition.
               </p>
-
+          
               <ul class="edition-bullets">
-                <li><strong>Variation type:</strong> synchronic differences across distinct documents.</li>
-                <li><strong>Base text:</strong> U34 functions as the reference <code>&lt;lem&gt;</code>.</li>
+                <li><strong>Type of variation:</strong> differences between distinct versions of the text.</li>
+                <li><strong>Base text:</strong> U34 functions as the reference <code>&lt;lem&gt;</code> and is displayed by default.</li>
+                <li><strong>Witness selection:</strong> users can compare U34 with other witnesses, including the manuscript (Ums25) and the typescripts Uds25 and Uds34.</li>
                 <li><strong>Comparison logic:</strong> alternative readings are aligned segment by segment through parallel segmentation.</li>
               </ul>
-
+          
               <div class="edition-callout">
                 <h3>Editorial model</h3>
                 <p>
-                  In this view, parallel segmentation represents documentary variation.
-                  The <code>&lt;lem&gt;</code> corresponds to U34, while
-                  <code>&lt;rdg&gt;</code> records readings from other witnesses (Ums25, Uds25, Uds34).
+                  In this view, parallel segmentation is used to compare documentary witnesses.
+                  The <code>&lt;lem&gt;</code> corresponds to U34, while <code>&lt;rdg&gt;</code>
+                  records readings from other witnesses such as Ums25, Uds25, and Uds34.
                 </p>
               </div>
             </section>
-
+          
           </div>
-
+  
+          <div class="edition-callout edition-global">
+            <h3>Why two visualisations?</h3>
+            <p>
+              The two views reflect two different editorial perspectives.
+              The manuscript visualisation focuses on internal revision within a single document,
+              while the printed edition visualisation supports comparison across distinct witnesses.
+              Their separation allows each process to be represented according to its own logic,
+              while their coexistence within the interface makes their relationship explorable.
+            </p>
+          </div>
+  
+  
           <section class="edition-block edition-howto">
             <h2>How to Use the Interface</h2>
-
+  
             <p class="edition-small">
-              The viewer synchronises transcribed text with manuscript facsimiles and contextual metadata.
+              The viewer synchronises transcribed text with facsimile images and contextual metadata.
             </p>
-
+  
             <ol class="edition-steps">
               <li>
                 <span class="step-title">Page selection</span>
-                <span class="step-text">Navigate page by page; each page aligns text and the corresponding facsimile image.</span>
+                <span class="step-text">Navigate page by page; each page aligns the transcription with the corresponding facsimile image.</span>
               </li>
               <li>
-                <span class="step-title">Witness selection <em>(manuscript view only)</em></span>
-                <span class="step-text">Switch between revision layers within the manuscript; divergences are highlighted against the base layer.</span>
+                <span class="step-title">Layer / witness selection</span>
+                <span class="step-text">
+                  Use the selector to choose the reading to display. In the manuscript view, this corresponds to revision layers,
+                  while in the printed edition it corresponds to different witnesses.
+                </span>
               </li>
               <li>
                 <span class="step-title">Facsimile synchronisation</span>
@@ -152,28 +169,23 @@
                 <span class="step-text">Open “Show / hide metadata” to access bibliographic information, related resources, and page-level named entities.</span>
               </li>
             </ol>
-
+  
             <p class="edition-small">
-              Through this interface, users can move between genetic analysis, documentary evidence,
-              and contextual metadata, supporting both close study and broader exploration.
+              Through this interface, users can move between genetic analysis, documentary comparison,
+              and contextual metadata, supporting both close reading and broader exploration.
             </p>
           </section>
-
+  
           <div class="edition-cta">
             <p class="edition-cta-title">Choose how you want to enter the text:</p>
-
+  
             <div class="edition-cta-buttons">
               <a class="cta" href="Ums25.html">Manuscript</a>
               <a class="cta" href="U34.html">Printed Edition</a>
             </div>
 
-            <p class="edition-note">
-              The manuscript view focuses on the seven layers of revision and their variants,
-              synchronised with the facsimile images. The printed edition view offers a
-              continuous reading experience based on the first authorised printed edition.
-            </p>
           </div>
-
+  
         </div>
       </div>
     </div>
