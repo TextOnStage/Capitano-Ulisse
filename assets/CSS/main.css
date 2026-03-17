@@ -2929,3 +2929,14 @@ body.edition-landing .edition-cta-title {
   text-align: center;
   margin-top: 10px;
 }
+
+.head,
+h2 {
+  text-align: center;
+  width: 100%;
+}
+
+.head .choice,
+.head .variant {
+  display: inline;
+}
